@@ -27,6 +27,18 @@ type DiceRollerContextType = {
 
 const DiceRollerContext = createContext<DiceRollerContextType | undefined>(undefined);
 
+export const DiceRollerProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
+  const [open, setOpen] = useState(false);
+  const openModal = () => setOpen(true);
+
+  return (
+    <DiceRollerContext.Provider value={{ openModal }}>
+      <DiceRoller open={open} onOpenChange={setOpen} />
+      {children}
+    </DiceRollerContext.Provider>
+  );
+};
+
 export const useRollDiceModal = () => {
   const context = useContext(DiceRollerContext);
   if (!context) {
@@ -35,13 +47,15 @@ export const useRollDiceModal = () => {
   return context;
 };
 
-export const DiceRoller = () => {
+interface DiceRollerProps {
+  open: boolean;
+  onOpenChange: (open: boolean) => void;
+}
+
+export const DiceRoller = ({ open, onOpenChange }: DiceRollerProps) => {
   const [currentDice, setCurrentDice] = useState<number[]>([0]);
   const [isRolling, setIsRolling] = useState(false);
   const [numberOfDice, setNumberOfDice] = useState(1);
-  const [open, setOpen] = useState(false);
-
-  const openModal = () => setOpen(true);
 
   const rollDice = () => {
     setIsRolling(true);
@@ -64,43 +78,41 @@ export const DiceRoller = () => {
   };
 
   return (
-    <DiceRollerContext.Provider value={{ openModal }}>
-      <Dialog open={open} onOpenChange={setOpen}>
-        <DialogContent className="sm:max-w-md">
-          <DialogHeader>
-            <DialogTitle>Dice Roller</DialogTitle>
-          </DialogHeader>
-          <Card className="w-full border-0 shadow-none">
-            <CardContent className="flex flex-col items-center gap-4">
-              <div className="w-full px-4">
-                <p className="text-sm text-gray-500 mb-2">Number of dice: {numberOfDice}</p>
-                <Slider
-                  value={[numberOfDice]}
-                  onValueChange={(value) => setNumberOfDice(value[0])}
-                  min={1}
-                  max={5}
-                  step={1}
-                  className="mb-6"
-                />
-              </div>
-              <div className="flex flex-wrap justify-center gap-4 p-4 bg-accent rounded-lg">
-                {currentDice.map((dice, index) => (
-                  <div key={index}>
-                    {diceIcons[dice]}
-                  </div>
-                ))}
-              </div>
-              <Button 
-                onClick={rollDice} 
-                disabled={isRolling}
-                className="w-32"
-              >
-                {isRolling ? "Rolling..." : "Roll Dice"}
-              </Button>
-            </CardContent>
-          </Card>
-        </DialogContent>
-      </Dialog>
-    </DiceRollerContext.Provider>
+    <Dialog open={open} onOpenChange={onOpenChange}>
+      <DialogContent className="sm:max-w-md">
+        <DialogHeader>
+          <DialogTitle>Dice Roller</DialogTitle>
+        </DialogHeader>
+        <Card className="w-full border-0 shadow-none">
+          <CardContent className="flex flex-col items-center gap-4">
+            <div className="w-full px-4">
+              <p className="text-sm text-gray-500 mb-2">Number of dice: {numberOfDice}</p>
+              <Slider
+                value={[numberOfDice]}
+                onValueChange={(value) => setNumberOfDice(value[0])}
+                min={1}
+                max={5}
+                step={1}
+                className="mb-6"
+              />
+            </div>
+            <div className="flex flex-wrap justify-center gap-4 p-4 bg-accent rounded-lg">
+              {currentDice.map((dice, index) => (
+                <div key={index}>
+                  {diceIcons[dice]}
+                </div>
+              ))}
+            </div>
+            <Button 
+              onClick={rollDice} 
+              disabled={isRolling}
+              className="w-32"
+            >
+              {isRolling ? "Rolling..." : "Roll Dice"}
+            </Button>
+          </CardContent>
+        </Card>
+      </DialogContent>
+    </Dialog>
   );
 };

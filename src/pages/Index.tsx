@@ -3,15 +3,14 @@ import { Button } from "@/components/ui/button";
 import { Dice1 } from "lucide-react";
 import { ManualCard } from "@/components/ManualCard";
 import { SearchBar } from "@/components/SearchBar";
-import { DiceRoller } from "@/components/DiceRoller";
-import { useRollDiceModal } from "@/components/DiceRoller";
+import { DiceRollerProvider, useRollDiceModal } from "@/components/DiceRoller";
 import { BookOpen, Smartphone, Settings, HelpCircle } from "lucide-react";
 
 const Index = () => {
   return (
-    <DiceRoller>
+    <DiceRollerProvider>
       <IndexContent />
-    </DiceRoller>
+    </DiceRollerProvider>
   );
 };
 
