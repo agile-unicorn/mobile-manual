@@ -26,8 +26,8 @@ export const OverviewTab = () => {
         </div>
       </div>
 
-      <h2 className="text-4xl font-bold text-primary mb-8">Die Karten</h2>
-      <p>
+      <h2 className="text-4xl font-bold text-primary mt-16 mb-6">Die Karten</h2>
+      <p className="text-gray-600 mb-8">
         Es gibt vier verschiedene Arten von Karten. Sie unterscheiden sich durch ihre Kartenfarbe. Für die Regeln sind die Kartentexte nicht relevant, wichtig sind die Zahlen und Symbole oben links.
       </p>
         
