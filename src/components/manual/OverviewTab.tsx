@@ -46,7 +46,14 @@ export const OverviewTab = () => {
         <ManualCard
           title="Teammitglieder"
           description="45-60 Minuten"
-        />
+          className="relative"
+        >
+          <img 
+            src="/lovable-uploads/2a69e587-9129-40c7-b233-245d01f1ac7d.png"
+            alt="Der Hammer card"
+            className="absolute top-2 right-2 w-24 h-auto"
+          />
+        </ManualCard>
         <ManualCard
           title="Spielaufbau"
           description="Vorbereitung und Materialien"
