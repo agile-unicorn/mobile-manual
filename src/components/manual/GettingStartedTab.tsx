@@ -6,7 +6,7 @@ export const GettingStartedTab = () => {
       <img 
         src="/lovable-uploads/da0db9c6-2208-43d7-8df9-a18f77747fa7.png"
         alt="Spielaufbau Übersicht"
-        className="w-full max-w-3xl mx-auto rounded-lg shadow-md mb-8"
+        className="w-full mb-8"
       />
       
       <div className="space-y-6">
