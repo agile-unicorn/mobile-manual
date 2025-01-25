@@ -13,7 +13,7 @@ export const OverviewTab = () => {
               <img 
                 src="/lovable-uploads/74cf2d65-fe10-4f21-af77-58e52824a08c.png" 
                 alt="CEO presenting chart" 
-                className="float-right ml-4 mb-4 w-64 h-auto object-contain"
+                className="float-right ml-4 mb-4 w-64 h-auto"
               />
               <p className="text-gray-600">
                 Du bist CEO eines aufstrebenden IT-Startups und versuchst schneller als die Konkurrenz die meisten Siegpunkte zu bekommen. Um deine Mitspieler auszustechen, muss es gelingen, das Potenzial deines Entwicklerteams im Duell um neue Features und die besten Köpfe optimal einzusetzen. Doch leider läuft selten alles so wie geplant, denn auch die anderen Spieler werden zu allen Mitteln greifen, um die besten Features für sich zu gewinnen. <br/>
@@ -151,6 +151,11 @@ export const OverviewTab = () => {
           description="Ein Teammitglied nachziehen"
           className="bg-white"
         >
+          <img 
+            src="/lovable-uploads/83fa8356-7b6d-4a9e-80f3-62fce83f081b.png"
+            alt="Teammitglied dazu Symbol"
+            className="float-left mr-2 w-1/2 h-auto"
+          />
           Bei Plus muss der adressierte Spieler eine zusätzliche Teamkarte verwenden. Diese Karte muss von seiner Hand kommen und wird von ihm selbst ausgewählt. 
         </ManualCard>
 
