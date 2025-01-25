@@ -61,7 +61,7 @@ export const DiceRoller = () => {
       </DialogTrigger>
       <DialogContent className="sm:max-w-md">
         <DialogHeader>
-          <DialogTitle>Dice Roller</DialogTitle>
+          <DialogTitle>Würfelsimulator</DialogTitle>
         </DialogHeader>
         <Card className="w-full border-0 shadow-none">
           <CardContent className="flex flex-col items-center gap-4">
