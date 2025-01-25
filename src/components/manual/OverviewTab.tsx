@@ -90,6 +90,56 @@ export const OverviewTab = () => {
       </div>
 
       <h2 className="text-4xl font-bold text-primary mt-16 mb-6">Ereignistypen</h2>
+      
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
+        <ManualCard
+          title="Serverausfall"
+          description="Der Gegner verliert einen Entwicklungspunkt."
+          className="bg-white"
+        >
+          Ein technischer Defekt führt zu Verzögerungen im Entwicklungsprozess. Der betroffene Spieler muss einen Entwicklungspunkt abgeben.
+        </ManualCard>
+
+        <ManualCard
+          title="Kündigungswelle"
+          description="Entferne ein Teammitglied deiner Wahl."
+          className="bg-white"
+        >
+          Die Unzufriedenheit im Team führt zum Verlust eines wertvollen Mitarbeiters. Wähle ein Teammitglied aus, das das Unternehmen verlässt.
+        </ManualCard>
+
+        <ManualCard
+          title="Produktivitätsschub"
+          description="Erhalte zwei zusätzliche Entwicklungspunkte."
+          className="bg-white"
+        >
+          Dein Team arbeitet besonders effizient. Du erhältst sofort zwei zusätzliche Entwicklungspunkte für diesen Sprint.
+        </ManualCard>
+
+        <ManualCard
+          title="Konkurrenzdruck"
+          description="Alle Spieler müssen ein Feature aufgeben."
+          className="bg-white"
+        >
+          Ein Konkurrent bringt ein ähnliches Produkt auf den Markt. Alle Spieler müssen ein bereits entwickeltes Feature ihrer Wahl abgeben.
+        </ManualCard>
+
+        <ManualCard
+          title="Investorenmeeting"
+          description="Ziehe zwei zusätzliche Karten."
+          className="bg-white"
+        >
+          Ein erfolgreiches Meeting mit Investoren verschafft dir neue Möglichkeiten. Ziehe sofort zwei zusätzliche Karten von einem Stapel deiner Wahl.
+        </ManualCard>
+
+        <ManualCard
+          title="Agile Transformation"
+          description="Tausche bis zu drei Karten aus."
+          className="bg-white"
+        >
+          Die Umstellung auf agile Methoden ermöglicht mehr Flexibilität. Du darfst bis zu drei Karten aus deiner Hand gegen neue vom Stapel tauschen.
+        </ManualCard>
+      </div>
     </>
   );
 };
