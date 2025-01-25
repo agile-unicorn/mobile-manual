@@ -97,6 +97,11 @@ export const OverviewTab = () => {
           description=""
           className="bg-white"
         >
+          <img 
+            src="/lovable-uploads/df031a76-2250-4d8c-a810-f9e021ad6682.png"
+            alt="Plus one symbol"
+            className="float-left mr-2 w-6 h-6"
+          />
           Bonus oder Malus auf das gewürfelte Ergebnis.
         </ManualCard>
 
