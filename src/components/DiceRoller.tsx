@@ -28,7 +28,7 @@ export const DiceRoller = () => {
 
   const rollDice = () => {
     setIsRolling(true);
-    const rolls = 10; // Number of visual rolls before settling
+    const rolls = 10;
     let currentRoll = 0;
 
     const rollInterval = setInterval(() => {
@@ -44,6 +44,12 @@ export const DiceRoller = () => {
         toast(`You rolled a total of ${total}!`);
       }
     }, 100);
+  };
+
+  const handleSliderChange = (value: number[]) => {
+    const newNumberOfDice = value[0];
+    setNumberOfDice(newNumberOfDice);
+    setCurrentDice(Array(newNumberOfDice).fill(0).map(() => Math.floor(Math.random() * 6)));
   };
 
   return (
@@ -63,7 +69,7 @@ export const DiceRoller = () => {
               <p className="text-sm text-gray-500 mb-2">Number of dice: {numberOfDice}</p>
               <Slider
                 value={[numberOfDice]}
-                onValueChange={(value) => setNumberOfDice(value[0])}
+                onValueChange={handleSliderChange}
                 min={1}
                 max={20}
                 step={1}
