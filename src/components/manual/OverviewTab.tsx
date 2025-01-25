@@ -112,7 +112,13 @@ export const OverviewTab = () => {
           title="Aussetzen"
           description=""
           className="bg-white"
-        >Der Spieler muss alle gelegten Teamkarten sofort wieder auf die Hand nehmen. Gespielte Event-Karten sind verloren.
+        >
+          <img 
+            src="/lovable-uploads/5786521a-1242-4e08-a8ff-7575299baf61.png"
+            alt="Aussetzen symbol"
+            className="float-left mr-2 w-1/2 h-auto"
+          />
+          Der Spieler muss alle gelegten Teamkarten sofort wieder auf die Hand nehmen. Gespielte Event-Karten sind verloren.
         </ManualCard>
 
         <ManualCard
