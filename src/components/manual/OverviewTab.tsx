@@ -93,27 +93,24 @@ export const OverviewTab = () => {
       
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
         <ManualCard
-          title="Serverausfall"
-          description="Der Gegner verliert einen Entwicklungspunkt."
+          title="Punktwert"
+          description="Bonus oder Malus auf das gewürfelte Ergebnis."
           className="bg-white"
         >
-          Ein technischer Defekt führt zu Verzögerungen im Entwicklungsprozess. Der betroffene Spieler muss einen Entwicklungspunkt abgeben.
         </ManualCard>
 
         <ManualCard
-          title="Kündigungswelle"
-          description="Entferne ein Teammitglied deiner Wahl."
+          title="Aussetzen"
+          description="Der Spieler muss alle gelegten Teamkarten sofort wieder auf die Hand nehmen. Gespielte Event-Karten sind verloren."
           className="bg-white"
         >
-          Die Unzufriedenheit im Team führt zum Verlust eines wertvollen Mitarbeiters. Wähle ein Teammitglied aus, das das Unternehmen verlässt.
         </ManualCard>
 
         <ManualCard
-          title="Produktivitätsschub"
-          description="Erhalte zwei zusätzliche Entwicklungspunkte."
+          title="Zauberstab"
+          description="Wendet einmalig die Auswirkung einer anderen Event-Karte ab. Die Karte kann jederzeit gespielt werden, außer gegen andere Zauberstab-Karten."
           className="bg-white"
         >
-          Dein Team arbeitet besonders effizient. Du erhältst sofort zwei zusätzliche Entwicklungspunkte für diesen Sprint.
         </ManualCard>
 
         <ManualCard
