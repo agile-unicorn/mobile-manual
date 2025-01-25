@@ -14,7 +14,7 @@ const Index = () => {
 
           <Tabs defaultValue="overview" className="w-full">
             <TabsList className="w-full justify-start mb-6">
-              <TabsTrigger value="overview">Overview</TabsTrigger>
+              <TabsTrigger value="overview">Start</TabsTrigger>
               <TabsTrigger value="getting-started">Getting Started</TabsTrigger>
               <TabsTrigger value="features">Features</TabsTrigger>
               <TabsTrigger value="troubleshooting">Troubleshooting</TabsTrigger>
