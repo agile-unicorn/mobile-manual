@@ -88,6 +88,8 @@ export const OverviewTab = () => {
           Wer passt, kann keine Ereignisse einsetzen. Jede Karte kann gegen jeden Spieler im Pitch (die nicht gepasst haben) gespielt werden, inklusive sich selbst. Sie können nicht gegen die Pitch-Karte (s.u.)  in der Tischmitte gespielt werden, um diese zu verändern.
         </ManualCard>
       </div>
+
+      <h2 className="text-4xl font-bold text-primary mt-16 mb-6">Ereignistypen</h2>
     </>
   );
 };
