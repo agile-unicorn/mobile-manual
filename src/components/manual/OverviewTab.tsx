@@ -62,13 +62,19 @@ export const OverviewTab = () => {
 
         <ManualCard
           title="Incentives"
-          description="Vorbereitung und Materialien"
-        />
+          description="Incentives können nach dem Würfeln eingesetzt werden, um das Ergebnis zu verbessern."
+        >
+          Die Attraktivität deines Startups wird durch Annehmlichkeiten gesteigert, mit denen die Teammitglieder zu Höchstleistungen motiviert werden sollen. Sie können einmal pro Sprint nach dem Würfeln eingesetzt werden, um das Würfelergebnis zu verbessern. Incentive-Karten werden nach Erhalt immer offen ausgelegt und nach der Nutzung bis zum Sprintende umgedreht.
+        </ManualCard>
         
         <ManualCard
-          title="Pitches"
-          description="Präsentation und Bewertung"
-        />
+          title="Ereignisse"
+          description="Ereigniskarten haben einen einmaligen Effekt vor dem Würfeln und können nur von Spielern gegen andere Spieler ausgespielt werden."
+        >
+          Es gibt kein Limit von Event-Karten auf der Hand und sie können über mehrere Runden gesammelt werden. Nach dem Ausspielen sind sie verbraucht und werden auf einem Stapel abgelegt. 
+
+Wer passt, kann keine Ereignisse einsetzen. Jede Karte kann gegen jeden Spieler im Pitch (die nicht gepasst haben) gespielt werden, inklusive sich selbst. Sie können nicht gegen die Pitch-Karte (s.u.)  in der Tischmitte gespielt werden, um diese zu verändern.
+        </ManualCard>
       </div>
     </>
   );
