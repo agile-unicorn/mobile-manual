@@ -16,7 +16,7 @@ export function SearchBar() {
         type="search"
         placeholder={isExpanded ? "Search manual..." : "Search..."}
         className={`pl-10 pr-4 transition-all duration-300 ease-in-out ${
-          isExpanded ? 'w-full' : 'w-32'
+          isExpanded ? 'w-full' : 'w-10'
         }`}
         onFocus={() => setIsExpanded(true)}
         onBlur={() => setIsExpanded(false)}
