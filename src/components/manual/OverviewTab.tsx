@@ -132,6 +132,11 @@ export const OverviewTab = () => {
           description="plus (mehr) oder minus (weniger)"
           className="bg-white"
         >
+          <img 
+            src="/lovable-uploads/4cf6a244-f16f-41b2-8b9a-6b961d705512.png"
+            alt="Dice symbol"
+            className="float-left mr-2 w-1/2 h-auto"
+          />
           Einmalig die gezeigten Würfel zusätzlich oder weniger im Pitch.
         </ManualCard>
 
