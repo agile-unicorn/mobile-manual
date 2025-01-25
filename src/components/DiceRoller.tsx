@@ -63,7 +63,7 @@ export const DiceRoller = () => {
                 value={[numberOfDice]}
                 onValueChange={(value) => setNumberOfDice(value[0])}
                 min={1}
-                max={5}
+                max={20}
                 step={1}
                 className="mb-6"
               />
