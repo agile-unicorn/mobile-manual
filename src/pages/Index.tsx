@@ -1,43 +1,39 @@
-import { SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar";
-import { ManualSidebar } from "@/components/ManualSidebar";
-import { SearchBar } from "@/components/SearchBar";
-import { ManualCard } from "@/components/ManualCard";
-import { DiceRoller } from "@/components/DiceRoller";
-import { BookOpen, Smartphone, Settings, HelpCircle, Dice1 } from "lucide-react";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Button } from "@/components/ui/button";
+import { Dice1 } from "lucide-react";
+import { ManualCard } from "@/components/ManualCard";
+import { SearchBar } from "@/components/SearchBar";
+import { DiceRoller } from "@/components/DiceRoller";
 import { useRollDiceModal } from "@/components/DiceRoller";
+import { BookOpen, Smartphone, Settings, HelpCircle } from "lucide-react";
 
 const Index = () => {
   const { openModal } = useRollDiceModal();
 
   return (
-    <SidebarProvider>
-      <div className="min-h-screen flex w-full bg-accent">
-        <ManualSidebar />
-        <main className="flex-1 px-4 py-8 lg:px-8">
-          <div className="flex justify-between items-center mb-6">
-            <SidebarTrigger />
-            <Button onClick={openModal} variant="outline" className="gap-2">
-              <Dice1 className="h-4 w-4" />
-              Roll Dice
-            </Button>
+    <div className="min-h-screen bg-accent">
+      <div className="flex justify-end items-center p-4">
+        <Button onClick={openModal} variant="outline" className="gap-2">
+          <Dice1 className="h-4 w-4" />
+          Roll Dice
+        </Button>
+      </div>
+      
+      <main className="px-4 py-8 lg:px-8">
+        <div className="max-w-6xl mx-auto space-y-8">
+          <div className="text-center mb-12">
+            <h1 className="text-4xl font-bold mb-4">Product Manual</h1>
+            <p className="text-lg text-gray-600 mb-8">Everything you need to know about your device</p>
+            <SearchBar />
           </div>
-          
-          <div className="max-w-6xl mx-auto space-y-8">
-            <div className="text-center mb-12">
-              <h1 className="text-4xl font-bold mb-4">Product Manual</h1>
-              <p className="text-lg text-gray-600 mb-8">Everything you need to know about your device</p>
-              <SearchBar />
-            </div>
 
-            <Tabs defaultValue="overview" className="w-full">
-              <TabsList className="w-full justify-start mb-6">
-                <TabsTrigger value="overview">Overview</TabsTrigger>
-                <TabsTrigger value="getting-started">Getting Started</TabsTrigger>
-                <TabsTrigger value="features">Features</TabsTrigger>
-                <TabsTrigger value="troubleshooting">Troubleshooting</TabsTrigger>
-              </TabsList>
+          <Tabs defaultValue="overview" className="w-full">
+            <TabsList className="w-full justify-start mb-6">
+              <TabsTrigger value="overview">Overview</TabsTrigger>
+              <TabsTrigger value="getting-started">Getting Started</TabsTrigger>
+              <TabsTrigger value="features">Features</TabsTrigger>
+              <TabsTrigger value="troubleshooting">Troubleshooting</TabsTrigger>
+            </TabsList>
 
               <TabsContent value="overview">
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -242,12 +238,11 @@ const Index = () => {
                   </div>
                 </div>
               </TabsContent>
-            </Tabs>
-          </div>
-        </main>
-      </div>
+          </Tabs>
+        </div>
+      </main>
       <DiceRoller />
-    </SidebarProvider>
+    </div>
   );
 };
 
