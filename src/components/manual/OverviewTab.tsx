@@ -107,45 +107,45 @@ export const OverviewTab = () => {
 
         <ManualCard
           title="Aussetzen"
-          description="Der Spieler muss alle gelegten Teamkarten sofort wieder auf die Hand nehmen. Gespielte Event-Karten sind verloren."
+          description=""
           className="bg-white"
-        >
+        >Der Spieler muss alle gelegten Teamkarten sofort wieder auf die Hand nehmen. Gespielte Event-Karten sind verloren.
         </ManualCard>
 
         <ManualCard
           title="Zauberstab"
-          description="Wendet einmalig die Auswirkung einer anderen Event-Karte ab. Die Karte kann jederzeit gespielt werden, außer gegen andere Zauberstab-Karten."
+          description=""
           className="bg-white"
         >
           <img 
             src="/lovable-uploads/b464c24b-351d-4585-9dc8-e7fb0de7ef89.png"
             alt="Magic wand symbol"
             className="float-left mr-2 w-1/2 h-auto"
-          />
+          />Wendet einmalig die Auswirkung einer anderen Event-Karte ab. Die Karte kann jederzeit gespielt werden, außer gegen andere Zauberstab-Karten.
         </ManualCard>
 
         <ManualCard
-          title="Konkurrenzdruck"
-          description="Alle Spieler müssen ein Feature aufgeben."
+          title="Würfel"
+          description="plus (mehr) oder minus (weniger)"
           className="bg-white"
         >
-          Ein Konkurrent bringt ein ähnliches Produkt auf den Markt. Alle Spieler müssen ein bereits entwickeltes Feature ihrer Wahl abgeben.
+          Einmalig die gezeigten Würfel zusätzlich oder weniger im Pitch.
         </ManualCard>
 
         <ManualCard
-          title="Investorenmeeting"
-          description="Ziehe zwei zusätzliche Karten."
+          title="Teammitglied dazu"
+          description="Ein Teammitglied nachziehen"
           className="bg-white"
         >
-          Ein erfolgreiches Meeting mit Investoren verschafft dir neue Möglichkeiten. Ziehe sofort zwei zusätzliche Karten von einem Stapel deiner Wahl.
+          Bei Plus muss der adressierte Spieler eine zusätzliche Teamkarte verwenden. Diese Karte muss von seiner Hand kommen und wird von ihm selbst ausgewählt. 
         </ManualCard>
 
         <ManualCard
-          title="Agile Transformation"
-          description="Tausche bis zu drei Karten aus."
+          title="Teammitglied weg"
+          description="Ein Teammitglied entfernen"
           className="bg-white"
         >
-          Die Umstellung auf agile Methoden ermöglicht mehr Flexibilität. Du darfst bis zu drei Karten aus deiner Hand gegen neue vom Stapel tauschen.
+          Bei Minus  muss eine Teamkarte nach Wahl des Spielers, der die Karte ausspielt, entfernt werden. Diese Teamkarte ist verloren und darf erst wieder im nächsten Sprint auf die Hand genommen werden.
         </ManualCard>
       </div>
     </>
