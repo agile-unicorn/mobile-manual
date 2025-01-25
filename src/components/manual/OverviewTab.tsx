@@ -44,7 +44,7 @@ export const OverviewTab = () => {
           />
         </ManualCard>
         <ManualCard
-          title="Spieldauer"
+          title="Teammitglieder"
           description="45-60 Minuten"
         />
         <ManualCard
