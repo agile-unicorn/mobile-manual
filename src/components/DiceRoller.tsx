@@ -49,7 +49,7 @@ export const DiceRoller = () => {
   return (
     <Dialog>
       <DialogTrigger asChild>
-        <Button variant="outline">Roll Dice</Button>
+        <Button variant="outline" className="text-black">Roll Dice</Button>
       </DialogTrigger>
       <DialogContent className="sm:max-w-md">
         <DialogHeader>
