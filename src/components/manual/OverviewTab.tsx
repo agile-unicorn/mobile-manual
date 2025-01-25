@@ -76,6 +76,11 @@ export const OverviewTab = () => {
           title="Ereignisse"
           description="Ereigniskarten haben einen einmaligen Effekt vor dem Würfeln und können nur von Spielern gegen andere Spieler ausgespielt werden."
         >
+          <img 
+            src="/lovable-uploads/6099a104-34b4-4501-bee6-c3dad95a8784.png"
+            alt="Serverausfall Ereigniskarte"
+            className="float-right ml-2 mb-2 w-24 h-auto"
+          />
           Es gibt kein Limit von Event-Karten auf der Hand und sie können über mehrere Runden gesammelt werden. Nach dem Ausspielen sind sie verbraucht und werden auf einem Stapel abgelegt. 
 
           Wer passt, kann keine Ereignisse einsetzen. Jede Karte kann gegen jeden Spieler im Pitch (die nicht gepasst haben) gespielt werden, inklusive sich selbst. Sie können nicht gegen die Pitch-Karte (s.u.)  in der Tischmitte gespielt werden, um diese zu verändern.
