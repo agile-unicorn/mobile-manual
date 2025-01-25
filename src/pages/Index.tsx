@@ -8,6 +8,15 @@ import { useRollDiceModal } from "@/components/DiceRoller";
 import { BookOpen, Smartphone, Settings, HelpCircle } from "lucide-react";
 
 const Index = () => {
+  return (
+    <DiceRoller>
+      <IndexContent />
+    </DiceRoller>
+  );
+};
+
+// Separate component to use the context after it's provided
+const IndexContent = () => {
   const { openModal } = useRollDiceModal();
 
   return (
@@ -241,7 +250,6 @@ const Index = () => {
           </Tabs>
         </div>
       </main>
-      <DiceRoller />
     </div>
   );
 };
