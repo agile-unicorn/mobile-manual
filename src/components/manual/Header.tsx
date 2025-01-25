@@ -1,4 +1,3 @@
-import { DiceRoller } from "@/components/DiceRoller";
 import { TopBar } from "./TopBar";
 
 export const ManualHeader = () => {
@@ -7,7 +6,6 @@ export const ManualHeader = () => {
       <TopBar />
       <div className="text-center mb-12">
         <div className="flex flex-col items-center gap-4">
-          <DiceRoller />
         </div>
       </div>
     </>
