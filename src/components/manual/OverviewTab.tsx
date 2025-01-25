@@ -56,7 +56,7 @@ export const OverviewTab = () => {
           <img 
             src="/lovable-uploads/2a69e587-9129-40c7-b233-245d01f1ac7d.png"
             alt="Der Hammer card"
-            className="float-right ml-2 mb-2 w-24 h-auto"
+            className="float-right ml-2 mb-2 w-1/4 h-auto"
           />
           <p>Die Teammitglieder bleiben nicht sichtbar für andere auf der Hand, bis sie eingesetzt werden. Die Stärke wird oben links durch eine Anzahl der Würfel und eventuelle Modifikatoren angezeigt.  Mit diesen Würfeln und den Modifikatoren (Bonus oder Malus)  kann um neue Feature-Karten gewürfelt werden. </p>
 
