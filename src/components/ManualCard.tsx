@@ -15,7 +15,9 @@ export function ManualCard({ title, description, className, children }: ManualCa
     )}>
       <h3 className="mb-2 text-lg font-semibold">{title}</h3>
       <p className="text-sm text-gray-600">{description}</p>
-      {children}
+      <div className="pt-4">
+        {children}
+      </div>
     </div>
   );
 }
