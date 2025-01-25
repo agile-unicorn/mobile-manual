@@ -11,35 +11,31 @@ export const GettingStartedTab = () => {
       
       <div className="space-y-6">
         <section>
-          <h3 className="text-xl font-semibold mb-3">Spielmaterial</h3>
+          <h3 className="text-xl font-semibold mb-3">Siegpunkte festlegen</h3>
+          <p className="text-gray-600 mb-2">Je nach gewünschter Spieldauer können die erforderlichen Siegpunkte variiert werden:</p>
           <ul className="list-disc list-inside space-y-2 text-gray-600 ml-4">
-            <li>1 Spielbrett</li>
-            <li>6 Spielfiguren</li>
-            <li>60 Entwicklungskarten</li>
-            <li>30 Ereigniskarten</li>
-            <li>Würfel</li>
-            <li>Spielgeld</li>
+            <li>22 Siegpunkte "MVP" (ca. 30 Minuten)</li>
+            <li>32 Siegpunkte "Schnell-Scrum" (ca. 60 Minuten)</li>
+            <li>42 Siegpunkte "Full Fledged" (ca. 90 Minuten)</li>
           </ul>
         </section>
 
         <section>
-          <h3 className="text-xl font-semibold mb-3">Vorbereitung</h3>
-          <ol className="list-decimal list-inside space-y-2 text-gray-600 ml-4">
-            <li>Spielbrett in die Tischmitte legen</li>
-            <li>Jeder Spieler wählt eine Spielfigur</li>
-            <li>Entwicklungs- und Ereigniskarten mischen</li>
-            <li>Startkapital verteilen</li>
-            <li>Startspieler bestimmen</li>
-          </ol>
+          <h3 className="text-xl font-semibold mb-3">Teamkarten ausgeben</h3>
+          <p className="text-gray-600 mb-2">Jeder Spieler erhält sein Startdeck:</p>
+          <ul className="list-disc list-inside space-y-2 text-gray-600 ml-4">
+            <li>einen CTO</li>
+            <li>einen Noob</li>
+            <li>und einen Skill-Level-2 Entwickler</li>
+            <li>eine grüne Incentive-Karte mit dem Wert 2 (offen vor sich ausgelegt)</li>
+          </ul>
+          <p className="text-gray-600 mt-2">Alle übrigen CTOs und Noobs werden aussortiert und in die Box zurückgelegt.</p>
+          <p className="text-gray-600 mt-2">Erfahrene Spieler können direkt mit Eventkarten starten: jeder Spieler erhält 2 Event-Karten und hält diese verdeckt</p>
         </section>
 
         <section>
-          <h3 className="text-xl font-semibold mb-3">Startaufstellung</h3>
-          <ul className="list-disc list-inside space-y-2 text-gray-600 ml-4">
-            <li>Spielfiguren auf das Startfeld stellen</li>
-            <li>Jeder Spieler zieht 3 Entwicklungskarten</li>
-            <li>Ereigniskarten als verdeckten Stapel bereitlegen</li>
-          </ul>
+          <h3 className="text-xl font-semibold mb-3">Stapel vorbereiten</h3>
+          <p className="text-gray-600">Alle Event-Karten werden verdeckt in einem Stapel bereitgelegt. Alle übrigen Karten (Features, Incentives und Teamkarten) werden gemischt und verdeckt im separaten Nachziehstapel bereitgelegt.</p>
         </section>
       </div>
     </div>
