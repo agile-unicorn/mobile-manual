@@ -9,7 +9,7 @@ const Index = () => {
   return (
     <div className="min-h-screen w-full bg-accent">
       <main className="flex-1">
-        <div className="max-w-6xl mx-auto">
+        <div className="w-full mx-auto">
           <ManualHeader />
 
           <Tabs defaultValue="overview" className="w-full">
