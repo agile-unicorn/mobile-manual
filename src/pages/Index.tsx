@@ -15,9 +15,9 @@ const Index = () => {
           <Tabs defaultValue="overview" className="w-full">
             <TabsList className="w-full justify-start mb-6">
               <TabsTrigger value="overview">Start</TabsTrigger>
-              <TabsTrigger value="getting-started">Getting Started</TabsTrigger>
-              <TabsTrigger value="features">Features</TabsTrigger>
-              <TabsTrigger value="troubleshooting">Troubleshooting</TabsTrigger>
+              <TabsTrigger value="getting-started">Spielaufbau</TabsTrigger>
+              <TabsTrigger value="sprint">Der Sprint</TabsTrigger>
+              <TabsTrigger value="troubleshooting">Die Pitches</TabsTrigger>
             </TabsList>
 
             <TabsContent value="overview">
@@ -28,7 +28,7 @@ const Index = () => {
               <GettingStartedTab />
             </TabsContent>
 
-            <TabsContent value="features">
+            <TabsContent value="sprint">
               <FeaturesTab />
             </TabsContent>
 
