@@ -18,7 +18,7 @@ export const OverviewTab = () => {
               <p className="text-gray-600">
                 Du bist CEO eines aufstrebenden IT-Startups und versuchst schneller als die Konkurrenz den ganz großen Wurf zu landen. Um deine Mitspieler auszustechen, muss es gelingen, das Potenzial deines Entwicklerteams im Duell um neue Features und die besten Köpfe optimal einzusetzen. Doch leider läuft selten alles so wie geplant, denn auch die anderen Spieler werden zu allen Mitteln greifen, um die besten Features für sich zu gewinnen. 
               </p>
-              <p className="text-gray-600 mt-4">
+              <p className="text-gray-600 mt-4 font-bold">
                 Sieger ist, wer zuerst die vereinbarte Anzahl an Siegpunkten erreicht hat.
               </p>
             </div>
