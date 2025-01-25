@@ -8,8 +8,8 @@ import { TroubleshootingTab } from "@/components/manual/TroubleshootingTab";
 const Index = () => {
   return (
     <div className="min-h-screen w-full bg-accent">
-      <main className="flex-1 px-4 py-8 lg:px-8">
-        <div className="max-w-6xl mx-auto space-y-8">
+      <main className="flex-1">
+        <div className="max-w-6xl mx-auto">
           <ManualHeader />
 
           <Tabs defaultValue="overview" className="w-full">
