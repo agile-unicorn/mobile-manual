@@ -11,11 +11,11 @@ export const OverviewTab = () => {
           <h2 className="text-2xl font-semibold mb-4">Spielziel</h2>
           <div className="flex flex-col md:flex-row items-start gap-6">
             <div className="flex-1">
-            <img 
-              src="/lovable-uploads/74cf2d65-fe10-4f21-af77-58e52824a08c.png" 
-              alt="CEO presenting chart" 
-              className="w-64 h-auto object-contain"
-            />
+              <img 
+                src="/lovable-uploads/74cf2d65-fe10-4f21-af77-58e52824a08c.png" 
+                alt="CEO presenting chart" 
+                className="float-left mr-4 mb-4 w-64 h-auto object-contain"
+              />
               <p className="text-gray-600">
                 Du bist CEO eines aufstrebenden IT-Startups und versuchst schneller als die Konkurrenz den ganz großen Wurf zu landen. Um deine Mitspieler auszustechen, muss es gelingen, das Potenzial deines Entwicklerteams im Duell um neue Features und die besten Köpfe optimal einzusetzen. Doch leider läuft selten alles so wie geplant, denn auch die anderen Spieler werden zu allen Mitteln greifen, um die besten Features für sich zu gewinnen. 
               </p>
@@ -23,7 +23,6 @@ export const OverviewTab = () => {
                 Sieger ist, wer zuerst die vereinbarte Anzahl an Siegpunkten erreicht hat.
               </p>
             </div>
-            
           </div>
         </div>
       </div>
