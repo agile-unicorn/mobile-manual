@@ -57,13 +57,18 @@ export const OverviewTab = () => {
           />
           <p>Die Teammitglieder bleiben nicht sichtbar für andere auf der Hand, bis sie eingesetzt werden. Die Stärke wird oben links durch eine Anzahl der Würfel und eventuelle Modifikatoren angezeigt.  Mit diesen Würfeln und den Modifikatoren (Bonus oder Malus)  kann um neue Feature-Karten gewürfelt werden. </p>
 
-<p>Dein Team  darf maximal aus 5 Mitgliedern bestehen, um effektiv arbeiten zu können. Wenn ein 6. Mitglied gewonnen wird, muss der Spieler ein anderes Mitglied seiner Wahl feuern (unter den Kartenstapel legen).</p>
+          <p>Dein Team  darf maximal aus 5 Mitgliedern bestehen, um effektiv arbeiten zu können. Wenn ein 6. Mitglied gewonnen wird, muss der Spieler ein anderes Mitglied seiner Wahl feuern (unter den Kartenstapel legen).</p>
         </ManualCard>
 
         <ManualCard
           title="Incentives"
           description="Incentives können nach dem Würfeln eingesetzt werden, um das Ergebnis zu verbessern."
         >
+          <img 
+            src="/lovable-uploads/b75da821-ce58-4b2e-9be4-a4b871e66267.png"
+            alt="Tischkicker und Mate"
+            className="float-right ml-2 mb-2 w-24 h-auto"
+          />
           Die Attraktivität deines Startups wird durch Annehmlichkeiten gesteigert, mit denen die Teammitglieder zu Höchstleistungen motiviert werden sollen. Sie können einmal pro Sprint nach dem Würfeln eingesetzt werden, um das Würfelergebnis zu verbessern. Incentive-Karten werden nach Erhalt immer offen ausgelegt und nach der Nutzung bis zum Sprintende umgedreht.
         </ManualCard>
         
@@ -73,7 +78,7 @@ export const OverviewTab = () => {
         >
           Es gibt kein Limit von Event-Karten auf der Hand und sie können über mehrere Runden gesammelt werden. Nach dem Ausspielen sind sie verbraucht und werden auf einem Stapel abgelegt. 
 
-Wer passt, kann keine Ereignisse einsetzen. Jede Karte kann gegen jeden Spieler im Pitch (die nicht gepasst haben) gespielt werden, inklusive sich selbst. Sie können nicht gegen die Pitch-Karte (s.u.)  in der Tischmitte gespielt werden, um diese zu verändern.
+          Wer passt, kann keine Ereignisse einsetzen. Jede Karte kann gegen jeden Spieler im Pitch (die nicht gepasst haben) gespielt werden, inklusive sich selbst. Sie können nicht gegen die Pitch-Karte (s.u.)  in der Tischmitte gespielt werden, um diese zu verändern.
         </ManualCard>
       </div>
     </>
