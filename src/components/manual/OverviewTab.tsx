@@ -55,7 +55,7 @@ export const OverviewTab = () => {
           />
         </ManualCard>
         <ManualCard
-          title="Spielaufbau"
+          title="Incentives"
           description="Vorbereitung und Materialien"
         />
         <ManualCard
