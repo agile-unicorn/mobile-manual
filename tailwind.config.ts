@@ -25,7 +25,7 @@ export default {
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         primary: {
-          DEFAULT: "#0f172a",
+          DEFAULT: "#1B3A4B", // Petrol Green color
           foreground: "#ffffff",
         },
         secondary: {
