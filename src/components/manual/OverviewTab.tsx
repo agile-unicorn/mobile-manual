@@ -69,7 +69,9 @@ export const OverviewTab = () => {
             alt="Tischkicker und Mate"
             className="float-right ml-2 mb-2 w-24 h-auto"
           />
+          <p>
           Die Attraktivität deines Startups wird durch Annehmlichkeiten gesteigert, mit denen die Teammitglieder zu Höchstleistungen motiviert werden sollen. Sie können einmal pro Sprint nach dem Würfeln eingesetzt werden, um das Würfelergebnis zu verbessern. Incentive-Karten werden nach Erhalt immer offen ausgelegt und nach der Nutzung bis zum Sprintende umgedreht.
+          </p>
         </ManualCard>
         
         <ManualCard
