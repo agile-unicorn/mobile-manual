@@ -8,9 +8,7 @@ import {
   SidebarMenuButton,
   SidebarMenuItem,
 } from "@/components/ui/sidebar";
-import { Book, Home, Search, Settings, Smartphone, Dice } from "lucide-react";
-import { Button } from "@/components/ui/button";
-import { useRollDiceModal } from "@/components/DiceRoller";
+import { Book, Home, Search, Settings, Smartphone } from "lucide-react";
 
 const items = [
   { title: "Overview", url: "#overview", icon: Home },
@@ -20,8 +18,6 @@ const items = [
 ];
 
 export function ManualSidebar() {
-  const { openModal } = useRollDiceModal();
-
   return (
     <Sidebar>
       <SidebarContent>
@@ -39,12 +35,6 @@ export function ManualSidebar() {
                   </SidebarMenuButton>
                 </SidebarMenuItem>
               ))}
-              <SidebarMenuItem>
-                <SidebarMenuButton onClick={openModal}>
-                  <Dice className="h-4 w-4" />
-                  <span>Roll Dice</span>
-                </SidebarMenuButton>
-              </SidebarMenuItem>
             </SidebarMenu>
           </SidebarGroupContent>
         </SidebarGroup>

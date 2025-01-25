@@ -3,16 +3,26 @@ import { ManualSidebar } from "@/components/ManualSidebar";
 import { SearchBar } from "@/components/SearchBar";
 import { ManualCard } from "@/components/ManualCard";
 import { DiceRoller } from "@/components/DiceRoller";
-import { BookOpen, Smartphone, Settings, HelpCircle } from "lucide-react";
+import { BookOpen, Smartphone, Settings, HelpCircle, Dice1 } from "lucide-react";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { Button } from "@/components/ui/button";
+import { useRollDiceModal } from "@/components/DiceRoller";
 
 const Index = () => {
+  const { openModal } = useRollDiceModal();
+
   return (
     <SidebarProvider>
       <div className="min-h-screen flex w-full bg-accent">
         <ManualSidebar />
         <main className="flex-1 px-4 py-8 lg:px-8">
-          <SidebarTrigger className="mb-6" />
+          <div className="flex justify-between items-center mb-6">
+            <SidebarTrigger />
+            <Button onClick={openModal} variant="outline" className="gap-2">
+              <Dice1 className="h-4 w-4" />
+              Roll Dice
+            </Button>
+          </div>
           
           <div className="max-w-6xl mx-auto space-y-8">
             <div className="text-center mb-12">
