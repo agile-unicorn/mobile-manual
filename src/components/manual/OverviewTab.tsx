@@ -16,7 +16,10 @@ export const OverviewTab = () => {
                 className="float-right ml-4 mb-4 w-64 h-auto object-contain"
               />
               <p className="text-gray-600">
-                Du bist CEO eines aufstrebenden IT-Startups und versuchst schneller als die Konkurrenz den ganz großen Wurf zu landen. Um deine Mitspieler auszustechen, muss es gelingen, das Potenzial deines Entwicklerteams im Duell um neue Features und die besten Köpfe optimal einzusetzen. Doch leider läuft selten alles so wie geplant, denn auch die anderen Spieler werden zu allen Mitteln greifen, um die besten Features für sich zu gewinnen. 
+                Du bist CEO eines aufstrebenden IT-Startups und versuchst schneller als die Konkurrenz die meisten Siegpunkte zu bekommen. Um deine Mitspieler auszustechen, muss es gelingen, das Potenzial deines Entwicklerteams im Duell um neue Features und die besten Köpfe optimal einzusetzen. Doch leider läuft selten alles so wie geplant, denn auch die anderen Spieler werden zu allen Mitteln greifen, um die besten Features für sich zu gewinnen. 
+              </p>
+              <p className="text-gray-600">
+                 Kurz: Auf die Karten, die die Siegpunkte bringen, werden verdeckt Teammitglieder angesetzt, die unterschiedliche Würfelanzahlen haben. Vor und nach dem Würfeln können noch Effekte angewendet werden. Das Team mit dem höchsten WürfelErgebnis bekommt die Siegpunkte.
               </p>
               <p className="text-gray-600 mt-4 font-bold">
                 Sieger ist, wer zuerst die vereinbarte Anzahl an Siegpunkten erreicht hat.
