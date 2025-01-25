@@ -66,7 +66,7 @@ export const DiceRoller = () => {
         <Card className="w-full border-0 shadow-none">
           <CardContent className="flex flex-col items-center gap-4">
             <div className="w-full px-4">
-              <p className="text-sm text-gray-500 mb-2">Number of dice: {numberOfDice}</p>
+              <p className="text-sm text-gray-500 mb-2">Anzahl: {numberOfDice}</p>
               <Slider
                 value={[numberOfDice]}
                 onValueChange={handleSliderChange}
