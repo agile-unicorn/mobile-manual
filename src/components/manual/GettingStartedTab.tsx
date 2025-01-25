@@ -1,45 +1,38 @@
 export const GettingStartedTab = () => {
   return (
     <div className="bg-white rounded-lg p-8 shadow-md space-y-6">
-      <h2 className="text-2xl font-semibold mb-6">Getting Started Guide</h2>
+      <h2 className="text-2xl font-semibold mb-6">Spielaufbau</h2>
       
       <div className="space-y-6">
         <section>
-          <h3 className="text-xl font-semibold mb-3">1. Initial Setup</h3>
-          <p className="text-gray-600 mb-4">
-            Before you begin using your device, ensure you have completed these essential steps:
-          </p>
+          <h3 className="text-xl font-semibold mb-3">Spielmaterial</h3>
           <ul className="list-disc list-inside space-y-2 text-gray-600 ml-4">
-            <li>Remove all packaging materials and protective films</li>
-            <li>Check that all components are present</li>
-            <li>Charge the device fully (approximately 2-3 hours)</li>
-            <li>Power on using the button located on the top right</li>
+            <li>1 Spielbrett</li>
+            <li>6 Spielfiguren</li>
+            <li>60 Entwicklungskarten</li>
+            <li>30 Ereigniskarten</li>
+            <li>Würfel</li>
+            <li>Spielgeld</li>
           </ul>
         </section>
 
         <section>
-          <h3 className="text-xl font-semibold mb-3">2. Network Connection</h3>
-          <p className="text-gray-600 mb-4">
-            To connect your device to the internet:
-          </p>
+          <h3 className="text-xl font-semibold mb-3">Vorbereitung</h3>
           <ol className="list-decimal list-inside space-y-2 text-gray-600 ml-4">
-            <li>Open Settings from the main menu</li>
-            <li>Select "Network & Internet"</li>
-            <li>Choose your Wi-Fi network from the list</li>
-            <li>Enter the network password when prompted</li>
+            <li>Spielbrett in die Tischmitte legen</li>
+            <li>Jeder Spieler wählt eine Spielfigur</li>
+            <li>Entwicklungs- und Ereigniskarten mischen</li>
+            <li>Startkapital verteilen</li>
+            <li>Startspieler bestimmen</li>
           </ol>
         </section>
 
         <section>
-          <h3 className="text-xl font-semibold mb-3">3. Account Setup</h3>
-          <p className="text-gray-600 mb-4">
-            Create your account to access all features:
-          </p>
+          <h3 className="text-xl font-semibold mb-3">Startaufstellung</h3>
           <ul className="list-disc list-inside space-y-2 text-gray-600 ml-4">
-            <li>Launch the Account Setup wizard</li>
-            <li>Enter your email address</li>
-            <li>Choose a secure password</li>
-            <li>Complete your profile information</li>
+            <li>Spielfiguren auf das Startfeld stellen</li>
+            <li>Jeder Spieler zieht 3 Entwicklungskarten</li>
+            <li>Ereigniskarten als verdeckten Stapel bereitlegen</li>
           </ul>
         </section>
       </div>

@@ -1,5 +1,5 @@
 import { ManualCard } from "@/components/ManualCard";
-import { BookOpen, Smartphone, Settings, HelpCircle } from "lucide-react";
+import { BookOpen, Users, Timer, Presentation } from "lucide-react";
 
 export const OverviewTab = () => {
   return (
@@ -7,39 +7,35 @@ export const OverviewTab = () => {
       <h1 className="text-4xl font-bold text-primary mb-8">Agile Unicorn</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
         <ManualCard
-          title="Quick Start"
-          description="Get up and running with basic setup instructions"
+          title="Spieler"
+          description="3-6 Spieler, ab 16 Jahren"
+          icon={Users}
+        />
+        <ManualCard
+          title="Spieldauer"
+          description="45-60 Minuten"
+          icon={Timer}
+        />
+        <ManualCard
+          title="Spielaufbau"
+          description="Vorbereitung und Materialien"
           icon={BookOpen}
         />
         <ManualCard
-          title="Features"
-          description="Explore all the amazing features of your device"
-          icon={Smartphone}
-        />
-        <ManualCard
-          title="Settings"
-          description="Customize your device to match your preferences"
-          icon={Settings}
-        />
-        <ManualCard
-          title="Support"
-          description="Troubleshooting guides and helpful tips"
-          icon={HelpCircle}
+          title="Pitches"
+          description="Präsentation und Bewertung"
+          icon={Presentation}
         />
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
         <div className="bg-white rounded-lg p-8 shadow-md">
-          <img
-            src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b"
-            alt="Product showcase"
-            className="w-full h-64 object-cover rounded-lg mb-6"
-          />
-          <h2 className="text-2xl font-semibold mb-4">Getting Started</h2>
+          <h2 className="text-2xl font-semibold mb-4">Spielziel</h2>
           <p className="text-gray-600">
-            Welcome to your new device! This manual will guide you through everything you need to know
-            to make the most of your purchase. Start with our Quick Start guide above, or use the
-            sidebar navigation to jump to specific topics.
+            In Agile Unicorn schlüpfen die Spieler in die Rolle von Startup-Gründern. 
+            Jeder Spieler entwickelt ein innovatives Produkt und präsentiert es den anderen Spielern. 
+            Durch geschicktes Taktieren und kreative Ideen gilt es, das beste Startup zu entwickeln 
+            und die meisten Investoren zu überzeugen.
           </p>
         </div>
       </div>
