@@ -6,7 +6,7 @@ export const OverviewTab = () => {
     <>
       <h1 className="text-4xl font-bold text-primary mb-8">Agile Unicorn Regelwerk</h1>
       
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
+      <div className="w-full mt-6">
         <div className="bg-white rounded-lg p-8 shadow-md">
           <h2 className="text-2xl font-semibold mb-4">Spielziel</h2>
           <div className="flex flex-col md:flex-row items-start gap-6">
