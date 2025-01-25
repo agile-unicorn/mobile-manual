@@ -88,7 +88,7 @@ export const DiceRoller = () => {
               disabled={isRolling}
               className="w-32"
             >
-              {isRolling ? "Rolling..." : "Roll Dice"}
+              {isRolling ? "Rolling..." : "würfeln"}
             </Button>
           </CardContent>
         </Card>
