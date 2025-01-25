@@ -3,6 +3,12 @@ export const GettingStartedTab = () => {
     <div className="bg-white rounded-lg p-8 shadow-md space-y-6">
       <h2 className="text-2xl font-semibold mb-6">Spielaufbau</h2>
       
+      <img 
+        src="/lovable-uploads/da0db9c6-2208-43d7-8df9-a18f77747fa7.png"
+        alt="Spielaufbau Übersicht"
+        className="w-full max-w-3xl mx-auto rounded-lg shadow-md mb-8"
+      />
+      
       <div className="space-y-6">
         <section>
           <h3 className="text-xl font-semibold mb-3">Spielmaterial</h3>
