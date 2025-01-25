@@ -236,6 +236,7 @@ const Index = () => {
           </div>
         </main>
       </div>
+      <DiceRoller />
     </SidebarProvider>
   );
 };
