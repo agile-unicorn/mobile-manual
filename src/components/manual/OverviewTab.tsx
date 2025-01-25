@@ -13,7 +13,7 @@ export const OverviewTab = () => {
               <img 
                 src="/lovable-uploads/74cf2d65-fe10-4f21-af77-58e52824a08c.png" 
                 alt="CEO presenting chart" 
-                className="float-left mr-4 mb-4 w-64 h-auto object-contain"
+                className="float-right ml-4 mb-4 w-64 h-auto object-contain"
               />
               <p className="text-gray-600">
                 Du bist CEO eines aufstrebenden IT-Startups und versuchst schneller als die Konkurrenz den ganz großen Wurf zu landen. Um deine Mitspieler auszustechen, muss es gelingen, das Potenzial deines Entwicklerteams im Duell um neue Features und die besten Köpfe optimal einzusetzen. Doch leider läuft selten alles so wie geplant, denn auch die anderen Spieler werden zu allen Mitteln greifen, um die besten Features für sich zu gewinnen. 
@@ -45,18 +45,15 @@ export const OverviewTab = () => {
         </ManualCard>
         <ManualCard
           title="Teammitglieder"
-          description={
-            <div>
-              <img 
-                src="/lovable-uploads/2a69e587-9129-40c7-b233-245d01f1ac7d.png"
-                alt="Der Hammer card"
-                className="float-right ml-2 mb-2 w-24 h-auto"
-              />
-              45-60 Minuten
-            </div>
-          }
+          description="45-60 Minuten"
           className="relative"
-        />
+        >
+          <img 
+            src="/lovable-uploads/2a69e587-9129-40c7-b233-245d01f1ac7d.png"
+            alt="Der Hammer card"
+            className="float-right ml-2 mb-2 w-24 h-auto"
+          />
+        </ManualCard>
         <ManualCard
           title="Spielaufbau"
           description="Vorbereitung und Materialien"
