@@ -153,6 +153,11 @@ export const OverviewTab = () => {
           description="Ein Teammitglied entfernen"
           className="bg-white"
         >
+          <img 
+            src="/lovable-uploads/b72ac29e-2735-436c-8840-a6354f4a0f87.png"
+            alt="Teammitglied entfernen Symbol"
+            className="float-left mr-2 w-1/2 h-auto"
+          />
           Bei Minus  muss eine Teamkarte nach Wahl des Spielers, der die Karte ausspielt, entfernt werden. Diese Teamkarte ist verloren und darf erst wieder im nächsten Sprint auf die Hand genommen werden.
         </ManualCard>
       </div>
