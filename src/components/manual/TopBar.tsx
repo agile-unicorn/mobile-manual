@@ -12,7 +12,6 @@ export const TopBar = () => {
             alt="Agile Unicorn Logo" 
             className="h-12 w-auto"
           />
-          <h1 className="text-4xl font-bold">Agile Unicorn</h1>
         </div>
         <div className="flex items-center gap-4">
           <DiceRoller />
