@@ -1,5 +1,4 @@
 import { ManualCard } from "@/components/ManualCard";
-import { BookOpen, Users, Timer, Presentation } from "lucide-react";
 
 export const OverviewTab = () => {
   return (
@@ -36,7 +35,6 @@ export const OverviewTab = () => {
         <ManualCard
           title="Feature-Karten liefern die Siegpunkte"
           description="Features liefern 3 bis 20 Siegpunkte, die der Zahl oben links auf der Karte entsprechen. Ob ein Feature erfolgreich umgesetzt werden kann, wird durch Würfeln gegen den Wert bestimmt. Bei Erfolg erhält der Spieler mit dem höchsten Würfelergebnis die Feature-Karte und legt diese offen neben den anderen gewonnenen Feature-Karten vor sich aus. "
-          icon={Users}
           className="relative"
         >
           <img 
@@ -48,17 +46,14 @@ export const OverviewTab = () => {
         <ManualCard
           title="Spieldauer"
           description="45-60 Minuten"
-          icon={Timer}
         />
         <ManualCard
           title="Spielaufbau"
           description="Vorbereitung und Materialien"
-          icon={BookOpen}
         />
         <ManualCard
           title="Pitches"
           description="Präsentation und Bewertung"
-          icon={Presentation}
         />
       </div>
     </>
