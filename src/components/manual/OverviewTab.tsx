@@ -117,6 +117,11 @@ export const OverviewTab = () => {
           description="Wendet einmalig die Auswirkung einer anderen Event-Karte ab. Die Karte kann jederzeit gespielt werden, außer gegen andere Zauberstab-Karten."
           className="bg-white"
         >
+          <img 
+            src="/lovable-uploads/b464c24b-351d-4585-9dc8-e7fb0de7ef89.png"
+            alt="Magic wand symbol"
+            className="float-left mr-2 w-1/2 h-auto"
+          />
         </ManualCard>
 
         <ManualCard
