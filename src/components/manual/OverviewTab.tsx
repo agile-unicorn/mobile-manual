@@ -84,7 +84,7 @@ export const OverviewTab = () => {
           <img 
             src="/lovable-uploads/6099a104-34b4-4501-bee6-c3dad95a8784.png"
             alt="Serverausfall Ereigniskarte"
-            className="float-right ml-2 mb-2 w-24 h-auto"
+            className="float-right ml-2 mb-2 w-1/4 h-auto"
           />
           Es gibt kein Limit von Event-Karten auf der Hand und sie können über mehrere Runden gesammelt werden. Nach dem Ausspielen sind sie verbraucht und werden auf einem Stapel abgelegt. 
 
