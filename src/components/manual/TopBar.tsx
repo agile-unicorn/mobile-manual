@@ -1,5 +1,4 @@
 import React from "react";
-import { SearchBar } from "@/components/SearchBar";
 import { DiceRoller } from "@/components/DiceRoller";
 
 export const TopBar = () => {
@@ -15,7 +14,6 @@ export const TopBar = () => {
         </div>
         <div className="flex items-center gap-4">
           <DiceRoller />
-          <SearchBar />
         </div>
       </div>
     </div>
