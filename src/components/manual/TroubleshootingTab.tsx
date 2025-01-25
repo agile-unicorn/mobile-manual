@@ -3,6 +3,12 @@ export const TroubleshootingTab = () => {
     <div className="bg-white rounded-lg p-8 shadow-md space-y-6">
       <h2 className="text-2xl font-semibold mb-6">Die Pitches</h2>
       
+      <img 
+        src="/lovable-uploads/4ff67390-89ef-495a-9f61-a68c580a21e9.png"
+        alt="Pitch Runde Übersicht"
+        className="w-full mb-8"
+      />
+      
       <div className="space-y-8">
         <section>
           <h3 className="text-xl font-semibold mb-4">Präsentationsphase</h3>
