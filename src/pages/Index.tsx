@@ -78,53 +78,158 @@ const Index = () => {
               </TabsContent>
 
               <TabsContent value="getting-started">
-                <div className="bg-white rounded-lg p-8 shadow-md">
-                  <h2 className="text-2xl font-semibold mb-4">Getting Started Guide</h2>
-                  <p className="text-gray-600 mb-4">
-                    Follow these steps to get started with your device:
-                  </p>
-                  <ol className="list-decimal list-inside space-y-2 text-gray-600">
-                    <li>Unbox your device and check all components</li>
-                    <li>Charge the device fully before first use</li>
-                    <li>Power on and follow the initial setup wizard</li>
-                    <li>Connect to your Wi-Fi network</li>
-                    <li>Set up your user account</li>
-                  </ol>
+                <div className="bg-white rounded-lg p-8 shadow-md space-y-6">
+                  <h2 className="text-2xl font-semibold mb-6">Getting Started Guide</h2>
+                  
+                  <div className="space-y-6">
+                    <section>
+                      <h3 className="text-xl font-semibold mb-3">1. Initial Setup</h3>
+                      <p className="text-gray-600 mb-4">
+                        Before you begin using your device, ensure you have completed these essential steps:
+                      </p>
+                      <ul className="list-disc list-inside space-y-2 text-gray-600 ml-4">
+                        <li>Remove all packaging materials and protective films</li>
+                        <li>Check that all components are present</li>
+                        <li>Charge the device fully (approximately 2-3 hours)</li>
+                        <li>Power on using the button located on the top right</li>
+                      </ul>
+                    </section>
+
+                    <section>
+                      <h3 className="text-xl font-semibold mb-3">2. Network Connection</h3>
+                      <p className="text-gray-600 mb-4">
+                        To connect your device to the internet:
+                      </p>
+                      <ol className="list-decimal list-inside space-y-2 text-gray-600 ml-4">
+                        <li>Open Settings from the main menu</li>
+                        <li>Select "Network & Internet"</li>
+                        <li>Choose your Wi-Fi network from the list</li>
+                        <li>Enter the network password when prompted</li>
+                      </ol>
+                    </section>
+
+                    <section>
+                      <h3 className="text-xl font-semibold mb-3">3. Account Setup</h3>
+                      <p className="text-gray-600 mb-4">
+                        Create your account to access all features:
+                      </p>
+                      <ul className="list-disc list-inside space-y-2 text-gray-600 ml-4">
+                        <li>Launch the Account Setup wizard</li>
+                        <li>Enter your email address</li>
+                        <li>Choose a secure password</li>
+                        <li>Complete your profile information</li>
+                      </ul>
+                    </section>
+                  </div>
                 </div>
               </TabsContent>
 
               <TabsContent value="features">
-                <div className="bg-white rounded-lg p-8 shadow-md">
-                  <h2 className="text-2xl font-semibold mb-4">Features Overview</h2>
-                  <p className="text-gray-600 mb-4">
-                    Discover all the powerful features of your device:
-                  </p>
-                  <ul className="list-disc list-inside space-y-2 text-gray-600">
-                    <li>High-performance processor</li>
-                    <li>Advanced camera system</li>
-                    <li>Long-lasting battery life</li>
-                    <li>Secure biometric authentication</li>
-                    <li>Seamless connectivity options</li>
-                  </ul>
+                <div className="bg-white rounded-lg p-8 shadow-md space-y-6">
+                  <h2 className="text-2xl font-semibold mb-6">Features Overview</h2>
+                  
+                  <div className="space-y-8">
+                    <section>
+                      <h3 className="text-xl font-semibold mb-3">Core Features</h3>
+                      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div className="p-4 border rounded-lg">
+                          <h4 className="font-semibold mb-2">Smart Processing</h4>
+                          <p className="text-gray-600">Advanced AI-powered processing for optimal performance</p>
+                        </div>
+                        <div className="p-4 border rounded-lg">
+                          <h4 className="font-semibold mb-2">Security</h4>
+                          <p className="text-gray-600">Built-in encryption and biometric authentication</p>
+                        </div>
+                        <div className="p-4 border rounded-lg">
+                          <h4 className="font-semibold mb-2">Connectivity</h4>
+                          <p className="text-gray-600">Supports Wi-Fi 6 and Bluetooth 5.0</p>
+                        </div>
+                        <div className="p-4 border rounded-lg">
+                          <h4 className="font-semibold mb-2">Battery Life</h4>
+                          <p className="text-gray-600">Up to 12 hours of continuous use</p>
+                        </div>
+                      </div>
+                    </section>
+
+                    <section>
+                      <h3 className="text-xl font-semibold mb-3">Advanced Features</h3>
+                      <ul className="space-y-4">
+                        <li className="flex items-start space-x-3">
+                          <Smartphone className="w-5 h-5 text-blue-500 mt-1" />
+                          <div>
+                            <h4 className="font-semibold">Smart Assistant</h4>
+                            <p className="text-gray-600">Voice-controlled assistant for hands-free operation</p>
+                          </div>
+                        </li>
+                        <li className="flex items-start space-x-3">
+                          <Settings className="w-5 h-5 text-blue-500 mt-1" />
+                          <div>
+                            <h4 className="font-semibold">Customization</h4>
+                            <p className="text-gray-600">Personalize settings and appearance to your preferences</p>
+                          </div>
+                        </li>
+                      </ul>
+                    </section>
+                  </div>
                 </div>
               </TabsContent>
 
               <TabsContent value="troubleshooting">
-                <div className="bg-white rounded-lg p-8 shadow-md">
-                  <h2 className="text-2xl font-semibold mb-4">Troubleshooting Guide</h2>
-                  <p className="text-gray-600 mb-4">
-                    Common issues and their solutions:
-                  </p>
-                  <dl className="space-y-4">
-                    <dt className="font-semibold">Device won't turn on</dt>
-                    <dd className="text-gray-600 ml-4">Try charging the device for at least 30 minutes, then hold the power button for 10 seconds.</dd>
-                    
-                    <dt className="font-semibold">Slow performance</dt>
-                    <dd className="text-gray-600 ml-4">Clear cache and remove unused applications. Ensure your device has the latest updates installed.</dd>
-                    
-                    <dt className="font-semibold">Battery draining quickly</dt>
-                    <dd className="text-gray-600 ml-4">Check for apps running in the background and adjust screen brightness. Enable battery saver mode when needed.</dd>
-                  </dl>
+                <div className="bg-white rounded-lg p-8 shadow-md space-y-6">
+                  <h2 className="text-2xl font-semibold mb-6">Troubleshooting Guide</h2>
+                  
+                  <div className="space-y-8">
+                    <section>
+                      <h3 className="text-xl font-semibold mb-4">Common Issues</h3>
+                      
+                      <div className="space-y-6">
+                        <div className="border-b pb-4">
+                          <h4 className="font-semibold mb-2">Device Won't Turn On</h4>
+                          <ol className="list-decimal list-inside space-y-2 text-gray-600">
+                            <li>Ensure the battery is charged for at least 30 minutes</li>
+                            <li>Press and hold the power button for 10 seconds</li>
+                            <li>Check for any visible damage to the charging port</li>
+                            <li>Try a different charging cable and power adapter</li>
+                          </ol>
+                        </div>
+
+                        <div className="border-b pb-4">
+                          <h4 className="font-semibold mb-2">Slow Performance</h4>
+                          <ol className="list-decimal list-inside space-y-2 text-gray-600">
+                            <li>Close unused applications running in the background</li>
+                            <li>Clear cache and temporary files</li>
+                            <li>Check available storage space</li>
+                            <li>Ensure your device has the latest updates installed</li>
+                          </ol>
+                        </div>
+
+                        <div className="border-b pb-4">
+                          <h4 className="font-semibold mb-2">Connection Issues</h4>
+                          <ol className="list-decimal list-inside space-y-2 text-gray-600">
+                            <li>Toggle Wi-Fi off and on</li>
+                            <li>Restart your router</li>
+                            <li>Forget the network and reconnect</li>
+                            <li>Check for network settings conflicts</li>
+                          </ol>
+                        </div>
+                      </div>
+                    </section>
+
+                    <section>
+                      <h3 className="text-xl font-semibold mb-4">Contact Support</h3>
+                      <p className="text-gray-600 mb-4">
+                        If you're still experiencing issues after trying the troubleshooting steps above,
+                        please contact our support team:
+                      </p>
+                      <div className="bg-gray-50 p-4 rounded-lg">
+                        <ul className="space-y-2 text-gray-600">
+                          <li>Email: support@example.com</li>
+                          <li>Phone: 1-800-SUPPORT</li>
+                          <li>Hours: Monday - Friday, 9 AM - 5 PM EST</li>
+                        </ul>
+                      </div>
+                    </section>
+                  </div>
                 </div>
               </TabsContent>
             </Tabs>
