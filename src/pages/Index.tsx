@@ -7,7 +7,7 @@ import { TroubleshootingTab } from "@/components/manual/TroubleshootingTab";
 
 const Index = () => {
   return (
-    <div className="min-h-screen w-full bg-accent">
+    <div className="min-h-screen w-full bg-accent pb-16">
       <main className="flex-1">
         <div className="max-w-6xl mx-auto">
           <ManualHeader />
