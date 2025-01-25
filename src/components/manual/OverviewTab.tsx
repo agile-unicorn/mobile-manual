@@ -89,14 +89,15 @@ export const OverviewTab = () => {
         </ManualCard>
       </div>
 
-      <h2 className="text-4xl font-bold text-primary mt-16 mb-6">Ereignistypen</h2>
+      <h2 className="text-4xl font-bold text-primary mt-16 mb-6">Symbole</h2>
       
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
         <ManualCard
           title="Punktwert"
-          description="Bonus oder Malus auf das gewürfelte Ergebnis."
+          description=""
           className="bg-white"
         >
+          Bonus oder Malus auf das gewürfelte Ergebnis.
         </ManualCard>
 
         <ManualCard
