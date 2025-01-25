@@ -18,7 +18,10 @@ const Index = () => {
             <div className="text-center mb-12">
               <h1 className="text-4xl font-bold mb-4">Product Manual</h1>
               <p className="text-lg text-gray-600 mb-8">Everything you need to know about your device</p>
-              <SearchBar />
+              <div className="flex flex-col items-center gap-4">
+                <SearchBar />
+                <DiceRoller />
+              </div>
             </div>
 
             <Tabs defaultValue="overview" className="w-full">
@@ -54,13 +57,6 @@ const Index = () => {
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
-                  <div className="flex flex-col items-center justify-center p-8 bg-white rounded-lg shadow-md">
-                    <h2 className="text-2xl font-semibold mb-4">Try Your Luck!</h2>
-                    <p className="text-gray-600 mb-6 text-center">
-                      Roll up to 5 dice at once and see what you get!
-                    </p>
-                    <DiceRoller />
-                  </div>
                   <div className="bg-white rounded-lg p-8 shadow-md">
                     <img
                       src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b"
