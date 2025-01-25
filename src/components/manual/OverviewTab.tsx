@@ -34,15 +34,18 @@ export const OverviewTab = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
         <ManualCard
           title="Feature-Karten liefern die Siegpunkte"
-          description="Features liefern 3 bis 20 Siegpunkte, die der Zahl oben links auf der Karte entsprechen. Ob ein Feature erfolgreich umgesetzt werden kann, wird durch Würfeln gegen den Wert bestimmt. Bei Erfolg erhält der Spieler mit dem höchsten Würfelergebnis die Feature-Karte und legt diese offen neben den anderen gewonnenen Feature-Karten vor sich aus. "
+          description={
+            <div className="relative">
+              <img 
+                src="/lovable-uploads/940f3730-58d6-4602-bc18-31c9c7114d59.png"
+                alt="Feature card example"
+                className="float-right ml-4 mb-2 w-24 h-auto"
+              />
+              Features liefern 3 bis 20 Siegpunkte, die der Zahl oben links auf der Karte entsprechen. Ob ein Feature erfolgreich umgesetzt werden kann, wird durch Würfeln gegen den Wert bestimmt. Bei Erfolg erhält der Spieler mit dem höchsten Würfelergebnis die Feature-Karte und legt diese offen neben den anderen gewonnenen Feature-Karten vor sich aus.
+            </div>
+          }
           className="relative"
-        >
-          <img 
-            src="/lovable-uploads/940f3730-58d6-4602-bc18-31c9c7114d59.png"
-            alt="Feature card example"
-            className="absolute top-2 right-2 w-24 h-auto"
-          />
-        </ManualCard>
+        />
         <ManualCard
           title="Teammitglieder"
           description="45-60 Minuten"
