@@ -2,6 +2,7 @@ import { SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar";
 import { ManualSidebar } from "@/components/ManualSidebar";
 import { SearchBar } from "@/components/SearchBar";
 import { ManualCard } from "@/components/ManualCard";
+import { DiceRoller } from "@/components/DiceRoller";
 import { BookOpen, Smartphone, Settings, HelpCircle } from "lucide-react";
 
 const Index = () => {
@@ -42,18 +43,21 @@ const Index = () => {
               />
             </div>
 
-            <div className="mt-12 bg-white rounded-lg p-8 shadow-md">
-              <img
-                src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b"
-                alt="Product showcase"
-                className="w-full h-64 object-cover rounded-lg mb-6"
-              />
-              <h2 className="text-2xl font-semibold mb-4">Getting Started</h2>
-              <p className="text-gray-600">
-                Welcome to your new device! This manual will guide you through everything you need to know
-                to make the most of your purchase. Start with our Quick Start guide above, or use the
-                sidebar navigation to jump to specific topics.
-              </p>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <DiceRoller />
+              <div className="bg-white rounded-lg p-8 shadow-md">
+                <img
+                  src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b"
+                  alt="Product showcase"
+                  className="w-full h-64 object-cover rounded-lg mb-6"
+                />
+                <h2 className="text-2xl font-semibold mb-4">Getting Started</h2>
+                <p className="text-gray-600">
+                  Welcome to your new device! This manual will guide you through everything you need to know
+                  to make the most of your purchase. Start with our Quick Start guide above, or use the
+                  sidebar navigation to jump to specific topics.
+                </p>
+              </div>
             </div>
           </div>
         </main>
