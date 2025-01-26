@@ -172,6 +172,10 @@ export const OverviewTab = () => {
           Bei Minus  muss eine Teamkarte nach Wahl des Spielers, der die Karte ausspielt, entfernt werden. Diese Teamkarte ist verloren und darf erst wieder im nächsten Sprint auf die Hand genommen werden.
         </ManualCard>
       </div>
+
+      <div className="mt-16 text-center text-gray-600 border-t pt-8">
+        Made with ❤ in Bonn and Hamburg. Copyright Agile Unicorn Spieleverlag 2025
+      </div>
     </>
   );
 };
