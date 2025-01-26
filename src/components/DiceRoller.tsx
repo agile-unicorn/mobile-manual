@@ -4,6 +4,7 @@ import { Button } from "./ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
 import { toast } from "sonner";
 import { Slider } from "./ui/slider";
+import { Input } from "./ui/input";
 import {
   Dialog,
   DialogContent,
@@ -25,6 +26,7 @@ export const DiceRoller = () => {
   const [currentDice, setCurrentDice] = useState<number[]>([0]);
   const [isRolling, setIsRolling] = useState(false);
   const [numberOfDice, setNumberOfDice] = useState(1);
+  const [modifier, setModifier] = useState(0);
 
   const rollDice = () => {
     setIsRolling(true);
@@ -40,8 +42,9 @@ export const DiceRoller = () => {
         setIsRolling(false);
         const finalValues = Array(numberOfDice).fill(0).map(() => Math.floor(Math.random() * 6));
         setCurrentDice(finalValues);
-        const total = finalValues.map(v => v + 1).reduce((a, b) => a + b, 0);
-        toast(`You rolled a total of ${total}!`);
+        const diceTotal = finalValues.map(v => v + 1).reduce((a, b) => a + b, 0);
+        const totalWithModifier = diceTotal + modifier;
+        toast(`You rolled a total of ${diceTotal}${modifier !== 0 ? ` ${modifier > 0 ? '+' : ''}${modifier} = ${totalWithModifier}` : ''}!`);
       }
     }, 100);
   };
@@ -50,6 +53,11 @@ export const DiceRoller = () => {
     const newNumberOfDice = value[0];
     setNumberOfDice(newNumberOfDice);
     setCurrentDice(Array(newNumberOfDice).fill(0).map(() => Math.floor(Math.random() * 6)));
+  };
+
+  const handleModifierChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+    const value = event.target.value === '' ? 0 : parseInt(event.target.value);
+    setModifier(value);
   };
 
   return (
@@ -74,6 +82,16 @@ export const DiceRoller = () => {
                 max={20}
                 step={1}
                 className="mb-6"
+              />
+            </div>
+            <div className="w-full px-4">
+              <p className="text-sm text-gray-500 mb-2">Modifikator</p>
+              <Input
+                type="number"
+                value={modifier}
+                onChange={handleModifierChange}
+                className="w-full"
+                placeholder="Gib einen Modifikator ein"
               />
             </div>
             <div className="flex flex-wrap justify-center gap-4 p-4 bg-accent rounded-lg">
