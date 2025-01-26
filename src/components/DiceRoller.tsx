@@ -2,7 +2,6 @@ import { useState } from "react";
 import { Dice1, Dice2, Dice3, Dice4, Dice5, Dice6, Dices } from "lucide-react";
 import { Button } from "./ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
-import { toast } from "sonner";
 import { Slider } from "./ui/slider";
 import { Input } from "./ui/input";
 import {
@@ -27,9 +26,11 @@ export const DiceRoller = () => {
   const [isRolling, setIsRolling] = useState(false);
   const [numberOfDice, setNumberOfDice] = useState(1);
   const [modifier, setModifier] = useState(0);
+  const [rollResult, setRollResult] = useState<string>("");
 
   const rollDice = () => {
     setIsRolling(true);
+    setRollResult("");
     const rolls = 10;
     let currentRoll = 0;
 
@@ -44,7 +45,7 @@ export const DiceRoller = () => {
         setCurrentDice(finalValues);
         const diceTotal = finalValues.map(v => v + 1).reduce((a, b) => a + b, 0);
         const totalWithModifier = diceTotal + modifier;
-        toast(`You rolled a total of ${diceTotal}${modifier !== 0 ? ` ${modifier > 0 ? '+' : ''}${modifier} = ${totalWithModifier}` : ''}!`);
+        setRollResult(`Du hast ${diceTotal}${modifier !== 0 ? ` ${modifier > 0 ? '+' : ''}${modifier} = ${totalWithModifier}` : ''} gewürfelt!`);
       }
     }, 100);
   };
@@ -101,6 +102,11 @@ export const DiceRoller = () => {
                 </div>
               ))}
             </div>
+            {rollResult && (
+              <div className="text-center font-medium text-lg">
+                {rollResult}
+              </div>
+            )}
             <Button 
               onClick={rollDice} 
               disabled={isRolling}
