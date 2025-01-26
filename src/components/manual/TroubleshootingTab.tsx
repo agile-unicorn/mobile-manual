@@ -46,7 +46,7 @@ export const TroubleshootingTab = () => {
                 Sobald jeder Spieler seine Wahl getroffen hat (passen oder pitchen) werden die ausgelegten Teamkarten aller Spieler im Pitch aufgedeckt.
               </p>
               <p className="text-gray-600">
-                Nachdem nun jeder Spieler seine Wahl getroffen hat (passen oder pitchen), werden die ausgelegten Teamkarten aufgedeckt. Spieler A stehen 3 Würfel zur Verfügung.
+               <strong>Beispiel:</strong> Nachdem nun jeder Spieler seine Wahl getroffen hat (passen oder pitchen), werden die ausgelegten Teamkarten aufgedeckt. Spieler A stehen 3 Würfel zur Verfügung.
               </p>
             </div>
 
@@ -56,7 +56,7 @@ export const TroubleshootingTab = () => {
                 Nun können die Spieler im Pitch die Event-Karten von (ausgehend vom Startspieler) vor dem Würfeln gespielt werden. Die Effekte werden sofort ausgeführt. Es dürfen reihum beliebig viele Event-Karten gelegt werden. Event-Karten können nicht gegen die Pitch-Karte in der Tischmitte gespielt werden, um diese zu verändern.
               </p>
               <p className="text-gray-600 mt-4 bg-gray-50 p-4 rounded">
-                Um seine Chancen zu verbessern (immerhin hat Spieler C 4 Würfel), entschließt sich Spieler A dazu, eine Event-Karte von seiner Hand auszuspielen. Er legt "Guter Rat", wodurch er ein weiteres Teammitglied von seinen Handkarten dem Pitch hinzufügen darf. Er wählt seinen Skill-Level-2 Entwickler, so dass er im Kräfteverhältnis vorne liegt. Doch auch Spieler C legt eine Event-Karte, welche ihm die Verwendung eines zusätzlichen Würfels ermöglicht.
+               <strong>Beispiel:</strong> Um seine Chancen zu verbessern (immerhin hat Spieler C 4 Würfel), entschließt sich Spieler A dazu, eine Event-Karte von seiner Hand auszuspielen. Er legt "Guter Rat", wodurch er ein weiteres Teammitglied von seinen Handkarten dem Pitch hinzufügen darf. Er wählt seinen Skill-Level-2 Entwickler, so dass er im Kräfteverhältnis vorne liegt. Doch auch Spieler C legt eine Event-Karte, welche ihm die Verwendung eines zusätzlichen Würfels ermöglicht.
                 Spieler A will dies unbedingt verhindern und spielt eine weitere Event-Karte mit dem Zauberstab-Symbol aus. Dadurch hebt er den Effekt der letzten Event-Karte von Spieler C auf. Dieser darf also weiterhin nur mit 4 Würfeln pitchen.
                 Spieler C könnte nun seinerseits wieder eine Event-Karte spielen, hat jedoch keine geeignete und passt daher. Spieler A könnte noch weitere Event-Karten legen, passt aber ebenfalls.
               </p>
@@ -85,7 +85,7 @@ export const TroubleshootingTab = () => {
                 Auf das jeweilige Würfelergebnis werden Bonuspunkte aus Incentive- und Event-Karten angewendet. Der Spieler mit der höchsten Gesamtaugenzahl gewinnt die Karte, sofern deren Mindestwert erreicht wurde. Bei Gleichstand wird neu gewürfelt (Ereignis- und Incentive-Effekte bleiben erhalten).
               </p>
               <p className="text-gray-600 mt-4 bg-gray-50 p-4 rounded">
-                Nun wird gewürfelt. Spieler A erzielt mit seinen 5 Würfeln ein Ergebnis von 18 und addiert den Wert seiner Incentive-Karte von 2 = 20 Gesamtpunkte. Spieler C erwürfelt nur eine 10 und addiert ebenfalls zwei Incentive-Bonuspunkte = 12 Gesamtpunkte. Spieler A hat somit diesen Pitch gewonnen und erhält die neue Feature-Karte.
+               <strong>Beispiel:</strong> Nun wird gewürfelt. Spieler A erzielt mit seinen 5 Würfeln ein Ergebnis von 18 und addiert den Wert seiner Incentive-Karte von 2 = 20 Gesamtpunkte. Spieler C erwürfelt nur eine 10 und addiert ebenfalls zwei Incentive-Bonuspunkte = 12 Gesamtpunkte. Spieler A hat somit diesen Pitch gewonnen und erhält die neue Feature-Karte.
               </p>
             </div>
 
@@ -95,8 +95,8 @@ export const TroubleshootingTab = () => {
                 Alle eingesetzten Event-Karten kommen auf den Ablagestapel.
                 Außerdem legt jeder Spieler seine eingesetzten Teamkarten verdeckt vor sich ab. Der Gewinner legt die neu gewonnene Karte ebenfalls dazu. Alle abgelegten oder gewonnenen Karten bleiben bis zum Sprint-Ende verdeckt liegen und können erst im nächsten Sprint, nicht aber in den direkt folgenden Pitch-Runden verwendet werden.
               </p>
-              <p className="text-gray-600 mt-4">
-                Spieler A welche er zusammen mit seinen eingesetzten Teamkarten bis zum Sprint-Ende verdeckt vor sich ablegt. Diese Karten sind für weitere Pitch-Runden verbraucht und können vorerst nicht mehr eingesetzt werden.
+              <p className="text-gray-600 mt-4 bg-gray-50 p-4 rounded">
+                <strong>Beispiel:</strong> Spieler A welche er zusammen mit seinen eingesetzten Teamkarten bis zum Sprint-Ende verdeckt vor sich ablegt. Diese Karten sind für weitere Pitch-Runden verbraucht und können vorerst nicht mehr eingesetzt werden.
                 Dies gilt auch für die Teamkarten von Spieler C, obwohl er die Pitch-Karte nicht gewonnen hat. Alle gespielten Event-Karten kommen auf den Ablagestapel.
               </p>
             </div>
