@@ -20,21 +20,23 @@ const Index = () => {
               <TabsTrigger value="troubleshooting">Die Pitches</TabsTrigger>
             </TabsList>
 
-            <TabsContent value="overview">
-              <OverviewTab />
-            </TabsContent>
+            <div className="p-4">
+              <TabsContent value="overview">
+                <OverviewTab />
+              </TabsContent>
 
-            <TabsContent value="getting-started">
-              <GettingStartedTab />
-            </TabsContent>
+              <TabsContent value="getting-started">
+                <GettingStartedTab />
+              </TabsContent>
 
-            <TabsContent value="sprint">
-              <FeaturesTab />
-            </TabsContent>
+              <TabsContent value="sprint">
+                <FeaturesTab />
+              </TabsContent>
 
-            <TabsContent value="troubleshooting">
-              <TroubleshootingTab />
-            </TabsContent>
+              <TabsContent value="troubleshooting">
+                <TroubleshootingTab />
+              </TabsContent>
+            </div>
           </Tabs>
         </div>
       </main>
