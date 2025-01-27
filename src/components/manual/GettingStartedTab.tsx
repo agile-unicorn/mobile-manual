@@ -4,8 +4,8 @@ export const GettingStartedTab = () => {
       <h2 className="text-2xl font-semibold mb-6">Spielaufbau</h2>
       
       <img 
-        src="/lovable-uploads/da0db9c6-2208-43d7-8df9-a18f77747fa7.png"
-        alt="Spielaufbau Übersicht"
+        src="/lovable-uploads/133a2da8-bbf5-4c4c-8e5e-23fc467dafeb.png"
+        alt="Spielaufbau Übersicht mit Nachziehstapel, Pitch-Karten, Siegpunkte, Incentives und Handkarten"
         className="w-full mb-8"
       />
       
