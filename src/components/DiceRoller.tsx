@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Dice1, Dice2, Dice3, Dice4, Dice5, Dice6, Dices } from "lucide-react";
+import { Dice1, Dice2, Dice3, Dice4, Dice5, Dice6, Dices, Plus, Minus } from "lucide-react";
 import { Button } from "./ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
 import { Slider } from "./ui/slider";
@@ -61,6 +61,14 @@ export const DiceRoller = () => {
     setModifier(value);
   };
 
+  const incrementModifier = () => {
+    setModifier(prev => prev + 1);
+  };
+
+  const decrementModifier = () => {
+    setModifier(prev => prev - 1);
+  };
+
   return (
     <Dialog>
       <DialogTrigger asChild>
@@ -87,13 +95,31 @@ export const DiceRoller = () => {
             </div>
             <div className="w-full px-4">
               <p className="text-sm text-gray-500 mb-2">Modifikator</p>
-              <Input
-                type="number"
-                value={modifier}
-                onChange={handleModifierChange}
-                className="w-full"
-                placeholder="Gib einen Modifikator ein"
-              />
+              <div className="flex items-center gap-2">
+                <Button 
+                  variant="outline" 
+                  size="icon" 
+                  onClick={decrementModifier}
+                  className="h-10 w-10"
+                >
+                  <Minus className="h-4 w-4" />
+                </Button>
+                <Input
+                  type="number"
+                  value={modifier}
+                  onChange={handleModifierChange}
+                  className="w-full"
+                  placeholder="Gib einen Modifikator ein"
+                />
+                <Button 
+                  variant="outline" 
+                  size="icon" 
+                  onClick={incrementModifier}
+                  className="h-10 w-10"
+                >
+                  <Plus className="h-4 w-4" />
+                </Button>
+              </div>
             </div>
             <div className="flex flex-wrap justify-center gap-4 p-4 bg-accent rounded-lg">
               {currentDice.map((dice, index) => (
