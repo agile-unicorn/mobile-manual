@@ -43,7 +43,7 @@ export const OverviewTab = () => {
               <img 
                 src="/lovable-uploads/940f3730-58d6-4602-bc18-31c9c7114d59.png"
                 alt="Feature card example"
-                className="float-right ml-6 mb-2 w-1/4 h-auto"
+                className="float-right ml-6 mb-2 w-1/3 h-auto"
               />
               Features liefern 3 bis 20 Siegpunkte, die der Zahl oben links auf der Karte entsprechen. Ob ein Feature erfolgreich umgesetzt werden kann, wird durch Würfeln gegen den Wert bestimmt. Bei Erfolg erhält der Spieler mit dem höchsten Würfelergebnis die Feature-Karte und legt diese offen neben den anderen gewonnenen Feature-Karten vor sich aus.
             </div>
@@ -56,7 +56,7 @@ export const OverviewTab = () => {
           <img 
             src="/lovable-uploads/2a69e587-9129-40c7-b233-245d01f1ac7d.png"
             alt="Der Hammer card"
-            className="float-right ml-2 mb-2 w-1/4 h-auto"
+            className="float-right ml-2 mb-2 w-1/3 h-auto"
           />
           <p>Die Teammitglieder bleiben nicht sichtbar für andere auf der Hand, bis sie eingesetzt werden. Die Stärke wird oben links durch eine Anzahl der Würfel und eventuelle Modifikatoren angezeigt.  Mit diesen Würfeln und den Modifikatoren (Bonus oder Malus)  kann um neue Feature-Karten gewürfelt werden. </p>
 
@@ -70,7 +70,7 @@ export const OverviewTab = () => {
           <img 
             src="/lovable-uploads/b75da821-ce58-4b2e-9be4-a4b871e66267.png"
             alt="Tischkicker und Mate"
-            className="float-right ml-2 mb-2 w-1/4 h-auto"
+            className="float-right ml-2 mb-2 w-1/3 h-auto"
           />
           <p>
           Die Attraktivität deines Startups wird durch Annehmlichkeiten gesteigert, mit denen die Teammitglieder zu Höchstleistungen motiviert werden sollen. Sie können einmal pro Sprint nach dem Würfeln eingesetzt werden, um das Würfelergebnis zu verbessern. Incentive-Karten werden nach Erhalt immer offen ausgelegt und nach der Nutzung bis zum Sprintende umgedreht.
@@ -84,7 +84,7 @@ export const OverviewTab = () => {
           <img 
             src="/lovable-uploads/6099a104-34b4-4501-bee6-c3dad95a8784.png"
             alt="Serverausfall Ereigniskarte"
-            className="float-right ml-2 mb-2 w-1/4 h-auto"
+            className="float-right ml-2 mb-2 w-1/3 h-auto"
           />
           Es gibt kein Limit von Event-Karten auf der Hand und sie können über mehrere Runden gesammelt werden. Nach dem Ausspielen sind sie verbraucht und werden auf einem Stapel abgelegt. 
 
@@ -103,7 +103,7 @@ export const OverviewTab = () => {
           <img 
             src="/lovable-uploads/df031a76-2250-4d8c-a810-f9e021ad6682.png"
             alt="Plus one symbol"
-            className="float-left mr-2 w-1/2 h-auto"
+            className="float-left mr-2 w-1/3 h-auto"
           />
           Bonus oder Malus auf das gewürfelte Ergebnis.
         </ManualCard>
@@ -116,7 +116,7 @@ export const OverviewTab = () => {
           <img 
             src="/lovable-uploads/5786521a-1242-4e08-a8ff-7575299baf61.png"
             alt="Aussetzen symbol"
-            className="float-left mr-2 w-1/2 h-auto"
+            className="float-left mr-2 w-1/3 h-auto"
           />
           Der Spieler muss alle gelegten Teamkarten sofort wieder auf die Hand nehmen. Gespielte Event-Karten sind verloren.
         </ManualCard>
@@ -129,7 +129,7 @@ export const OverviewTab = () => {
           <img 
             src="/lovable-uploads/b464c24b-351d-4585-9dc8-e7fb0de7ef89.png"
             alt="Magic wand symbol"
-            className="float-left mr-2 w-1/2 h-auto"
+            className="float-left mr-2 w-1/3 h-auto"
           />Wendet einmalig die Auswirkung einer anderen Event-Karte ab. Die Karte kann jederzeit gespielt werden, außer gegen andere Zauberstab-Karten.
         </ManualCard>
 
@@ -141,7 +141,7 @@ export const OverviewTab = () => {
           <img 
             src="/lovable-uploads/4cf6a244-f16f-41b2-8b9a-6b961d705512.png"
             alt="Dice symbol"
-            className="float-left mr-2 w-1/2 h-auto"
+            className="float-left mr-2 w-1/3 h-auto"
           />
           Einmalig die gezeigten Würfel zusätzlich oder weniger im Pitch.
         </ManualCard>
@@ -154,7 +154,7 @@ export const OverviewTab = () => {
           <img 
             src="/lovable-uploads/83fa8356-7b6d-4a9e-80f3-62fce83f081b.png"
             alt="Teammitglied dazu Symbol"
-            className="float-left mr-2 w-1/2 h-auto"
+            className="float-left mr-2 w-1/3 h-auto"
           />
           Bei Plus muss der adressierte Spieler eine zusätzliche Teamkarte verwenden. Diese Karte muss von seiner Hand kommen und wird von ihm selbst ausgewählt. 
         </ManualCard>
@@ -167,7 +167,7 @@ export const OverviewTab = () => {
           <img 
             src="/lovable-uploads/b72ac29e-2735-436c-8840-a6354f4a0f87.png"
             alt="Teammitglied entfernen Symbol"
-            className="float-left mr-2 w-1/2 h-auto"
+            className="float-left mr-2 w-1/3 h-auto"
           />
           Bei Minus  muss eine Teamkarte nach Wahl des Spielers, der die Karte ausspielt, entfernt werden. Diese Teamkarte ist verloren und darf erst wieder im nächsten Sprint auf die Hand genommen werden.
         </ManualCard>
