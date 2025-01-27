@@ -118,7 +118,7 @@ export const OverviewTab = () => {
             alt="Aussetzen symbol"
             className="float-left mr-2 w-1/3 h-auto"
           />
-          Der Spieler muss alle gelegten Teamkarten sofort wieder auf die Hand nehmen. Gespielte Event-Karten sind verloren.
+          Der Spieler muss alle gelegten Teamkarten sofort wieder auf die Hand nehmen. Die Teamkarten können im Pitch weiter verwendet werden, gespielte Event-Karten sind aber verloren.
         </ManualCard>
 
         <ManualCard
