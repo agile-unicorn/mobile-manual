@@ -1,7 +1,7 @@
 export const TroubleshootingTab = () => {
   return (
     <div className="bg-white rounded-lg p-8 shadow-md space-y-6">
-      <h2 className="text-2xl font-semibold mb-6">Die Pitches</h2>
+      <h2 className="text-2xl font-semibold mb-6 pl-4">Die Pitches</h2>
       
       <img 
         src="/lovable-uploads/4ff67390-89ef-495a-9f61-a68c580a21e9.png"
@@ -11,7 +11,7 @@ export const TroubleshootingTab = () => {
       
       <div className="space-y-8">
         <section>
-          <h3 className="text-xl font-semibold mb-4">Pitch-Runden durchführen</h3>
+          <h3 className="text-xl font-semibold mb-4 pl-4">Pitch-Runden durchführen</h3>
           <p className="text-gray-600 mb-6">
             Innerhalb eines Sprints können mehrere Pitch-Runden gespielt werden. Hierbei kann die neu aufgedeckte Pitch-Karte in der Tischmitte gewonnen werden (Feature, Incentive oder Teamkarte).
           </p>
@@ -75,17 +75,17 @@ export const TroubleshootingTab = () => {
                 Jeder Spieler kann seine unverbrauchten Incentive-Karten einsetzen, um sein Würfelergebnis zu verbessern. Es dürfen reihum beliebig viele Incentive-Karten gelegt werden.
               </p>
               <p className="text-gray-600 mt-4 bg-gray-50 p-4 rounded">
-                <strong>Beispiel:</strong> Ein Spieler würfelt mit 3 Würfeln seiner Teamkarte und erzielt 3+4+6 = 13 Punkte. Ein Mitspieler würfelt ebenfalls 13 Punkte. Nun setzt der Spieler sein Incentive "freie Massagen" ein, das ihm zusätzlich für diesen Pitch 3 Punkte einbringt und er gewinnt. Für den Rest des Sprints ist das Incentive nicht merh nutzbar.
+                <strong>Beispiel:</strong> Ein Spieler würfelt mit 3 Würfeln seiner Teamkarte und erzielt 3+4+6 = 13 Punkte. Ein Mitspieler würfelt ebenfalls 13 Punkte. Nun setzt der Spieler sein Incentive "freie Massagen" ein, das ihm zusätzlich für diesen Pitch 3 Punkte einbringt und er gewinnt. Für den Rest des Sprints ist das Incentive nicht mehr nutzbar.
               </p>
             </div>
 
             <div className="border-b pb-4">
               <h4 className="font-semibold mb-2">Gewinner ermitteln</h4>
               <p className="text-gray-600">
-                Auf das jeweilige Würfelergebnis werden Bonuspunkte aus Incentive- und Event-Karten angewendet. Der Spieler mit der höchsten Gesamtaugenzahl gewinnt die Karte, sofern deren Mindestwert erreicht wurde. Bei Gleichstand wird neu gewürfelt (Ereignis- und Incentive-Effekte bleiben erhalten).
+                Auf das jeweilige Würfelergebnis werden Bonuspunkte aus Incentive- und Event-Karten angewendet. Der Spieler mit der höchsten Gesamtaugenzahl gewinnt die Karte, sofern deren Mindestwert erreicht wurde. Bei Gleichstand wird neu geworfen (Ereignis- und Incentive-Effekte bleiben erhalten).
               </p>
               <p className="text-gray-600 mt-4 bg-gray-50 p-4 rounded">
-               <strong>Beispiel:</strong> Nun wird gewürfelt. Spieler A erzielt mit seinen 5 Würfeln ein Ergebnis von 18 und addiert den Wert seiner Incentive-Karte von 2 = 20 Gesamtpunkte. Spieler C erwürfelt nur eine 10 und addiert ebenfalls zwei Incentive-Bonuspunkte = 12 Gesamtpunkte. Spieler A hat somit diesen Pitch gewonnen und erhält die neue Feature-Karte.
+               <strong>Beispiel:</strong> Nun wird geworfen. Spieler A erzielt mit seinen 5 Würfeln ein Ergebnis von 18 und addiert den Wert seiner Incentive-Karte von 2 = 20 Gesamtpunkte. Spieler C erwürfelt nur eine 10 und addiert ebenfalls zwei Incentive-Bonuspunkte = 12 Gesamtpunkte. Spieler A hat somit diesen Pitch gewonnen und erhält die neue Feature-Karte.
               </p>
             </div>
 
@@ -111,7 +111,7 @@ export const TroubleshootingTab = () => {
         </section>
 
         <section>
-          <h3 className="text-xl font-semibold mb-4">Ende des Spiels</h3>
+          <h3 className="text-xl font-semibold mb-4 pl-4">Ende des Spiels</h3>
           <p className="text-gray-600">
             Das Spiel endet, sobald ein Spieler blaue Feature-Karten im Gesamtwert der vereinbarten Siegpunkte (oder mehr) besitzt und damit gewonnen hat.
           </p>
