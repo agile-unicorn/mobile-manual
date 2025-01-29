@@ -11,7 +11,7 @@ export const OverviewTab = () => {
           <div className="flex flex-col md:flex-row items-start gap-6">
             <div className="flex-1">
               <img 
-                src="/lovable-uploads/96408de1-5b38-4a83-8ea9-0de605f6e75f.png" 
+                src="/lovable-uploads/74cf2d65-fe10-4f21-af77-58e52824a08c.png" 
                 alt="Lumberjack character" 
                 className="float-right ml-4 mb-4 w-64 h-auto"
               />
