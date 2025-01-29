@@ -47,7 +47,7 @@ const Index = () => {
               className="opacity-70 hover:opacity-100 transition-opacity"
             >
               <img 
-                src="/lovable-uploads/cd1c77f5-768c-44ac-9933-374c1b32113d.png" 
+                src="https://dedica.team/img/dedica-main-logo.svg" 
                 alt="dedica.team Logo" 
                 className="h-12 w-auto"
               />
