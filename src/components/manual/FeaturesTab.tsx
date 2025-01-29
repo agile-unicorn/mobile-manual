@@ -1,7 +1,7 @@
 export const FeaturesTab = () => {
   return (
     <div className="bg-white rounded-lg p-8 shadow-md space-y-6">
-      <h2 className="text-2xl font-semibold mb-6 pl-4">Der Sprint</h2>
+      <h2 className="text-2xl font-semibold mb-6">Der Sprint</h2>
       
       <img 
         src="/lovable-uploads/1bc6d452-978e-4c1b-8dba-7a47a93c62ad.png"
@@ -14,7 +14,7 @@ export const FeaturesTab = () => {
       </p>
 
       <section>
-        <h3 className="text-xl font-semibold mb-3 pl-4">Der Sprint</h3>
+        <h3 className="text-xl font-semibold mb-3">Der Sprint</h3>
         
         <div className="space-y-6">
           <div>

@@ -3,7 +3,7 @@ import { ManualCard } from "@/components/ManualCard";
 export const OverviewTab = () => {
   return (
     <>
-      <h1 className="text-4xl font-bold text-primary mb-8 pl-4">Agile Unicorn Regelwerk</h1>
+      <h1 className="text-4xl font-bold text-primary mb-8">Agile Unicorn Regelwerk</h1>
       
       <div className="w-full mt-6">
         <div className="bg-white rounded-lg p-8 shadow-md">
@@ -92,7 +92,7 @@ export const OverviewTab = () => {
         </ManualCard>
       </div>
 
-      <h2 className="text-4xl font-bold text-primary mt-16 mb-6 pl-4">Symbole</h2>
+      <h2 className="text-4xl font-bold text-primary mt-16 mb-6">Symbole</h2>
       
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
         <ManualCard
