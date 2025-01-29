@@ -30,7 +30,7 @@ export const OverviewTab = () => {
       </div>
 
       <h2 className="text-4xl font-bold text-primary mt-16 mb-6 pl-4">Die Karten</h2>
-      <p className="text-gray-600 mb-8">
+      <p className="text-gray-600 mb-8 pl-4">
         Es gibt vier verschiedene Arten von Karten. Sie unterscheiden sich durch ihre Kartenfarbe. Für die Regeln sind die Kartentexte nicht relevant, wichtig sind die Zahlen und Symbole oben links.
       </p>
         
@@ -92,7 +92,7 @@ export const OverviewTab = () => {
         </ManualCard>
       </div>
 
-      <h2 className="text-4xl font-bold text-primary mt-16 mb-6">Symbole</h2>
+      <h2 className="text-4xl font-bold text-primary mt-16 mb-6 pl-4 ">Symbole</h2>
       
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
         <ManualCard
