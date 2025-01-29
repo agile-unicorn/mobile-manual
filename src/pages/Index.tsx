@@ -38,14 +38,6 @@ const Index = () => {
               </TabsContent>
             </div>
           </Tabs>
-
-          <div className="mt-16 flex justify-center items-center pb-8">
-            <img 
-              src="/lovable-uploads/fa7ce36d-8358-40a7-aa78-2aae99017eb9.png" 
-              alt="Hackathon Illustration" 
-              className="h-96 w-auto"
-            />
-          </div>
         </div>
       </main>
     </div>
