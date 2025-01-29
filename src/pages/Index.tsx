@@ -38,6 +38,21 @@ const Index = () => {
               </TabsContent>
             </div>
           </Tabs>
+
+          <footer className="mt-16 flex justify-center items-center pb-8">
+            <a 
+              href="https://dedica.team" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="opacity-70 hover:opacity-100 transition-opacity"
+            >
+              <img 
+                src="/lovable-uploads/cd1c77f5-768c-44ac-9933-374c1b32113d.png" 
+                alt="dedica.team Logo" 
+                className="h-12 w-auto"
+              />
+            </a>
+          </footer>
         </div>
       </main>
     </div>
