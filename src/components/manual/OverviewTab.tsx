@@ -13,7 +13,7 @@ export const OverviewTab = () => {
               <img 
                 src="/lovable-uploads/74cf2d65-fe10-4f21-af77-58e52824a08c.png" 
                 alt="CEO presenting chart" 
-                className="float-right ml-4 mb-4 w-64 h-auto"
+                className="float-right ml-4 mb-4 w-64 h-auto bg-black"
               />
               <p className="text-gray-600">
                 Du bist CEO eines IT-Startups und versuchst schneller als die Konkurrenz die meisten Siegpunkte zu bekommen. Um deine Mitspieler auszustechen, muss es gelingen, das Potenzial deines Entwicklerteams im Duell um neue Features und die besten Köpfe optimal einzusetzen. Doch leider läuft selten alles so wie geplant, denn auch die anderen Spieler werden zu allen Mitteln greifen, um die besten Features für sich zu gewinnen. <br/>
