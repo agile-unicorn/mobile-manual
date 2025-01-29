@@ -2,7 +2,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { ManualHeader } from "@/components/manual/Header";
 import { OverviewTab } from "@/components/manual/OverviewTab";
 import { GettingStartedTab } from "@/components/manual/GettingStartedTab";
-import { FeaturesTab } from "@/components/manual/FeaturesTab";
+import { SprintsTab } from "@/components/manual/SprintsTab";
 import { TroubleshootingTab } from "@/components/manual/TroubleshootingTab";
 
 const Index = () => {
@@ -30,7 +30,7 @@ const Index = () => {
               </TabsContent>
 
               <TabsContent value="sprint">
-                <FeaturesTab />
+                <SprintsTab />
               </TabsContent>
 
               <TabsContent value="troubleshooting">
