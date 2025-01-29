@@ -37,7 +37,7 @@ export const OverviewTab = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         <ManualCard
           title="Features"
-          description="Feature-Karten liefern die Siegpunkte."
+          description="Features liefern 3 bis 20 Siegpunkte, die der Zahl oben links auf der Karte entsprechen."
           className="relative">
             <div className="relative">
               <img 
@@ -45,7 +45,7 @@ export const OverviewTab = () => {
                 alt="Feature card example"
                 className="float-right ml-6 mb-2 w-1/3 h-auto"
               />
-              Features liefern 3 bis 20 Siegpunkte, die der Zahl oben links auf der Karte entsprechen. Ob ein Feature erfolgreich umgesetzt werden kann, wird durch Würfeln gegen den Wert bestimmt. Bei Erfolg erhält der Spieler mit dem höchsten Würfelergebnis die Feature-Karte und legt diese offen neben den anderen gewonnenen Feature-Karten vor sich aus.
+               Ob ein Feature erfolgreich umgesetzt werden kann, wird durch Würfeln gegen den Wert bestimmt. Bei Erfolg erhält der Spieler mit dem höchsten Würfelergebnis die Feature-Karte und legt diese offen neben den anderen gewonnenen Feature-Karten vor sich aus.
             </div>
           </ManualCard>
         <ManualCard
