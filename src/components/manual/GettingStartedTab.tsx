@@ -34,11 +34,6 @@ export const GettingStartedTab = () => {
         </section>
 
         <section>
-          <img 
-            src="/lovable-uploads/24e6be82-0916-46f5-8da2-e75c3a053d97.png"
-            alt="Illustration von Stapeln mit Dokumenten und Büchern"
-            className="w-full mb-4 shadow-lg"
-          />
           <h3 className="text-xl font-semibold mb-3">Stapel vorbereiten</h3>
           <p className="text-gray-600">Alle Event-Karten werden verdeckt in einem Stapel bereitgelegt. Alle übrigen Karten (Features, Incentives und Teamkarten) werden gemischt und verdeckt im separaten Nachziehstapel bereitgelegt.</p>
         </section>
