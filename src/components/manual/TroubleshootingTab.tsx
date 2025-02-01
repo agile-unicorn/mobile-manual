@@ -45,7 +45,7 @@ export const TroubleshootingTab = () => {
               <p className="text-gray-600">
                 Sobald jeder Spieler entschieden hat, ob er passt oder pitched, werden die ausgelegten Teamkarten aller Spieler aufgedeckt.
               </p>
-              <p className="text-gray-600">
+              <p className="text-gray-600 mt-4 bg-gray-50 p-4 rounded">
                <strong>Beispiel:</strong> Spieler A stehen 3 Würfel zur Verfügung, da er seinen CTO eingesetzt hat. Spieler C stehen nun 4 Würfel zur Verfügung, da er zwei Karten enstprechender Stärke eingesetzt hat.
               </p>
             </div>
