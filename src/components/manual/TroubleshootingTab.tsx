@@ -20,11 +20,11 @@ export const TroubleshootingTab = () => {
             <div className="border-b pb-4">
               <h4 className="font-semibold mb-2">Pitch starten</h4>
               <p className="text-gray-600">
-                Die oberste Karte vom Stapel wird aufgedeckt. Den Wert der Karten müssen die Spieler erreichen, um sie zu gewinnen:
+                Die erste Karte vom Sprint-Stapel wird in die Tischmitte gelegt. Sie ist die Karte, um die gekämpft (gepitched) wird. Um sie zu gewinnen, müssen die Spieler ihren erreichen ,oder übertreffen.
               </p>
               <ul className="list-disc list-inside ml-4 mt-2 text-gray-600">
                 <li>Bei einer Feature-Karte sind es die abgebildeten Siegpunkte.</li>
-                <li>Bei einer Teamkarte wird der Wert direkt nach dem Aufdecken durch Würfeln mit der Stärke (Anzahl der Würfel samt Bonus) ermittelt.</li>
+                <li>Bei einer Teamkarte wird <strong>der Wert durch Würfeln</strong> mit der Stärke (Anzahl der Würfel samt Bonus) ermittelt, sobald sie in die Tischmitte gelegt wird.</li>
                 <li>Bei einer Incentive-Karte ist der Bonus der Karte gleichzeitig der zu erreichende Wert.</li>
               </ul>
             </div>
@@ -53,7 +53,8 @@ export const TroubleshootingTab = () => {
             <div className="border-b pb-4">
               <h4 className="font-semibold mb-2">Ereigniskarten spielen</h4>
               <p className="text-gray-600">
-                Nun können die Spieler im Pitch die Event-Karten von (ausgehend vom Startspieler) vor dem Würfeln gespielt werden. Die Effekte werden sofort ausgeführt. Es dürfen reihum beliebig viele Event-Karten gelegt werden. Event-Karten können nicht gegen die Pitch-Karte in der Tischmitte gespielt werden, um diese zu verändern.
+                Nun können die Spieler im Pitch die Event-Karten von (ausgehend vom Startspieler) vor dem Würfeln gespielt werden. Die Effekte werden sofort ausgeführt. Es dürfen reihum beliebig viele Event-Karten gelegt werden. 
+                Event-Karten können nicht gegen die Pitch-Karte in der Tischmitte gespielt werden, um diese zu verändern.
               </p>
               <p className="text-gray-600 mt-4 bg-gray-50 p-4 rounded">
                <strong>Beispiel:</strong> Um seine Chancen zu verbessern (immerhin hat Spieler C 4 Würfel), entschließt sich Spieler A dazu, eine Event-Karte von seiner Hand auszuspielen. Er legt "Guter Rat", wodurch er ein weiteres Teammitglied von seinen Handkarten dem Pitch hinzufügen darf. Er wählt seinen Skill-Level-2 Entwickler, so dass er im Kräfteverhältnis vorne liegt. Doch auch Spieler C legt eine Event-Karte, welche ihm die Verwendung eines zusätzlichen Würfels ermöglicht.
@@ -82,7 +83,7 @@ export const TroubleshootingTab = () => {
             <div className="border-b pb-4">
               <h4 className="font-semibold mb-2">Gewinner ermitteln</h4>
               <p className="text-gray-600">
-                Auf das jeweilige Würfelergebnis werden Bonuspunkte aus Incentive- und Event-Karten angewendet. Der Spieler mit der höchsten Gesamtaugenzahl gewinnt die Karte, sofern deren Mindestwert erreicht wurde. Bei Gleichstand wird neu gewürfelt (Ereignis- und Incentive-Effekte bleiben erhalten).
+                Auf das jeweilige Würfelergebnis werden Bonuspunkte aus Incentive- und Event-Karten angewendet. <strong>Der Spieler mit der höchsten Gesamtaugenzahl gewinnt die Karte</strong>, sofern deren Mindestwert erreicht wurde. Bei Gleichstand wird neu gewürfelt (Ereignis- und Incentive-Effekte bleiben erhalten).
               </p>
               <p className="text-gray-600 mt-4 bg-gray-50 p-4 rounded">
                <strong>Beispiel:</strong> Nun wird gewürfelt. Spieler A erzielt mit seinen 5 Würfeln ein Ergebnis von 18 und addiert den Wert seiner Incentive-Karte von 2 = 20 Gesamtpunkte. Spieler C erwürfelt nur eine 10 und addiert ebenfalls zwei Incentive-Bonuspunkte = 12 Gesamtpunkte. Spieler A hat somit diesen Pitch gewonnen und erhält die neue Feature-Karte.

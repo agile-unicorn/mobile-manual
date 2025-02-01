@@ -10,7 +10,8 @@ export const SprintsTab = () => {
       />
       
       <p className="text-gray-600 mb-6">
-        Das Spiel läuft über mehrere Sprint-Runden. Während eines Sprints versuchen die Spieler durch Ausspielen ihrer Team- und Event-Karten die Mitspieler in mehreren Duellen (Pitch) zu übertreffen, um möglichst wertvolle neue Karten für das eigene Startup zu gewinnen.
+        Das Spiel läuft über mehrere Sprint-Runden. Während eines Sprints versuchen die Spieler durch Ausspielen ihrer Team- und Event-Karten die Mitspieler in mehreren Duellen (Pitch) zu übertreffen, 
+        um möglichst wertvolle neue Karten für das eigene Startup zu gewinnen.
       </p>
 
       <section>
@@ -20,14 +21,16 @@ export const SprintsTab = () => {
           <div>
             <h4 className="font-semibold mb-2">Sprint-Start</h4>
             <p className="text-gray-600">
-              Alle Spieler verfügen über ihr komplettes Team sowie mindestens zwei Eventkarten. Der erste Pitch beginnt, wenn der Startspieler die oberste Karte vom Stapel in die Mitte des Tisches legt. Es folgen dann mehrere Pitches (siehe unten).
+              Alle Spieler verfügen über ihr komplettes Team sowie mindestens zwei Eventkarten. Der Inhalt des Sprints wird festgelegt, in dem ein Nachzielstapel aus fünf zufälligen Karten gebildet wird (Features, Incentives, Teamkarten). Die erste Karte wird offen
+              in die Tischmitte gelegt, die nächste als Vorschau offen neben die verbleidenden Karten (die noch verdeckt sind) ausgelegt. Es folgen dann mehrere Pitches auf die Karten des Sprints (siehe unten).
             </p>
           </div>
 
           <div>
             <h4 className="font-semibold mb-2">Sprint-Ende</h4>
             <p className="text-gray-600">
-              Der Sprint ist beendet, sobald alle Spieler alle Teamkarten ausgespielt haben oder alle Spieler gepasst haben. Besitzt nur noch ein Spieler ungenutzte Teamkarten auf der Hand, kann er einen (den nächsten) Pitch noch alleine durchführen. Sollte er jedoch passen, ist der Sprint beendet.
+              Der Sprint ist beendet, sobald alle Spieler alle Teamkarten ausgespielt haben oder alle Spieler im Pitch gepasst haben. Besitzt nur noch ein Spieler ungenutzte Teamkarten auf der Hand, kann er einen dei restlichen Pitches auch alleine durchführen. 
+              Sollte er jedoch passen, ist der Sprint beendet.
             </p>
           </div>
 
