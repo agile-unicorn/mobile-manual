@@ -43,10 +43,10 @@ export const TroubleshootingTab = () => {
             <div className="border-b pb-4">
               <h4 className="font-semibold mb-2">Teamkarten aufdecken</h4>
               <p className="text-gray-600">
-                Sobald jeder Spieler seine Wahl getroffen hat (passen oder pitchen) werden die ausgelegten Teamkarten aller Spieler im Pitch aufgedeckt.
+                Sobald jeder Spieler entschieden hat, ob er passt oder pitched, werden die ausgelegten Teamkarten aller Spieler aufgedeckt.
               </p>
               <p className="text-gray-600">
-               <strong>Beispiel:</strong> Nachdem nun jeder Spieler seine Wahl getroffen hat (passen oder pitchen), werden die ausgelegten Teamkarten aufgedeckt. Spieler A stehen 3 Würfel zur Verfügung.
+               <strong>Beispiel:</strong> Spieler A stehen 3 Würfel zur Verfügung, da er seinen CTO eingesetzt hat. Spieler C stehen nun 4 Würfel zur Verfügung, da er zwei Karten enstprechender Stärke eingesetzt hat.
               </p>
             </div>
 
