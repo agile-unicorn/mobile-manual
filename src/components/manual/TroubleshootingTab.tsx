@@ -20,11 +20,11 @@ export const TroubleshootingTab = () => {
             <div className="border-b pb-4">
               <h4 className="font-semibold mb-2">Pitch starten</h4>
               <p className="text-gray-600">
-                Die erste Karte vom Sprint-Stapel wird in die Tischmitte gelegt. Sie ist die Karte, um die gekämpft (gepitched) wird. Um sie zu gewinnen, müssen die Spieler ihren erreichen ,oder übertreffen.
+                Die erste Karte des Sprint-Backlogs wird in die Tischmitte gelegt. Sie ist die Karte, um die gekämpft (gepitched) wird. Um sie zu gewinnen, müssen die Spieler ihren Wert erreichen oder übertreffen.
               </p>
               <ul className="list-disc list-inside ml-4 mt-2 text-gray-600">
                 <li>Bei einer Feature-Karte sind es die abgebildeten Siegpunkte.</li>
-                <li>Bei einer Teamkarte wird <strong>der Wert durch Würfeln</strong> mit der Stärke (Anzahl der Würfel samt Bonus) ermittelt, sobald sie in die Tischmitte gelegt wird.</li>
+                <li>Bei einer Teamkarte wird <strong>der Wert durch Würfeln</strong> mit der Stärke (Anzahl der Würfel samt Modifier) ermittelt, sobald sie in die Tischmitte gelegt wird.</li>
                 <li>Bei einer Incentive-Karte ist der Bonus der Karte gleichzeitig der zu erreichende Wert.</li>
               </ul>
             </div>
@@ -32,11 +32,11 @@ export const TroubleshootingTab = () => {
             <div className="border-b pb-4">
               <h4 className="font-semibold mb-2">Pitchen oder Passen</h4>
               <p className="text-gray-600">
-                Der Spieler mit dem lustigsten T-Shirt erhält die Startspieler-Karte (First Mover) und muss als erster entscheiden, ob. Reihum kann jeder Spieler entweder passen oder mit seinen Teamkarten pitchen, um die ausliegende Karte für sich zu gewinnen. Dazu werden eine oder mehrere Teamkarten von der Hand verdeckt ausgelegt.
+                Der Spieler mit dem lustigsten T-Shirt erhält die Startspieler-Karte (First Mover) und beginnt. Reihum kann jeder Spieler entweder passen oder mit seinen Teamkarten pitchen. Dazu werden eine oder mehrere Teamkarten von der Hand verdeckt ausgelegt.
               </p>
               <p className="text-gray-600 mt-4 bg-gray-50 p-4 rounded">
-                <strong>Beispiel:</strong> Vom Nachziehstapel wird eine blaue Feature-Karte mit dem Wert 13 aufgedeckt, was bedeutet, dass man 13 Würfelpunkte erreichen muss. Die Spieler überlegen nun reihum, ob sie auf diese Karte bieten (pitchen) oder passen.
-                Spieler A legt seinen CTO mit Skill-Level-3 verdeckt in die Tischmitte. Spieler B will sein Team für spätere Pitch-Runden zusammenhalten und passt daher. Spieler C will Spieler A die Feature-Karte nicht kampflos überlassen und steigt daher ebenfalls ein, indem er verdeckt zwei Teamkarten mit Skill-Level-3 und 1 legt.
+                <strong>Beispiel:</strong> Die nächste Karte im Sprint-Backlog ist eine blaue Feature-Karte mit dem Wert 13, was bedeutet, dass man 13 Würfelpunkte erreichen muss. Die Spieler überlegen nun reihum, ob sie auf diese Karte bieten (pitchen) oder passen.
+                Spieler A legt seinen CTO mit Skill-Level-3 verdeckt in die Tischmitte. Spieler B will sein Team für spätere Pitch-Runden zusammenhalten und passt daher. Spieler C will Spieler A die Feature-Karte nicht kampflos überlassen und steigt daher ebenfalls ein, indem er verdeckt zwei Teamkarten mit Skill-Level-3 und 1 Würfel legt.
               </p>
             </div>
 
@@ -46,18 +46,18 @@ export const TroubleshootingTab = () => {
                 Sobald jeder Spieler entschieden hat, ob er passt oder pitched, werden die ausgelegten Teamkarten aller Spieler aufgedeckt.
               </p>
               <p className="text-gray-600 mt-4 bg-gray-50 p-4 rounded">
-               <strong>Beispiel:</strong> Spieler A stehen 3 Würfel zur Verfügung, da er seinen CTO eingesetzt hat. Spieler C stehen nun 4 Würfel zur Verfügung, da er zwei Karten enstprechender Stärke eingesetzt hat.
+               <strong>Beispiel:</strong> Spieler A stehen 3 Würfel zur Verfügung, da er seinen CTO eingesetzt hat. Spieler C stehen nun 4 Würfel zur Verfügung, da er zwei Karten entsprechender Stärke eingesetzt hat.
               </p>
             </div>
 
             <div className="border-b pb-4">
-              <h4 className="font-semibold mb-2">Ereigniskarten spielen</h4>
+              <h4 className="font-semibold mb-2">Event-Karten spielen</h4>
               <p className="text-gray-600">
-                Nun können die Spieler im Pitch die Event-Karten von (ausgehend vom Startspieler) vor dem Würfeln gespielt werden. Die Effekte werden sofort ausgeführt. Es dürfen reihum beliebig viele Event-Karten gelegt werden. 
-                Event-Karten können nicht gegen die Pitch-Karte in der Tischmitte gespielt werden, um diese zu verändern.
+                Nun können die Spieler im Pitch (ausgehend vom Startspieler), vor dem Würfeln zusätzliche Event-Karten ausspielen. Die Effekte werden sofort ausgeführt. Es dürfen beliebig viele Event-Karten gleichzeitig gelegt werden, auch auf unterschiedliche Spieler. 
+                Event-Karten können nicht gegen die Pitch-Karte in der Tischmitte gespielt werden, um diese zu verändern. Immer wenn ein Spieler eine Event-Karte gespielt hat, können die anderen Spieler im Pitch reagieren und ihrerseits weitere Karten ausspielen, bis alle gepasst haben.  
               </p>
               <p className="text-gray-600 mt-4 bg-gray-50 p-4 rounded">
-               <strong>Beispiel:</strong> Um seine Chancen zu verbessern (immerhin hat Spieler C 4 Würfel), entschließt sich Spieler A dazu, eine Event-Karte von seiner Hand auszuspielen. Er legt "Guter Rat", wodurch er ein weiteres Teammitglied von seinen Handkarten dem Pitch hinzufügen darf. Er wählt seinen Skill-Level-2 Entwickler, so dass er im Kräfteverhältnis vorne liegt. Doch auch Spieler C legt eine Event-Karte, welche ihm die Verwendung eines zusätzlichen Würfels ermöglicht.
+               <strong>Beispiel:</strong> Um seine Chancen zu verbessern (immerhin hat Spieler C 4 Würfel), entschließt sich Spieler A dazu, eine Event-Karte von seiner Hand auszuspielen. Er legt "Schnellscrum", wodurch er ein weiteres Teammitglied von seinen Handkarten dem Pitch hinzufügen darf. Er wählt seinen Skill-Level-2 Entwickler, so dass er im Kräfteverhältnis vorne liegt. Doch auch Spieler C legt eine Event-Karte, welche ihm die Verwendung eines zusätzlichen Würfels ermöglicht.
                 Spieler A will dies unbedingt verhindern und spielt eine weitere Event-Karte mit dem Zauberstab-Symbol aus. Dadurch hebt er den Effekt der letzten Event-Karte von Spieler C auf. Dieser darf also weiterhin nur mit 4 Würfeln pitchen.
                 Spieler C könnte nun seinerseits wieder eine Event-Karte spielen, hat jedoch keine geeignete und passt daher. Spieler A könnte noch weitere Event-Karten legen, passt aber ebenfalls.
               </p>
@@ -73,20 +73,20 @@ export const TroubleshootingTab = () => {
             <div className="border-b pb-4">
               <h4 className="font-semibold mb-2">Incentives einsetzen</h4>
               <p className="text-gray-600">
-                Jeder Spieler kann seine unverbrauchten Incentive-Karten einsetzen, um sein Würfelergebnis zu verbessern. Es dürfen reihum beliebig viele Incentive-Karten gelegt werden.
+                Jeder Spieler (ausgehend vom Startspieler) kann seine unverbrauchten Incentive-Karten einsetzen, um sein Würfelergebnis zu verbessern. Es dürfen reihum beliebig viele Incentive-Karten genutzt werden. Diese sind jedoch danach bis zum Ende des Sprints verbraucht.
               </p>
               <p className="text-gray-600 mt-4 bg-gray-50 p-4 rounded">
-                <strong>Beispiel:</strong> Ein Spieler würfelt mit 3 Würfeln seiner Teamkarte und erzielt 3+4+6 = 13 Punkte. Ein Mitspieler würfelt ebenfalls 13 Punkte. Nun setzt der Spieler sein Incentive "freie Massagen" ein, das ihm zusätzlich für diesen Pitch 3 Punkte einbringt und er gewinnt. Für den Rest des Sprints ist das Incentive nicht merh nutzbar.
+                <strong>Beispiel:</strong> Beide Spieler haben 13 Punkte gewürfelt. Nun muss Spieler A als erster entscheiden, ob er sein ungenutztes Incentive "freie Massagen" einsetzt, welches ihm für diesen Pitch +3 Punkte einbringt.
               </p>
             </div>
 
             <div className="border-b pb-4">
               <h4 className="font-semibold mb-2">Gewinner ermitteln</h4>
               <p className="text-gray-600">
-                Auf das jeweilige Würfelergebnis werden Bonuspunkte aus Incentive- und Event-Karten angewendet. <strong>Der Spieler mit der höchsten Gesamtaugenzahl gewinnt die Karte</strong>, sofern deren Mindestwert erreicht wurde. Bei Gleichstand wird neu gewürfelt (Ereignis- und Incentive-Effekte bleiben erhalten).
+                Auf das jeweilige Würfelergebnis werden Bonuspunkte aus Incentive- und Event-Karten-Effekte angewendet. <strong>Der Spieler mit der höchsten Gesamtaugenzahl gewinnt die Karte</strong>, sofern deren Mindestwert erreicht wurde. Bei Gleichstand wird neu gewürfelt (Ereignis- und Incentive-Effekte bleiben erhalten). Wurde der Mindestwert nicht erreicht, kommt die Pitch-Karte auf den Ablagestapel. 
               </p>
               <p className="text-gray-600 mt-4 bg-gray-50 p-4 rounded">
-               <strong>Beispiel:</strong> Nun wird gewürfelt. Spieler A erzielt mit seinen 5 Würfeln ein Ergebnis von 18 und addiert den Wert seiner Incentive-Karte von 2 = 20 Gesamtpunkte. Spieler C erwürfelt nur eine 10 und addiert ebenfalls zwei Incentive-Bonuspunkte = 12 Gesamtpunkte. Spieler A hat somit diesen Pitch gewonnen und erhält die neue Feature-Karte.
+               <strong>Beispiel:</strong> Nun wird gewürfelt. Spieler A erzielt mit seinen 5 Würfeln ein Ergebnis von 15. Spieler C erwürfelt eine 17. Spieler A muss als erster entscheiden, ob er sein ungenutztes Incentive "freie Massagen" einsetzt, welches ihm für diesen Pitch +3 Punkte einbringt. Da Spieler C leider keine Incentive-Karte mehr hat, nutzt Spieler A seine Incentive-Karte und hat mit 18 Punkten diesen Pitch gewonnen.
               </p>
             </div>
 
@@ -97,7 +97,7 @@ export const TroubleshootingTab = () => {
                 Außerdem legt jeder Spieler seine eingesetzten Teamkarten verdeckt vor sich ab. Der Gewinner legt die neu gewonnene Karte ebenfalls dazu. Alle abgelegten oder gewonnenen Karten bleiben bis zum Sprint-Ende verdeckt liegen und können erst im nächsten Sprint, nicht aber in den direkt folgenden Pitch-Runden verwendet werden.
               </p>
               <p className="text-gray-600 mt-4 bg-gray-50 p-4 rounded">
-                <strong>Beispiel:</strong> Spieler A welche er zusammen mit seinen eingesetzten Teamkarten bis zum Sprint-Ende verdeckt vor sich ablegt. Diese Karten sind für weitere Pitch-Runden verbraucht und können vorerst nicht mehr eingesetzt werden.
+                <strong>Beispiel:</strong> Spieler A erhält die Feature-Karte, welche er zusammen mit seinen eingesetzten Teamkarten bis zum Sprint-Ende verdeckt vor sich ablegt. Diese Karten sind für weitere Pitch-Runden verbraucht und können vorerst nicht mehr eingesetzt werden.
                 Dies gilt auch für die Teamkarten von Spieler C, obwohl er die Pitch-Karte nicht gewonnen hat. Alle gespielten Event-Karten kommen auf den Ablagestapel.
               </p>
             </div>
@@ -105,7 +105,7 @@ export const TroubleshootingTab = () => {
             <div className="border-b pb-4">
               <h4 className="font-semibold mb-2">Startspieler wechseln</h4>
               <p className="text-gray-600">
-                Nach jeder Pitch-Runde wechselt der Startspieler im Uhrzeigersinn und eine neue Karte vom Nachziehstapel wird aufgedeckt. Es folgt der nächste Pitch nach obigem Ablauf mit den übrigen Handkarten.
+                Nach jeder Pitch-Runde wechselt der Startspieler im Uhrzeigersinn, die nächste Pitch-Karte wird in die Tischmitte verschoben und die nächste, bislang verdeckte Karte im Sprint-Backlog wird aufgedeckt. Es folgt der nächste Pitch nach obigem Ablauf mit den übrigen Handkarten.
               </p>
             </div>
           </div>
@@ -114,7 +114,7 @@ export const TroubleshootingTab = () => {
         <section>
           <h3 className="text-xl font-semibold mb-4">Ende des Spiels</h3>
           <p className="text-gray-600">
-            Das Spiel endet, sobald ein Spieler blaue Feature-Karten im Gesamtwert der vereinbarten Siegpunkte (oder mehr) besitzt und damit gewonnen hat.
+            Das Spiel endet, sobald ein Spieler am Sprint-Ende blaue Feature-Siegpunkkarten im Gesamtwert der vereinbarten Siegpunkte (oder mehr) besitzt und damit gewonnen hat.
           </p>
         </section>
       </div>
