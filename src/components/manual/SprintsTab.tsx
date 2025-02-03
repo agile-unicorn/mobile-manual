@@ -21,15 +21,15 @@ export const SprintsTab = () => {
           <div>
             <h4 className="font-semibold mb-2">Sprint-Start</h4>
             <p className="text-gray-600">
-              Alle Spieler verfügen über ihr komplettes Team sowie mindestens zwei Eventkarten. Der Inhalt des Sprints wird festgelegt, in dem ein Nachzielstapel aus fünf zufälligen Karten gebildet wird (Features, Incentives, Teamkarten). Die erste Karte wird offen
-              in die Tischmitte gelegt, die nächste als Vorschau offen neben die verbleidenden Karten (die noch verdeckt sind) ausgelegt. Es folgen dann mehrere Pitches auf die Karten des Sprints (siehe unten).
+              Alle Spieler verfügen über ihr komplettes Team sowie mindestens zwei Event-Karten. Der Inhalt des Sprints wird festgelegt, indem ein Sprint-Backlog aus 5 zufälligen Karten vom Nachziehstapel ausgelegt wird (Features, Incentives, Teamkarten). Die erste Karte wird offen
+              in die Tischmitte gelegt, die Nächste als Vorschau offen neben die verbleidenden Karten (die noch verdeckt sind). Es folgen dann 5 Pitch-Runden auf die Karten des Sprint-Backlogs.
             </p>
           </div>
 
           <div>
             <h4 className="font-semibold mb-2">Sprint-Ende</h4>
             <p className="text-gray-600">
-              Der Sprint ist beendet, sobald alle Spieler alle Teamkarten ausgespielt haben oder alle Spieler im Pitch gepasst haben. Besitzt nur noch ein Spieler ungenutzte Teamkarten auf der Hand, kann er einen dei restlichen Pitches auch alleine durchführen. 
+              Der Sprint ist beendet, sobald die letzte Pitch-Runde ausgespielt wurde. Er kann auch vorzeitig enden, falls bereits alle Spieler ihre Teamkarten eingesetzt oder alle Spieler gepasst haben. Besitzt nur noch ein Spieler ungenutzte Teamkarten auf der Hand, kann er die restlichen Pitches auch alleine durchführen. 
               Sollte er jedoch passen, ist der Sprint beendet.
             </p>
           </div>
@@ -37,7 +37,7 @@ export const SprintsTab = () => {
           <div>
             <h4 className="font-semibold mb-2">Neuer Sprint</h4>
             <p className="text-gray-600">
-              Sämtliche Teamkarten werden wieder aufgenommen, gewonnene Feature- und Incentive-Karten werden offen ausgelegt. Jeder Spieler zieht zwei neue Event-Karten, ungenutzte bleiben auf der Hand und der nächste Startspieler beginnt den neuen Sprint (siehe Punkt 1).
+              Sämtliche Teamkarten werden wieder aufgenommen sowie neue und eingesetzte Incentive-Karten offen ausgelegt. Jeder Spieler zieht zwei neue Event-Karten, ungenutzte bleiben auf der Hand und der nächste Startspieler beginnt den neuen Sprint (siehe oben).
             </p>
           </div>
         </div>
