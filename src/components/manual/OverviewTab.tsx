@@ -16,10 +16,10 @@ export const OverviewTab = () => {
                 className="float-right ml-4 mb-4 w-64 h-auto"
               />
               <p className="text-gray-600">
-                Du bist CEO eines IT-Startups und versuchst schneller als die Konkurrenz die meisten Siegpunkte zu bekommen. Um deine Mitspieler auszustechen, muss es gelingen, das Potenzial deines Entwicklerteams im Duell um neue Features und die besten Köpfe optimal einzusetzen. Doch leider läuft selten alles so wie geplant, denn auch die anderen Spieler werden zu allen Mitteln greifen, um die besten Features für sich zu gewinnen. <br/>
+                Überlebe mit deinem Startup das IT-Chaos und gewinne als Erster die meisten Siegpunkte. Um deine Mitspieler auszustechen, muss es gelingen, das Potenzial deines Entwicklerteams im Duell um neue Features und die besten Köpfe optimal einzusetzen. Doch leider läuft selten alles so wie geplant, denn auch die anderen Spieler werden zu allen Mitteln greifen, um die besten Features für sich zu gewinnen. <br/>
               </p>
               <p className="text-gray-600 bg-gray-50 p-4 rounded">
-                 Kurz: Auf die Karten, die die Siegpunkte bringen, werden verdeckt Teammitglieder angesetzt. Die Teammitglieder haben unterschiedliche Stärke (Würfel). Vor und nach dem Würfeln können noch Effekte angewendet werden. Das Team mit dem höchsten Würfelergebnis bekommt die Siegpunkte.
+                 Kurz: Auf die Karten, die die Siegpunkte bringen, werden verdeckt Teammitglieder angesetzt. Die Teammitglieder haben unterschiedliche Stärke (Würfel). Vor und nach dem Würfeln können noch Effekte ausgespielt werden, um sich selbst einen Vorteil zu verschaffen. Das Team mit dem höchsten Würfelergebnis bekommt die Feature-Siegpunktkarte.
               </p>
               <p className="text-gray-600 mt-4 font-bold">
                 Sieger ist, wer zuerst die vereinbarte Anzahl an Siegpunkten erreicht hat.
@@ -73,13 +73,13 @@ export const OverviewTab = () => {
             className="float-right ml-2 mb-2 w-1/3 h-auto"
           />
           <p>
-          Die Attraktivität deines Startups wird durch Annehmlichkeiten gesteigert, mit denen die Teammitglieder zu Höchstleistungen motiviert werden sollen.<br/>Sie können einmal pro Sprint nach dem Würfeln eingesetzt werden, um das Würfelergebnis zu verbessern. Incentive-Karten werden nach Erhalt immer offen ausgelegt und nach der Nutzung bis zum Sprintende umgedreht.
+          Die Attraktivität deines Startups wird durch Annehmlichkeiten gesteigert, mit denen die Teammitglieder zu Höchstleistungen motiviert werden sollen.<br/>Jede Karte kann 1x pro Sprint nach dem Würfeln eingesetzt werden, um das Würfelergebnis zu verbessern, beginnend beim Startspieler. Incentive-Karten werden nach Erhalt immer offen ausgelegt und nach der Nutzung bis zum Sprintende umgedreht.
           </p>
         </ManualCard>
         
         <ManualCard
-          title="Ereignisse"
-          description="Ereigniskarten haben einen einmaligen Effekt vor dem Würfeln und können nur von Spielern gegen andere Spieler ausgespielt werden."
+          title="Events"
+          description="Event-Karten haben einen einmaligen Effekt vor dem Würfeln und können nur von Spielern gegen andere Spieler eingesetzt werden."
         >
           <img 
             src="/lovable-uploads/6099a104-34b4-4501-bee6-c3dad95a8784.png"
@@ -88,7 +88,7 @@ export const OverviewTab = () => {
           />
           Es gibt kein Limit von Event-Karten auf der Hand und sie können über mehrere Runden gesammelt werden. Nach dem Ausspielen sind sie verbraucht und werden auf einem Stapel abgelegt. 
 
-          Wer passt, kann keine Ereignisse einsetzen. Jede Karte kann gegen jeden Spieler im Pitch (die nicht gepasst haben) gespielt werden, inklusive sich selbst. Sie können nicht gegen die Pitch-Karte (s.u.)  in der Tischmitte gespielt werden, um diese zu verändern.
+          Wer passt, kann keine Event-Karten einsetzen. Jede Karte kann gegen jeden Spieler im Pitch (die nicht gepasst haben) gespielt werden, inklusive sich selbst. Sie können nicht gegen die Pitch-Karte in der Tischmitte gespielt werden, um diese zu verändern.
         </ManualCard>
       </div>
 
@@ -118,7 +118,7 @@ export const OverviewTab = () => {
             alt="Aussetzen symbol"
             className="float-left mr-2 w-1/3 h-auto"
           />
-          Der Spieler muss alle gelegten Teamkarten sofort wieder auf die Hand nehmen. Die Teamkarten können im Pitch weiter verwendet werden, gespielte Event-Karten sind aber verloren.
+          Der Spieler muss alle gelegten Teamkarten sofort wieder auf die Hand nehmen. Die Teamkarten können im nächsten Pitch weiter verwendet werden. Gespielte Event-Karten sind aber verloren.
         </ManualCard>
 
         <ManualCard
@@ -169,7 +169,7 @@ export const OverviewTab = () => {
             alt="Teammitglied entfernen Symbol"
             className="float-left mr-2 w-1/3 h-auto"
           />
-          Bei Minus  muss eine Teamkarte nach Wahl des Spielers, der die Karte ausspielt, entfernt werden. Diese Teamkarte ist verloren und darf erst wieder im nächsten Sprint auf die Hand genommen werden.
+          Bei Minus muss eine Teamkarte nach Wahl des Spielers, auf den die Karte gespielt wird, entfernt werden. Diese Teamkarte ist verloren und darf erst wieder im nächsten Sprint auf die Hand genommen werden.
         </ManualCard>
       </div>
 
