@@ -13,7 +13,7 @@ export const OverviewTab = () => {
             <img 
                 src="/lovable-uploads/74cf2d65-fe10-4f21-af77-58e52824a08c.png" 
                 alt="Lumberjack character" 
-                className="float-right ml-4 mb-4 w-64 h-auto md:block"
+                className="float-right ml-4 mb-4 w-64 h-auto hidden"
               />
               <p className="text-gray-600">
                 <strong>Überlebe mit deinem Startup das IT-Chaos und gewinne als Erster die meisten Siegpunkte.</strong>
