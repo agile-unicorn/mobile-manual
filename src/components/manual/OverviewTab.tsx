@@ -10,13 +10,16 @@ export const OverviewTab = () => {
           <h2 className="text-2xl font-semibold mb-4">Spielziel</h2>
           <div className="flex flex-col md:flex-row items-start gap-6">
             <div className="flex-1">
+            <p className="text-gray-600">
+                Überlebe mit deinem Startup das IT-Chaos und gewinne als Erster die meisten Siegpunkte.
+              </p>
               <img 
                 src="/lovable-uploads/74cf2d65-fe10-4f21-af77-58e52824a08c.png" 
                 alt="Lumberjack character" 
-                className="float-right ml-4 mb-4 w-64 h-auto break-before-column md:break-before-auto"
+                className="float-right ml-4 mb-4 w-64 h-auto sm:break-before-auto"
               />
               <p className="text-gray-600">
-                Überlebe mit deinem Startup das IT-Chaos und gewinne als Erster die meisten Siegpunkte. Um deine Mitspieler auszustechen, muss es gelingen, das Potenzial deines Entwicklerteams im Duell um neue Features und die besten Köpfe optimal einzusetzen. Doch leider läuft selten alles so wie geplant, denn auch die anderen Spieler werden zu allen Mitteln greifen, um die besten Features für sich zu gewinnen. <br/>
+                Um deine Mitspieler auszustechen, muss es gelingen, das Potenzial deines Entwicklerteams im Duell um neue Features und die besten Köpfe optimal einzusetzen. Doch leider läuft selten alles so wie geplant, denn auch die anderen Spieler werden zu allen Mitteln greifen, um die besten Features für sich zu gewinnen.
               </p>
               <p className="text-gray-600 bg-gray-50 p-4 rounded">
                  Kurz: Auf die Karten, die die Siegpunkte bringen, werden verdeckt Teammitglieder angesetzt. Die Teammitglieder haben unterschiedliche Stärke (Würfel). Vor und nach dem Würfeln können noch Effekte ausgespielt werden, um sich selbst einen Vorteil zu verschaffen. Das Team mit dem höchsten Würfelergebnis bekommt die Feature-Siegpunktkarte.
