@@ -11,12 +11,12 @@ export const OverviewTab = () => {
           <div className="flex flex-col md:flex-row items-start gap-6">
             <div className="flex-1">
             <p className="text-gray-600">
-                Überlebe mit deinem Startup das IT-Chaos und gewinne als Erster die meisten Siegpunkte.
+                <strong>Überlebe mit deinem Startup das IT-Chaos und gewinne als Erster die meisten Siegpunkte.</strong>
               </p>
               <img 
                 src="/lovable-uploads/74cf2d65-fe10-4f21-af77-58e52824a08c.png" 
                 alt="Lumberjack character" 
-                className="float-right ml-4 mb-4 w-64 h-auto sm:break-before-auto"
+                className="float-right ml-4 mb-4 w-64 h-auto sm:block"
               />
               <p className="text-gray-600">
                 Um deine Mitspieler auszustechen, muss es gelingen, das Potenzial deines Entwicklerteams im Duell um neue Features und die besten Köpfe optimal einzusetzen. Doch leider läuft selten alles so wie geplant, denn auch die anderen Spieler werden zu allen Mitteln greifen, um die besten Features für sich zu gewinnen.
