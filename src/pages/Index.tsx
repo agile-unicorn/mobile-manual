@@ -48,9 +48,8 @@ const Index = () => {
             </div>
           </Tabs>
         </div>
-      </main>
 
-      <footer className="bg-primary mt-16 py-12 px-4" style={{
+        <div className="bg-primary mt-16 py-12 px-4" style={{
         backgroundImage: "url('/lovable-uploads/10d2eedc-6b34-4a11-a5d2-8960767b4d4e.png')",
         backgroundSize: "cover",
         backgroundPosition: "center"
@@ -83,7 +82,10 @@ const Index = () => {
             </button>
           </nav>
         </div>
-      </footer>
+      </div>
+      </main>
+
+      
     </div>
   );
 };
