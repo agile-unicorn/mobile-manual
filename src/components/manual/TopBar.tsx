@@ -27,7 +27,7 @@ export const TopBar = () => {
           </a>
         </div>
         <div className="flex items-center gap-2">
-          <span className="text-white">Würfelsimulator</span>
+          <span className="text-white">Würfelsimulator &rarr;</span>
           <DiceRoller />
         </div>
       </div>
