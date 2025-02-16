@@ -1,3 +1,4 @@
+
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { ManualHeader } from "@/components/manual/Header";
 import { OverviewTab } from "@/components/manual/OverviewTab";
@@ -7,7 +8,7 @@ import { TroubleshootingTab } from "@/components/manual/TroubleshootingTab";
 
 const Index = () => {
   return (
-    <div className="min-h-screen w-full bg-accent pb-16">
+    <div className="min-h-screen w-full bg-accent">
       <main className="flex-1">
         <div className="max-w-6xl mx-auto">
           <ManualHeader />
@@ -40,6 +41,25 @@ const Index = () => {
           </Tabs>
         </div>
       </main>
+
+      <footer className="bg-primary mt-16 py-12">
+        <div className="max-w-6xl mx-auto">
+          <nav className="flex justify-center space-x-8">
+            <a href="#overview" className="text-white hover:text-accent transition-colors">
+              Start
+            </a>
+            <a href="#getting-started" className="text-white hover:text-accent transition-colors">
+              Spielaufbau
+            </a>
+            <a href="#sprint" className="text-white hover:text-accent transition-colors">
+              Der Sprint
+            </a>
+            <a href="#troubleshooting" className="text-white hover:text-accent transition-colors">
+              Die Pitches
+            </a>
+          </nav>
+        </div>
+      </footer>
     </div>
   );
 };
