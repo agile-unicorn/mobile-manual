@@ -12,6 +12,7 @@ const Index = () => {
 
   const handleTabChange = (value: string) => {
     setActiveTab(value);
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
   return (
