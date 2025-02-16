@@ -1,3 +1,4 @@
+
 import React from "react";
 import { DiceRoller } from "@/components/DiceRoller";
 
@@ -25,7 +26,8 @@ export const TopBar = () => {
             />
           </a>
         </div>
-        <div className="flex items-center gap-4">
+        <div className="flex items-center gap-2">
+          <span className="text-white">Würfelsimulator</span>
           <DiceRoller />
         </div>
       </div>
