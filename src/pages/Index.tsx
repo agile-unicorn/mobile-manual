@@ -50,7 +50,7 @@ const Index = () => {
         </div>
       </main>
 
-      <footer className="bg-primary mt-16 py-12">
+      <footer className="bg-primary mt-16 py-12 px-4">
         <div className="max-w-6xl mx-auto">
           <nav className="flex justify-center space-x-8">
             <button 
