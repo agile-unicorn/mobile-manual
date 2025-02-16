@@ -50,7 +50,11 @@ const Index = () => {
         </div>
       </main>
 
-      <footer className="bg-primary mt-16 py-12 px-4">
+      <footer className="bg-primary mt-16 py-12 px-4" style={{
+        backgroundImage: "url('/lovable-uploads/10d2eedc-6b34-4a11-a5d2-8960767b4d4e.png')",
+        backgroundSize: "cover",
+        backgroundPosition: "center"
+      }}>
         <div className="max-w-6xl mx-auto">
           <nav className="flex justify-center space-x-8">
             <button 
