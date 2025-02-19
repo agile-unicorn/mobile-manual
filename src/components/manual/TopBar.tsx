@@ -17,7 +17,7 @@ export const TopBar = () => {
           <a 
             href="https://agile-unicorn.com/" 
             target="_blank" 
-            rel="noopener noreferrer"
+            rel="noopener"
           >
             <img 
               src="/lovable-uploads/8d2cc797-794a-470b-b202-0f321f2beaa5.png" 
