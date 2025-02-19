@@ -10,7 +10,7 @@ export const SprintsTab = () => {
       />
       
       <p className="text-gray-600 mb-6">
-        Das Spiel läuft über mehrere Sprint-Runden. Während eines Sprints versuchen die Spieler durch Ausspielen ihrer Team- und Event-Karten die Mitspieler in mehreren Duellen (Pitch) zu übertreffen, 
+        Das Spiel läuft über mehrere Sprints (Runden). Während eines Sprints versuchen die Spieler durch Ausspielen ihrer Team- und Event-Karten die Mitspieler in mehreren Duellen (Pitch, Spielzug) zu übertreffen, 
         um möglichst wertvolle neue Karten für das eigene Startup zu gewinnen.
       </p>
 
