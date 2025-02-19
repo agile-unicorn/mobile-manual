@@ -30,7 +30,7 @@ export const GettingStartedTab = () => {
             <li>eine grüne Incentive-Karte mit dem Wert 2 (offen vor sich ausgelegt)</li>
           </ul>
           <p className="text-gray-600 mt-2">Alle übrigen CTOs und Noobs werden aussortiert und in die Box zurückgelegt.</p>
-          <p className="text-gray-600 mt-2">Erfahrene Spieler können direkt mit Eventkarten starten: jeder Spieler erhält 2 Event-Karten und hält diese verdeckt</p>
+          <p className="text-gray-600 mt-2">Erfahrene Spieler können direkt mit Event-Karten starten: jeder Spieler erhält 2 Event-Karten und hält diese verdeckt</p>
         </section>
 
         <section>

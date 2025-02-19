@@ -1,3 +1,4 @@
+
 import React from "react";
 import { DiceRoller } from "@/components/DiceRoller";
 
@@ -16,7 +17,7 @@ export const TopBar = () => {
           <a 
             href="https://agile-unicorn.com/" 
             target="_blank" 
-            rel="noopener noreferrer"
+            rel="noopener"
           >
             <img 
               src="/lovable-uploads/8d2cc797-794a-470b-b202-0f321f2beaa5.png" 
@@ -25,7 +26,8 @@ export const TopBar = () => {
             />
           </a>
         </div>
-        <div className="flex items-center gap-4">
+        <div className="flex items-center gap-2">
+          <span className="text-white">Würfelsimulator &rarr;</span>
           <DiceRoller />
         </div>
       </div>
