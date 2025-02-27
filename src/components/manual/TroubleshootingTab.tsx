@@ -20,7 +20,7 @@ export const TroubleshootingTab = () => {
             <div className="border-b pb-4">
               <h4 className="font-semibold mb-2">Pitch starten</h4>
               <p className="text-gray-600">
-                Die erste Karte des Sprint-Backlogs wird in die Tischmitte gelegt. Sie ist die Karte, um die gekämpft (gepitched) wird. Um sie zu gewinnen, müssen die Spieler ihren Wert erreichen oder übertreffen.
+                Die erste Karte des Sprint-Backlogs wird in die Tischmitte gelegt. Sie ist die Karte, um die gekämpft (gepitcht) wird. Um sie zu gewinnen, müssen die Spieler ihren Wert erreichen oder übertreffen.
               </p>
               <ul className="list-disc list-inside ml-4 mt-2 text-gray-600">
                 <li>Bei einer Story-Karte sind es die abgebildeten Siegpunkte.</li>
@@ -37,14 +37,14 @@ export const TroubleshootingTab = () => {
               <p className="text-gray-600 mt-4 bg-gray-100 p-4 rounded">
                 <strong>Beispiel:</strong> Die nächste Karte im Sprint-Backlog ist eine blaue Story-Karte mit dem Wert 13, was bedeutet, dass man 13 Würfelpunkte erreichen muss. Die Spieler überlegen nun reihum, ob sie auf diese Karte bieten (pitchen) oder passen.
                 Spieler A legt seinen CTO (Stärke 3 Würfel) verdeckt in die Tischmitte. Spieler B will sein Team für spätere Pitch-Runden zusammenhalten und passt daher. Spieler C will Spieler A die Story-Karte nicht kampflos überlassen und steigt daher ebenfalls ein,
-                indem er verdeckt zwei Teamkarten legt (mit Level-3 und 1 Würfel).
+                indem er verdeckt zwei Teamkarten legt (mit Stärke 3 und 1 Würfel).
               </p>
             </div>
 
             <div className="border-b pb-4">
               <h4 className="font-semibold mb-2">Teamkarten aufdecken</h4>
               <p className="text-gray-600">
-                Sobald jeder Spieler entschieden hat, ob er passt oder pitched, werden die ausgelegten Teamkarten aller Spieler aufgedeckt.
+                Sobald jeder Spieler entschieden hat, ob er passt oder pitcht, werden die ausgelegten Teamkarten aller Spieler aufgedeckt.
               </p>
               <p className="text-gray-600 mt-4 bg-gray-100 p-4 rounded">
                <strong>Beispiel:</strong> Spieler A stehen 3 Würfel zur Verfügung, da er seinen CTO eingesetzt hat. Spieler C stehen nun 4 Würfel zur Verfügung, da er zwei Karten entsprechender Stärke eingesetzt hat.
@@ -59,7 +59,7 @@ export const TroubleshootingTab = () => {
               </p>
               <p className="text-gray-600 mt-4 bg-gray-100 p-4 rounded">
                <strong>Beispiel:</strong> Um seine Chancen zu verbessern (immerhin hat Spieler C 4 Würfel), entschließt sich Spieler A dazu, eine Event-Karte von seiner Hand auszuspielen. Er legt "Schnellscrum", wodurch er ein weiteres Teammitglied von seinen Handkarten dem Pitch hinzufügen darf.
-                Er wählt seinen Level 2 Entwickler , so dass er im Kräfteverhältnis vorne liegt. Doch auch Spieler C legt eine Event-Karte, welche ihm die Verwendung eines zusätzlichen Würfels ermöglicht.
+                Er wählt seinen Stärke 2 Entwickler , so dass er im Kräfteverhältnis vorne liegt. Doch auch Spieler C legt eine Event-Karte, welche ihm die Verwendung eines zusätzlichen Würfels ermöglicht.
                 Spieler A will dies unbedingt verhindern und spielt eine weitere Event-Karte mit dem Zauberstab-Symbol aus. Dadurch hebt er den Effekt der letzten Event-Karte von Spieler C auf. Dieser darf also weiterhin nur mit 4 Würfeln pitchen.
                 Spieler C könnte nun seinerseits wieder eine Event-Karte spielen, hat jedoch keine geeignete und passt daher. Spieler A könnte noch weitere Event-Karten legen, passt aber ebenfalls.
               </p>
@@ -68,7 +68,7 @@ export const TroubleshootingTab = () => {
             <div className="border-b pb-4">
               <h4 className="font-semibold mb-2">Würfeln</h4>
               <p className="text-gray-600">
-                Jeder Spieler würfelt mit einer Anzahl an Würfeln gemäß dem aufsummierten Level seiner Teamkarten (z.B. CTO 3 Würfel + Noob 1 Würfel = 4 Würfel).
+                Jeder Spieler würfelt mit einer Anzahl an Würfeln gemäß dem aufsummierten Stärke seiner Teamkarten (z.B. CTO 3 Würfel + Noob 1 Würfel = 4 Würfel).
               </p>
             </div>
 

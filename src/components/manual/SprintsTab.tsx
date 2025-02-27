@@ -22,7 +22,7 @@ export const SprintsTab = () => {
                         <h4 className="font-semibold mb-2">Sprint-Start</h4>
                         <p className="text-gray-600 mb-2">
                             Alle Spieler verfügen über ihr komplettes Team auf der Hand sowie ihren nutzbaren
-                            Incentive-Karten vor sich auf dem Tisch. Falls mit Event-Karten, gespielt wird, sind diese
+                            Incentive-Karten vor sich auf dem Tisch. Falls mit Event-Karten gespielt wird, sind diese
                             ebenfalls auf der hand.
                         </p>
                         <p>
@@ -45,7 +45,10 @@ export const SprintsTab = () => {
                     </div>
 
                     <div>
-                        <h4 className="font-semibold mb-2">Neuer Sprint</h4>
+                        <h4 className="font-semibold mb-2">Retro und neuer Sprint</h4>
+                        <p className="text-gray-600">
+                            Jeder Spieler kontrolliert, dass das Team aus maximal 5 Mitgliedern besteht. Überzählige Teamkarten werden unter den Nachziehstapel geschoben.
+                        </p>
                         <p className="text-gray-600">
                             Sämtliche Teamkarten werden wieder aufgenommen sowie neue und eingesetzte Incentive-Karten
                             offen ausgelegt. Jeder Spieler zieht zwei neue Event-Karten, ungenutzte bleiben auf der

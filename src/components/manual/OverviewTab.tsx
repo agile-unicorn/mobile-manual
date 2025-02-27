@@ -54,7 +54,7 @@ export const OverviewTab = () => {
           </ManualCard>
         <ManualCard
           title="Teammitglieder"
-          description="Nur mit Teammitgliedern kannst du Karten gewinnen. Ihre Stärke wird oben links durch Würfel und eventuelle einen Bonus oder Malus angezeigt."
+          description="Nur mit Teammitgliedern kannst du Karten gewinnen. Ihre Stärke wird oben links durch Würfel und eventuell einen Bonus oder Malus angezeigt."
           className="relative"
         >
           <img 
@@ -63,8 +63,8 @@ export const OverviewTab = () => {
             className="float-right ml-2 mb-2 w-1/3 h-auto"
           />
 
-          <p>Dein Team darf maximal aus 5 Mitgliedern bestehen. Wenn ein 6. Mitglied gewonnen wird, muss der Spieler ein anderes Mitglied seiner Wahl feuern und unter den Kartenstapel legen.</p>
-          <p>Die Teammitglieder bleiben auf der Hand und bis sie eingesetzt werden (1x pro Sprint).  </p>
+          <p>Dein Team darf maximal aus 5 Mitgliedern bestehen. Wenn ein 6. Mitglied gewonnen wird, muss der Spieler ein anderes Mitglied seiner Wahl entlassen und unter den Nachziehkartenstapel legen.</p>
+          <p>Die Teammitglieder bleiben auf der Hand bis sie eingesetzt werden (1x pro Sprint).</p>
         </ManualCard>
 
         <ManualCard
@@ -92,7 +92,7 @@ export const OverviewTab = () => {
             alt="Serverausfall Ereigniskarte"
             className="float-right ml-2 mb-2 w-1/3 h-auto"
           />
-          Es gibt kein Limit von Event-Karten auf der Hand und sie können über mehrere Runden gesammelt werden. Nach dem Ausspielen sind sie verbraucht und werden auf einem Stapel abgelegt. 
+          Es gibt kein Limit von Event-Karten auf der Hand und sie können über mehrere Runden gesammelt werden. Nach dem Ausspielen sind sie verbraucht und werden unter den Stapel der Event-Karten gelegt.
 
           Wer passt, kann keine Event-Karten einsetzen. Jede Karte kann gegen jeden Spieler im Pitch (die nicht gepasst haben) gespielt werden, inklusive sich selbst. Sie können nicht gegen die Pitch-Karte in der Tischmitte gespielt werden, um diese zu verändern.
         </ManualCard>
