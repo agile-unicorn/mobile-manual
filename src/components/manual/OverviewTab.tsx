@@ -20,10 +20,10 @@ export const OverviewTab = () => {
               </p>
               
               <p className="text-gray-600">
-                Um deine Mitspieler auszustechen, muss es gelingen, das Potenzial deines Entwicklerteams im Duell um neue Features und die besten Köpfe optimal einzusetzen. Doch leider läuft selten alles so wie geplant, denn auch die anderen Spieler werden zu allen Mitteln greifen, um die besten Features für sich zu gewinnen.
+                Um deine Mitspieler auszustechen, muss es gelingen, das Potenzial deines Entwicklerteams im Duell um neue Storys und die besten Köpfe optimal einzusetzen. Doch leider läuft selten alles so wie geplant, denn auch die anderen Spieler werden zu allen Mitteln greifen, um die besten Storys für sich zu gewinnen.
               </p>
-              <p className="text-gray-600 bg-gray-50 p-4 rounded">
-                 Kurz: Auf die Karten, die die Siegpunkte bringen, werden verdeckt Teammitglieder angesetzt. Die Teammitglieder haben unterschiedliche Stärke (Würfel). Vor und nach dem Würfeln können noch Effekte ausgespielt werden, um sich selbst einen Vorteil zu verschaffen. Das Team mit dem höchsten Würfelergebnis bekommt die Feature-Siegpunktkarte.
+              <p className="text-gray-600 bg-gray-100 p-4 rounded">
+                 Kurz: Auf die Karten, die die Siegpunkte bringen, werden verdeckt Teammitglieder angesetzt. Die Teammitglieder haben unterschiedliche Stärke (Würfel). Vor und nach dem Würfeln können noch Effekte ausgespielt werden, um sich selbst einen Vorteil zu verschaffen. Das Team mit dem höchsten Würfelergebnis bekommt die Story-Siegpunktkarte.
               </p>
               <p className="text-gray-600 mt-4 font-bold">
                 Sieger ist, wer zuerst die vereinbarte Anzahl an Siegpunkten erreicht hat.
@@ -40,21 +40,21 @@ export const OverviewTab = () => {
         
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         <ManualCard
-          title="Features"
-          description="Features liefern 3 bis 20 Siegpunkte, die der Zahl oben links auf der Karte entsprechen."
+          title="Storys (Siegpunkte)"
+          description="Storys liefern 3 bis 20 Siegpunkte, die der Zahl oben links auf der Karte entsprechen."
           className="relative">
             <div className="relative">
               <img 
                 src="/lovable-uploads/940f3730-58d6-4602-bc18-31c9c7114d59.png"
-                alt="Feature card example"
+                alt="Story card example"
                 className="float-right ml-6 mb-2 w-1/3 h-auto"
               />
-               Ob ein Feature erfolgreich umgesetzt werden kann, wird durch Würfeln gegen den Wert bestimmt. Bei Erfolg erhält der Spieler mit dem höchsten Würfelergebnis die Feature-Karte und legt diese offen neben den anderen gewonnenen Feature-Karten vor sich aus.
+               Ob eine Story erfolgreich umgesetzt werden kann, wird durch Würfeln gegen den Wert bestimmt. Bei Erfolg erhält der Spieler mit dem höchsten Würfelergebnis die Story-Karte und legt diese offen neben den anderen gewonnenen Story-Karten vor sich aus.
             </div>
           </ManualCard>
         <ManualCard
           title="Teammitglieder"
-          description="Nur mit deinen Teammitgliedern kannst du die notwendigen Siegpunkte erringen, indem du sie auf Features ansetzt."
+          description="Nur mit Teammitgliedern kannst du Karten gewinnen. Ihre Stärke wird oben links durch Würfel und eventuelle einen Bonus oder Malus angezeigt."
           className="relative"
         >
           <img 
@@ -62,9 +62,9 @@ export const OverviewTab = () => {
             alt="Der Hammer card"
             className="float-right ml-2 mb-2 w-1/3 h-auto"
           />
-          <p>Die Teammitglieder bleiben nicht sichtbar für andere auf der Hand, bis sie eingesetzt werden. Die Stärke wird oben links durch eine Anzahl der Würfel und eventuelle Modifikatoren angezeigt.  Mit diesen Würfeln und den Modifikatoren (Bonus oder Malus)  kann um neue Feature-Karten gewürfelt werden. </p>
 
-          <p>Dein Team  darf maximal aus 5 Mitgliedern bestehen, um effektiv arbeiten zu können. Wenn ein 6. Mitglied gewonnen wird, muss der Spieler ein anderes Mitglied seiner Wahl feuern (unter den Kartenstapel legen).</p>
+          <p>Dein Team darf maximal aus 5 Mitgliedern bestehen. Wenn ein 6. Mitglied gewonnen wird, muss der Spieler ein anderes Mitglied seiner Wahl feuern und unter den Kartenstapel legen.</p>
+          <p>Die Teammitglieder bleiben auf der Hand und bis sie eingesetzt werden (1x pro Sprint).  </p>
         </ManualCard>
 
         <ManualCard
@@ -77,7 +77,9 @@ export const OverviewTab = () => {
             className="float-right ml-2 mb-2 w-1/3 h-auto"
           />
           <p>
-          Die Attraktivität deines Startups wird durch Annehmlichkeiten gesteigert, mit denen die Teammitglieder zu Höchstleistungen motiviert werden sollen.<br/>Jede Karte kann 1x pro Sprint nach dem Würfeln eingesetzt werden, um das Würfelergebnis zu verbessern, beginnend beim Startspieler. Incentive-Karten werden nach Erhalt immer offen ausgelegt und nach der Nutzung bis zum Sprintende umgedreht.
+          Die Attraktivität deines Startups wird durch Annehmlichkeiten gesteigert, mit denen die Teammitglieder zu Höchstleistungen motiviert werden sollen.<br/>
+            Jede Karte kann 1x pro Sprint nach dem Würfeln eingesetzt werden, um das Würfelergebnis zu verbessern, beginnend beim Startspieler.
+            Incentive-Karten werden nach Erhalt immer offen ausgelegt und nach der Nutzung bis zum Sprintende umgedreht.
           </p>
         </ManualCard>
         
