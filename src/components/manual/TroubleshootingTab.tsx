@@ -32,7 +32,7 @@ export const TroubleshootingTab = () => {
             <div className="border-b pb-4">
               <h4 className="font-semibold mb-2">Pitchen oder Passen</h4>
               <p className="text-gray-600">
-                Der Spieler mit dem lustigsten T-Shirt erhält die Startspieler-Karte (First Mover) und beginnt. Reihum kann jeder Spieler entweder passen oder mit seinen Teamkarten pitchen. Dazu werden eine oder mehrere Teamkarten von der Hand verdeckt ausgelegt.
+                Der Spieler mit dem lustigsten T-Shirt erhält die Startspieler-Karte (First Mover) und beginnt. Reihum kann jeder Spieler entweder passen, dann werden keine Karten ausgelegt, oder mit seinen Teamkarten pitchen. Dazu werden eine oder mehrere Teamkarten von der Hand verdeckt ausgelegt.
               </p>
               <p className="text-gray-600 mt-4 bg-gray-100 p-4 rounded">
                 <strong>Beispiel:</strong> Die nächste Karte im Sprint-Backlog ist eine blaue Story-Karte mit dem Wert 13, was bedeutet, dass man 13 Würfelpunkte erreichen muss. Die Spieler überlegen nun reihum, ob sie auf diese Karte bieten (pitchen) oder passen.
@@ -68,7 +68,7 @@ export const TroubleshootingTab = () => {
             <div className="border-b pb-4">
               <h4 className="font-semibold mb-2">Würfeln</h4>
               <p className="text-gray-600">
-                Jeder Spieler würfelt mit einer Anzahl an Würfeln gemäß dem aufsummierten Stärke seiner Teamkarten (z.B. CTO 3 Würfel + Noob 1 Würfel = 4 Würfel).
+                Jeder Spieler würfelt mit einer Anzahl an Würfeln entsprechend der aufsummierten Stärke seiner Teamkarten (z.B. CTO 3 Würfel + Noob 1 Würfel = 4 Würfel).
               </p>
             </div>
 
