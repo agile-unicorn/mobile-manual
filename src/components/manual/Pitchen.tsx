@@ -75,7 +75,8 @@ export const Pitchen = () => {
             <div className="border-b pb-4">
               <h4 className="font-semibold mb-2">Incentives einsetzen</h4>
               <p className="text-gray-600">
-                Jeder Spieler (ausgehend vom Startspieler) kann seine unverbrauchten Incentive-Karten einsetzen, um sein Würfelergebnis zu verbessern. Es dürfen reihum beliebig viele Incentive-Karten genutzt werden. Diese sind jedoch danach bis zum Ende des Sprints verbraucht.
+                Jeder Spieler (ausgehend vom Startspieler) kann seine unverbrauchten Incentive-Karten einsetzen, um sein Würfelergebnis zu verbessern.
+                Es dürfen reihum beliebig viele Incentive-Karten genutzt werden. Diese sind jedoch danach bis zum Ende des Sprints verbraucht.
               </p>
               <p className="text-gray-600 mt-4 bg-gray-100 p-4 rounded">
                 <strong>Beispiel:</strong> Beide Spieler haben 13 Punkte gewürfelt. Nun muss Spieler A als erster entscheiden, ob er sein ungenutztes Incentive "freie Massagen" einsetzt, welches ihm für diesen Pitch +3 Punkte einbringt.

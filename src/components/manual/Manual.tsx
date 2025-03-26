@@ -79,7 +79,7 @@ export const Manual = () => {
             <p>
               The appeal of your startup is increased by perks that are designed to motivate your team members to perform at their best.<br/>
               Each card can be used once per sprint after rolling to improve the dice result, starting with the start player.
-              Incentive cards are always laid out face up when received and turned face down after use until the end of the sprint.
+              Incentive cards are turned face down after use until the end of the sprint.
             </p>
           </ManualCard>
 

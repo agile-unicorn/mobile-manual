@@ -79,7 +79,7 @@ export const Anleitung = () => {
           <p>
           Die Attraktivität deines Startups wird durch Annehmlichkeiten gesteigert, mit denen die Teammitglieder zu Höchstleistungen motiviert werden sollen.<br/>
             Jede Karte kann 1x pro Sprint nach dem Würfeln eingesetzt werden, um das Würfelergebnis zu verbessern, beginnend beim Startspieler.
-            Incentive-Karten werden nach Erhalt immer offen ausgelegt und nach der Nutzung bis zum Sprintende umgedreht.
+            Incentive-Karten nach der Nutzung bis zum Sprintende umgedreht abgelegt.
           </p>
         </ManualCard>
         
