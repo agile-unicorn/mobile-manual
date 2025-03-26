@@ -1,14 +1,19 @@
 
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { ManualHeader } from "@/components/manual/Header";
-import { OverviewTab } from "@/components/manual/OverviewTab";
-import { GettingStartedTab } from "@/components/manual/GettingStartedTab";
+import { Anleitung } from "@/components/manual/Anleitung.tsx";
+import { Manual } from "@/components/manual/Manual.tsx";
+import { SpielaufbauTab } from "@/components/manual/SpielaufbauTab.tsx";
+import { GettingStartedTab } from "@/components/manual/GettingStartedTab.tsx";
 import { SprintsTab } from "@/components/manual/SprintsTab";
-import { TroubleshootingTab } from "@/components/manual/TroubleshootingTab";
+import { Sprints } from "@/components/manual/Sprints";
+import { Pitchen } from "@/components/manual/Pitchen.tsx";
+import { Pitches } from "@/components/manual/Pitches.tsx";
 import { useState } from "react";
 
 const Index = () => {
   const [activeTab, setActiveTab] = useState("overview");
+  const [language, setLanguage] = useState("");
 
   const handleTabChange = (value: string) => {
     setActiveTab(value);
@@ -19,31 +24,31 @@ const Index = () => {
     <div className="min-h-screen w-full bg-accent">
       <main className="flex-1">
         <div className="max-w-6xl mx-auto">
-          <ManualHeader />
+          <ManualHeader language={language} setLanguage={setLanguage}/>
 
           <Tabs value={activeTab} onValueChange={handleTabChange} className="w-full">
             <TabsList className="w-full justify-start mb-6">
-              <TabsTrigger value="overview">Start</TabsTrigger>
-              <TabsTrigger value="getting-started">Spielaufbau</TabsTrigger>
-              <TabsTrigger value="sprint">Der Sprint</TabsTrigger>
-              <TabsTrigger value="troubleshooting">Die Pitches</TabsTrigger>
+              <TabsTrigger value="overview">{language === 'en' ? 'Intro' : 'Start'}</TabsTrigger>
+              <TabsTrigger value="getting-started">{language === 'en' ? 'Setup' : 'Spielaufbau'}</TabsTrigger>
+              <TabsTrigger value="sprint">{language === 'en' ? 'Sprints' : 'Der Sprint'}</TabsTrigger>
+              <TabsTrigger value="troubleshooting">{language === 'en' ? 'Pitching' : 'Die Pitches'}</TabsTrigger>
             </TabsList>
 
             <div className="p-4">
               <TabsContent value="overview">
-                <OverviewTab />
+                {language === 'en' ? <Manual /> : <Anleitung />}
               </TabsContent>
 
               <TabsContent value="getting-started">
-                <GettingStartedTab />
+                {language === 'en' ? <GettingStartedTab /> : <SpielaufbauTab />}
               </TabsContent>
 
               <TabsContent value="sprint">
-                <SprintsTab />
+                {language === 'en' ? <Sprints /> : <SprintsTab />}
               </TabsContent>
 
               <TabsContent value="troubleshooting">
-                <TroubleshootingTab />
+                {language === 'en' ? <Pitches /> : <Pitchen />}
               </TabsContent>
             </div>
           </Tabs>

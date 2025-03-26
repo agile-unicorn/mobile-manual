@@ -1,6 +1,6 @@
 import { ManualCard } from "@/components/ManualCard";
 
-export const OverviewTab = () => {
+export const Anleitung = () => {
   return (
     <>
       <h1 className="text-4xl font-bold text-primary mb-8">Agile Unicorn Regelwerk</h1>
@@ -136,7 +136,7 @@ export const OverviewTab = () => {
             src="/lovable-uploads/b464c24b-351d-4585-9dc8-e7fb0de7ef89.png"
             alt="Magic wand symbol"
             className="float-left mr-2 w-1/3 h-auto"
-          />Wendet einmalig die Auswirkung einer anderen Event-Karte ab. Die Karte kann jederzeit gespielt werden, außer gegen andere Zauberstab-Karten.
+          />Wendet einmalig die Auswirkung einer anderen Event-Karte ab. Die Karte kann jederzeit gespielt werden, auch gegen andere Zauberstab-Karten.
         </ManualCard>
 
         <ManualCard

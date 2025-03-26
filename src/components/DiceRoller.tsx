@@ -1,16 +1,10 @@
-import { useState } from "react";
-import { Dice1, Dice2, Dice3, Dice4, Dice5, Dice6, Dices, Plus, Minus } from "lucide-react";
-import { Button } from "./ui/button";
-import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
-import { Slider } from "./ui/slider";
-import { Input } from "./ui/input";
-import {
-  Dialog,
-  DialogContent,
-  DialogHeader,
-  DialogTitle,
-  DialogTrigger,
-} from "./ui/dialog";
+import {useState} from "react";
+import {Dice1, Dice2, Dice3, Dice4, Dice5, Dice6, Dices, Minus, Plus} from "lucide-react";
+import {Button} from "./ui/button";
+import {Card, CardContent} from "./ui/card";
+import {Slider} from "./ui/slider";
+import {Input} from "./ui/input";
+import {Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger,} from "./ui/dialog";
 
 const diceIcons = [
   <Dice1 className="w-12 h-12" />,
