@@ -1,4 +1,4 @@
-export const Pitchen = () => {
+export const PitchDe = () => {
   return (
     <div className="bg-white rounded-lg p-8 shadow-md space-y-6">
       <h2 className="text-2xl font-semibold mb-6">Die Pitches</h2>
@@ -73,34 +73,32 @@ export const Pitchen = () => {
             </div>
 
             <div className="border-b pb-4">
-              <h4 className="font-semibold mb-2">Incentives einsetzen</h4>
+              <h4 className="font-semibold mb-2">Incentives einsetzen und Gewinner ermitteln</h4>
               <p className="text-gray-600">
-                Jeder Spieler (ausgehend vom Startspieler) kann seine unverbrauchten Incentive-Karten einsetzen, um sein Würfelergebnis zu verbessern.
-                Es dürfen reihum beliebig viele Incentive-Karten genutzt werden. Diese sind jedoch danach bis zum Ende des Sprints verbraucht.
+                Jeder Spieler (ausgehend vom Startspieler) kann seine unverbrauchten Incentive-Karten einsetzen, um sein Würfelergebnis zu verbessern. Es dürfen beliebig viele
+                Incentive-Karten genutzt werden. Immer wenn ein Spieler eine Incentive-Karte gespielt hat,
+                können die anderen Spieler im Pitch reagieren und ihrerseits weitere Karten ausspielen, bis alle gepasst haben. Diese sind jedoch danach bis zum Ende des Sprints verbraucht.
               </p>
-              <p className="text-gray-600 mt-4 bg-gray-100 p-4 rounded">
-                <strong>Beispiel:</strong> Beide Spieler haben 13 Punkte gewürfelt. Nun muss Spieler A als erster entscheiden, ob er sein ungenutztes Incentive "freie Massagen" einsetzt, welches ihm für diesen Pitch +3 Punkte einbringt.
-              </p>
-            </div>
-
-            <div className="border-b pb-4">
-              <h4 className="font-semibold mb-2">Gewinner ermitteln</h4>
-              <p className="text-gray-600">
+              <p className="text-gray-600 mt-4">
                 Auf das jeweilige Würfelergebnis werden Bonuspunkte aus Incentive- und Event-Karten-Effekte angewendet. <strong>Der Spieler mit der höchsten Gesamtaugenzahl gewinnt die Karte</strong>, sofern deren Mindestwert erreicht wurde. Bei Gleichstand wird neu gewürfelt (Ereignis- und Incentive-Effekte bleiben erhalten). Wurde der Mindestwert nicht erreicht, kommt die Pitch-Karte auf den Ablagestapel. 
               </p>
               <p className="text-gray-600 mt-4 bg-gray-100 p-4 rounded">
-               <strong>Beispiel:</strong> Nun wird gewürfelt. Spieler A erzielt mit seinen 5 Würfeln ein Ergebnis von 15. Spieler C erwürfelt eine 17. Spieler A muss als erster entscheiden, ob er sein ungenutztes Incentive "freie Massagen" einsetzt, welches ihm für diesen Pitch +3 Punkte einbringt. Da Spieler C leider keine Incentive-Karte mehr hat, nutzt Spieler A seine Incentive-Karte und hat mit 18 Punkten diesen Pitch gewonnen.
+               <strong>Beispiel:</strong> Nun wird gewürfelt. Spieler A erzielt mit seinen 5 Würfeln ein Ergebnis von 15.
+                Spieler C erwürfelt eine 17. Spieler A muss als erster entscheiden, ob er sein ungenutztes Incentive "freie Massagen" einsetzt, welches ihm für diesen Pitch +3 Punkte einbringt.
+                Da Spieler C leider keine Incentive-Karte mehr hat, nutzt Spieler A seine Incentive-Karte und hat mit 18 Punkten diesen Pitch gewonnen.
               </p>
             </div>
 
             <div className="border-b pb-4">
               <h4 className="font-semibold mb-2">Karten zur Seite legen</h4>
               <p className="text-gray-600">
-                Alle eingesetzten Event-Karten kommen auf den Ablagestapel.
-                Außerdem legt jeder Spieler seine eingesetzten Teamkarten verdeckt vor sich ab. Der Gewinner legt die neu gewonnene Karte ebenfalls dazu. Alle abgelegten oder gewonnenen Karten bleiben bis zum Sprint-Ende verdeckt liegen und können erst im nächsten Sprint, nicht aber in den direkt folgenden Pitch-Runden verwendet werden.
+                Alle eingesetzten Event-Karten werden beiseite auf einen Stapel gelegt.
+                Außerdem legt jeder Spieler seine eingesetzten Teamkarten verdeckt vor sich ab. Der Gewinner legt die neu gewonnene Karte ebenfalls dazu. Alle abgelegten oder gewonnenen Karten
+                bleiben bis zum Sprint-Ende verdeckt liegen und können erst im nächsten Sprint, nicht aber in den direkt folgenden Pitch-Runden verwendet werden.
               </p>
               <p className="text-gray-600 mt-4 bg-gray-100 p-4 rounded">
-                <strong>Beispiel:</strong> Spieler A erhält die Story-Karte, welche er zusammen mit seinen eingesetzten Teamkarten bis zum Sprint-Ende verdeckt vor sich ablegt. Diese Karten sind für weitere Pitch-Runden verbraucht und können vorerst nicht mehr eingesetzt werden.
+                <strong>Beispiel:</strong> Spieler A erhält die Story-Karte, welche er zusammen mit seinen eingesetzten Teamkarten bis zum Sprint-Ende verdeckt vor sich ablegt.
+                Diese Karten sind für weitere Pitch-Runden verbraucht und können vorerst nicht mehr eingesetzt werden.
                 Dies gilt auch für die Teamkarten von Spieler C, obwohl er die Pitch-Karte nicht gewonnen hat. Alle gespielten Event-Karten kommen auf den Ablagestapel.
               </p>
             </div>

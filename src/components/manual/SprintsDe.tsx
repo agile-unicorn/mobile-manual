@@ -1,4 +1,4 @@
-export const SprintsTab = () => {
+export const SprintsDe = () => {
     return (
         <div className="bg-white rounded-lg p-8 shadow-md space-y-6">
             <h2 className="text-2xl font-semibold mb-6">Der Sprint</h2>
@@ -21,15 +21,14 @@ export const SprintsTab = () => {
                     <div>
                         <h4 className="font-semibold mb-2">Sprint-Start</h4>
                         <p className="text-gray-600 mb-2">
-                            Alle Spieler verfügen über ihr komplettes Team auf der Hand sowie ihren nutzbaren
-                            Incentive-Karten vor sich auf dem Tisch. Falls mit Event-Karten gespielt wird, sind diese
-                            ebenfalls auf der hand.
+                            Alle Spieler verfügen über ihr komplettes Team sowie den Incentive-Karten auf der Hand. Falls mit Event-Karten gespielt wird, sind diese
+                            ebenfalls auf der Hand.
                         </p>
-                        <p>
-                            Der Inhalt des Sprints wird festgelegt, indem ein Sprint-Backlog aus 5 zufälligen Karten vom
-                            Nachziehstapel ausgelegt wird (Storys, Incentives, Teamkarten). Die erste Karte wird offen
-                            in die Tischmitte gelegt, die Nächste als Vorschau offen neben die verbleidenden Karten (die
-                            noch verdeckt sind). Es folgen dann mehrere Pitch-Runden um die Karten des Sprint-Backlogs.
+                        <h4 className="font-semibold mb-2">Sprint-Backlog</h4>
+                        <p className="text-gray-600 mb-2">
+                            Der Inhalt des Sprints wird festgelegt, indem ein Sprint-Backlog aus 5 zufälligen Karten vom Nachziehstapel ausgelegt wird
+                            (Storys, Incentives, Teamkarten). Die erste Karte wird offen in die Tischmitte gelegt, die Nächste als Vorschau offen neben die
+                            verbleibenden Karten (die noch verdeckt sind). Es folgen dann mehrere Pitch-Runden um die Karten des Sprint-Backlogs.
                         </p>
                     </div>
 
@@ -50,10 +49,10 @@ export const SprintsTab = () => {
                             Jeder Spieler kontrolliert, dass das Team aus maximal 5 Mitgliedern besteht. Überzählige Teamkarten werden unter den Nachziehstapel geschoben.
                         </p>
                         <p className="text-gray-600">
-                            Sämtliche Teamkarten werden wieder aufgenommen sowie neue und eingesetzte Incentive-Karten
-                            offen ausgelegt. Jeder Spieler zieht zwei neue Event-Karten, ungenutzte bleiben auf der
-                            Hand. Das Sprint-Backlog wird wieder auf 5 Karten vom Nachziehstapel aufgefüllt und der
-                            nächste Startspieler beginnt den neuen Sprint (siehe oben).
+                            Sämtliche Teamkarten sowie neue und eingesetzte Incentive-Karten werden wieder aufgenommen.
+                            Jeder Spieler zieht zwei neue Event-Karten, ungenutzte bleiben auf der
+                            Hand. Das Sprint-Backlog wird wieder vom Nachziehstapel aufgefüllt (5 Karten, bei 5 Spielern 6 Karten) und der
+                            nächste Startspieler beginnt den neuen Sprint.
                         </p>
                     </div>
                 </div>

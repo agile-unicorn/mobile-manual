@@ -1,6 +1,6 @@
 import { ManualCard } from "@/components/ManualCard";
 
-export const Manual = () => {
+export const StartEn = () => {
   return (
       <>
         <h1 className="text-4xl font-bold text-primary mb-8">Agile Unicorn Rulebook</h1>

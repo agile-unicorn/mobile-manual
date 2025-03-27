@@ -1,4 +1,4 @@
-export const Sprints = () => {
+export const SprintsEn = () => {
     return (
         <div className="bg-white rounded-lg p-8 shadow-md space-y-6">
             <h2 className="text-2xl font-semibold mb-6">Sprints</h2>

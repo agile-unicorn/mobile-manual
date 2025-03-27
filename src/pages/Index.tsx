@@ -1,14 +1,14 @@
 
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { ManualHeader } from "@/components/manual/Header";
-import { Anleitung } from "@/components/manual/Anleitung.tsx";
-import { Manual } from "@/components/manual/Manual.tsx";
-import { SpielaufbauTab } from "@/components/manual/SpielaufbauTab.tsx";
-import { GettingStartedTab } from "@/components/manual/GettingStartedTab.tsx";
-import { SprintsTab } from "@/components/manual/SprintsTab";
-import { Sprints } from "@/components/manual/Sprints";
-import { Pitchen } from "@/components/manual/Pitchen.tsx";
-import { Pitches } from "@/components/manual/Pitches.tsx";
+import { StartDe } from "@/components/manual/StartDe.tsx";
+import { StartEn } from "@/components/manual/StartEn.tsx";
+import { GettingStartedDe } from "@/components/manual/GettingStartedDe.tsx";
+import { GettingStartedEn } from "@/components/manual/GettingStartedEn.tsx";
+import { SprintsDe } from "@/components/manual/SprintsDe.tsx";
+import { SprintsEn } from "@/components/manual/SprintsEn.tsx";
+import { PitchDe } from "@/components/manual/PitchDe.tsx";
+import { PitchEn } from "@/components/manual/PitchEn.tsx";
 import { useState } from "react";
 
 const Index = () => {
@@ -36,19 +36,19 @@ const Index = () => {
 
             <div className="p-4">
               <TabsContent value="overview">
-                {language === 'en' ? <Manual /> : <Anleitung />}
+                {language === 'en' ? <StartEn /> : <StartDe />}
               </TabsContent>
 
               <TabsContent value="getting-started">
-                {language === 'en' ? <GettingStartedTab /> : <SpielaufbauTab />}
+                {language === 'en' ? <GettingStartedEn /> : <GettingStartedDe />}
               </TabsContent>
 
               <TabsContent value="sprint">
-                {language === 'en' ? <Sprints /> : <SprintsTab />}
+                {language === 'en' ? <SprintsEn /> : <SprintsDe />}
               </TabsContent>
 
               <TabsContent value="troubleshooting">
-                {language === 'en' ? <Pitches /> : <Pitchen />}
+                {language === 'en' ? <PitchEn /> : <PitchDe />}
               </TabsContent>
             </div>
           </Tabs>
