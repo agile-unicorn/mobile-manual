@@ -188,19 +188,6 @@ export const StartEn = () => {
           </ManualCard>
         </div>
 
-        <div className="mt-16 text-center text-gray-600 border-t pt-8">
-          Made with &#x2764; in Bonn and Hamburg. Copyright Agile Unicorn Spieleverlag 2025
-          <div className="mt-2">
-            <a
-                href="https://agile-unicorn.com/impressum/"
-                className="text-primary hover:underline"
-                target="_blank"
-                rel="noopener noreferrer"
-            >
-              Imprint
-            </a>
-          </div>
-        </div>
       </>
   );
 };

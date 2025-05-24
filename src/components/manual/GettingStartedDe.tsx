@@ -15,11 +15,11 @@ export const GettingStartedDe = () => {
         </section>
 
         <section>
-          <h3 className="text-xl font-semibold mb-3">Teamkarten ausgeben</h3>
-          <p className="text-gray-600 mb-2">Jeder Spieler erhält sein Startdeck:</p>
+          <h3 className="text-xl font-semibold mb-3">Startdeck ausgeben</h3>
+          <p className="text-gray-600 mb-2">Jeder Spieler erhält folgende Karten:</p>
           <ul className="list-disc list-inside space-y-2 text-gray-600 ml-4">
             <li>einen Chief Technical Officer (CTO, 3 Würfel)</li>
-            <li>einen Teammitglied mit 2 Würfeln</li>
+            <li>ein Teammitglied mit 2 Würfeln</li>
             <li>einen Noob (1 Würfel)</li>
             <li>eine grüne Incentive-Karte mit dem Wert 2</li>
             <li>zwei Ereigniskarten</li>
