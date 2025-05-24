@@ -3,211 +3,124 @@ import {ManualCard} from "@/components/ManualCard";
 export const EnterpriseEn = () => {
     return (
         <>
-            <h1 className="text-4xl font-bold text-primary mb-8">Enterprise Ekstase (Erweiterung)</h1>
+            <h1 className="text-4xl font-bold text-primary mb-8">Enterprise Ecstasy (Expansion)</h1>
 
             <div className="w-full mt-6">
                 <div className="bg-white rounded-lg p-8 shadow-md">
-                    <h2 className="text-2xl font-semibold mb-4">Spielziel</h2>
+                    <h2 className="text-2xl font-semibold mb-4">Highly Professional in the Corporation</h2>
                     <div className="flex flex-col md:flex-row items-start gap-6">
                         <div className="flex-1">
                             <img
                                 src="/lovable-uploads/74cf2d65-fe10-4f21-af77-58e52824a08c.png"
-                                alt="Lumberjack character"
-                                className="float-right ml-4 mb-4 w-64 h-auto hidden"
+                                alt="Consultant"
+                                className="float-left mr-8 mb-4 w-32 h-auto"
                             />
-                            <p className="text-gray-600">
-                                <strong>Überlebe mit deinem Startup das IT-Chaos und gewinne als Erster die meisten
-                                    Siegpunkte.</strong>
+                            <p className="text-gray-600 mb-2">
+                                Enterprise Ecstasy is a separately available expansion for the base game and allows you to play Agile Unicorn with <strong>up to 6 players</strong>, introducing <strong>new tactical elements</strong>.
+                            </p>
+
+                            <p className="text-gray-600 mb-2">
+                                With 6 players, the game duration increases, so stronger incentives and more valuable stories are included in the deck.
+                                The cards from the expansion deck complement the cards from the base game, meaning they are shuffled together. They are marked to distinguish them from the other cards and can be sorted out if needed.
                             </p>
 
                             <p className="text-gray-600">
-                                Um deine Mitspieler auszustechen, muss es gelingen, das Potenzial deines Entwicklerteams
-                                im Duell um neue Storys und die besten Köpfe optimal einzusetzen. Doch leider läuft
-                                selten alles so wie geplant, denn auch die anderen Spieler werden zu allen Mitteln
-                                greifen, um die besten Storys für sich zu gewinnen.
-                            </p>
-
-                            <p className="text-gray-600 mt-4 font-bold">
-                                Sieger ist, wer zuerst die vereinbarte Anzahl an Siegpunkten erreicht hat.
+                                <strong>These rules are not final yet.</strong>
                             </p>
                         </div>
                     </div>
-                    <div className="flex flex-col md:flex-row items-start gap-6 mt-4">
-                        <div className="flex-1">
-                            <h2 className="text-2xl font-semibold mb-4">Spielablauf</h2>
-                            <p className="text-gray-600 mb-6">
-                                Das Spiel läuft über mehrere Durchgänge (Sprints): Ein Sprint besteht aus bis zu 5 Duell-Runden (Pitch).
-                                Während eines Sprints versuchen die Spieler durch Ausspielen ihrer Team- und Event-Karten die Mitspieler
-                                in mehreren Duellen zu übertreffen, um möglichst wertvolle neue Karten für das eigene Startup zu gewinnen.
-                            </p></div>
-                    </div>
-                <p className="text-gray-600 bg-gray-200 p-4 rounded">
-                    <strong>TLDR:</strong> Auf die Karten, die die Siegpunkte bringen, werden verdeckt Teammitglieder
-                    angesetzt. Die Teammitglieder haben unterschiedliche Stärke (Würfel). Vor und nach dem
-                    Würfeln können noch Effekte ausgespielt werden, um sich selbst einen Vorteil zu
-                    verschaffen. Das Team mit dem höchsten Würfelergebnis bekommt die Story-Siegpunktkarte.
-                </p>
+
                 </div>
             </div>
 
-            <h2 className="text-4xl font-bold text-primary mt-16 mb-6 pl-4">Die Karten</h2>
-            <p className="text-gray-600 mb-8 pl-4">
-                Es gibt vier verschiedene Arten von Karten. Sie unterscheiden sich durch ihre Kartenfarbe. Für die
-                Regeln sind die Kartentexte nicht relevant, wichtig sind die Zahlen und Symbole oben links.
-            </p>
+            <h2 className="text-4xl font-bold text-primary mt-16 mb-6 pl-4 ">New Mechanics</h2>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 mt-8">
                 <ManualCard
-                    title="Storys (Siegpunkte)"
-                    description="Storys liefern 3 bis 20 Siegpunkte, die der Zahl oben links auf der Karte entsprechen."
-                    className="relative">
-                    <div className="relative">
-                        <img
-                            src="/lovable-uploads/940f3730-58d6-4602-bc18-31c9c7114d59.png"
-                            alt="Story card example"
-                            className="float-right ml-6 mb-2 w-1/3 h-auto"
-                        />
-                        Ob eine Story erfolgreich umgesetzt werden kann, wird durch Würfeln gegen den Wert bestimmt. Bei
-                        Erfolg erhält der Spieler mit dem höchsten Würfelergebnis die Story-Karte und legt diese am Sprintende offen
-                        neben den anderen gewonnenen Story-Karten vor sich aus.
-                    </div>
-                </ManualCard>
-                <ManualCard
-                    title="Teammitglieder"
-                    description="Nur mit Teammitgliedern kannst du Karten gewinnen. Ihre Stärke wird oben links durch Würfel und eventuell einen Bonus oder Malus angezeigt."
-                    className="relative"
+                    title="Reroll"
+                    description="Incentive to reroll"
+                    className="bg-white"
                 >
                     <img
-                        src="/lovable-uploads/2a69e587-9129-40c7-b233-245d01f1ac7d.png"
-                        alt="Der Hammer card"
-                        className="float-right ml-2 mb-2 w-1/3 h-auto"
+                        src="/lovable-uploads/reroll.png"
+                        alt="reroll symbol"
+                        className="float-left mr-2 w-1/3 h-auto"
                     />
-
-                    <p>Dein Team darf maximal aus 5 Mitgliedern bestehen. Wenn ein 6. Mitglied gewonnen wird, muss der
-                        Spieler ein anderes Mitglied seiner Wahl entlassen und unter den Nachziehkartenstapel legen.</p>
-                    <p>Die Teammitglieder bleiben auf der Hand bis sie eingesetzt werden (1x pro Sprint).</p>
+                    Rerolls can be used for yourself or against another player to <strong>reroll all dice</strong>.
+                    After use, the card is consumed for the sprint.
                 </ManualCard>
 
                 <ManualCard
-                    title="Incentives"
-                    description="Incentives können nach dem Würfeln eingesetzt werden, um das Ergebnis zu verbessern."
+                    title="The Bomb"
+                    description="Event to cancel the pitch"
+                    className="bg-white"
                 >
                     <img
-                        src="/lovable-uploads/b75da821-ce58-4b2e-9be4-a4b871e66267.png"
-                        alt="Tischkicker und Mate"
-                        className="float-right ml-2 mb-2 w-1/3 h-auto"
+                        src="/lovable-uploads/bomb.png"
+                        alt="Bomb symbol"
+                        className="float-left mr-2 w-1/3 h-auto"
                     />
-                    <p>
-                        Die Attraktivität deines Startups wird durch Annehmlichkeiten gesteigert, mit denen die
-                        Teammitglieder zu Höchstleistungen motiviert werden sollen.<br/>
-                        Jede Karte kann 1x pro Sprint nach dem Würfeln eingesetzt werden, um das Würfelergebnis zu
-                        verbessern, beginnend beim Startspieler.
-                        Nach der Nutzung werden sie bis zum Sprintende umgedreht abgelegt.
-                    </p>
+                    The entire pitch is canceled, and all used cards are consumed. This card affects all players who participated in the pitch.
                 </ManualCard>
 
                 <ManualCard
-                    title="Events"
-                    description="Event-Karten haben einen einmaligen Effekt vor dem Würfeln und können nur von Spielern gegen andere Spieler eingesetzt werden."
+                    title="All In"
+                    description="Event to use all team members"
+                    className="bg-white"
                 >
                     <img
-                        src="/lovable-uploads/6099a104-34b4-4501-bee6-c3dad95a8784.png"
-                        alt="Serverausfall Ereigniskarte"
-                        className="float-right ml-2 mb-2 w-1/3 h-auto"
+                        src="/lovable-uploads/allin.png"
+                        alt="All in symbol"
+                        className="float-left mr-2 w-1/3 h-auto"
                     />
-                    Es gibt kein Limit von Event-Karten auf der Hand und sie können über mehrere Runden gesammelt
-                    werden. Nach dem Ausspielen sind sie verbraucht und werden unter den Stapel der Event-Karten gelegt.
-
-                    Wer passt, kann keine Event-Karten einsetzen. Jede Karte kann gegen jeden Spieler im Pitch (die
-                    nicht gepasst haben) gespielt werden, inklusive sich selbst. Sie können nicht gegen die Pitch-Karte
-                    in der Tischmitte gespielt werden, um diese zu verändern.
+                    All remaining team members must be used in the pitch.
                 </ManualCard>
+
+                <ManualCard
+                    title="Sabotage"
+                    description="Steal an incentive"
+                    className="bg-white"
+                >
+                    <img
+                        src="/lovable-uploads/sabotage.png"
+                        alt="Sabotage symbol"
+                        className="float-left mr-2 w-1/3 h-auto"
+                    />
+                    An incentive can be permanently stolen from another player's hand. The player keeps their incentives hidden, and the player who played the sabotage card draws one of them. Used incentives cannot be stolen.
+                </ManualCard>
+
             </div>
 
-            <h2 className="text-4xl font-bold text-primary mt-16 mb-6 pl-4 ">Symbole</h2>
+            <h2 className="text-4xl font-bold text-primary mt-16 mb-6 pl-4 ">Game Setup</h2>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
-                <ManualCard
-                    title="Punktwert"
-                    description=""
-                    className="bg-white"
-                >
-                    <img
-                        src="/lovable-uploads/df031a76-2250-4d8c-a810-f9e021ad6682.png"
-                        alt="Plus one symbol"
-                        className="float-left mr-2 w-1/3 h-auto"
-                    />
-                    Bonus oder Malus auf das gewürfelte Ergebnis.
-                </ManualCard>
+            <div className="w-full mt-6">
+                <div className="bg-white rounded-lg p-8 shadow-md">
 
-                <ManualCard
-                    title="Aussetzen"
-                    description=""
-                    className="bg-white"
-                >
-                    <img
-                        src="/lovable-uploads/5786521a-1242-4e08-a8ff-7575299baf61.png"
-                        alt="Aussetzen symbol"
-                        className="float-left mr-2 w-1/3 h-auto"
-                    />
-                    Der Spieler muss alle gelegten Teamkarten sofort wieder auf die Hand nehmen. Die Teamkarten können
-                    im nächsten Pitch weiter verwendet werden. Gespielte Event-Karten sind aber verloren.
-                </ManualCard>
+                    <section className="mb-4">
+                        <h3 className="text-xl font-semibold mb-3">Sort Cards</h3>
+                        <p className="text-gray-600 mb-2">The cards from the expansion deck are shuffled into the base game cards, except for the following:</p>
+                        <ul className="list-disc list-inside space-y-2 text-gray-600 ml-4">
+                            <li>One reroll card is set aside for each player for the starting deck. Additional reroll cards are shuffled into the draw pile.</li>
+                            <li>All CTOs and noobs not needed by the players are removed from the game.</li>
+                            <li>The rest of the setup proceeds as in the base game.</li>
+                        </ul>
 
-                <ManualCard
-                    title="Zauberstab"
-                    description=""
-                    className="bg-white"
-                >
-                    <img
-                        src="/lovable-uploads/b464c24b-351d-4585-9dc8-e7fb0de7ef89.png"
-                        alt="Magic wand symbol"
-                        className="float-left mr-2 w-1/3 h-auto"
-                    />Wendet einmalig die Auswirkung einer anderen Event-Karte ab. Die Karte kann jederzeit gespielt
-                    werden, auch gegen andere Zauberstab-Karten.
-                </ManualCard>
+                    </section>
 
-                <ManualCard
-                    title="Würfel"
-                    description="plus (mehr) oder minus (weniger)"
-                    className="bg-white"
-                >
-                    <img
-                        src="/lovable-uploads/4cf6a244-f16f-41b2-8b9a-6b961d705512.png"
-                        alt="Dice symbol"
-                        className="float-left mr-2 w-1/3 h-auto"
-                    />
-                    Einmalig die gezeigten Würfel zusätzlich oder weniger im Pitch.
-                </ManualCard>
+                    <section>
+                        <h3 className="text-xl font-semibold mb-3">Distribute Starting Deck</h3>
+                        <p className="text-gray-600 mb-2">Each player receives the following cards:</p>
+                        <ul className="list-disc list-inside space-y-2 text-gray-600 ml-4">
+                            <li>one Chief Technical Officer (CTO, 3 dice)</li>
+                            <li>one team member with 2 dice</li>
+                            <li>one noob (1 die)</li>
+                            <li>one green reroll incentive card</li>
+                            <li>one green incentive card with a value of 2</li>
+                            <li>two event cards</li>
+                        </ul>
 
-                <ManualCard
-                    title="Teammitglied dazu"
-                    description="Ein Teammitglied nachziehen"
-                    className="bg-white"
-                >
-                    <img
-                        src="/lovable-uploads/83fa8356-7b6d-4a9e-80f3-62fce83f081b.png"
-                        alt="Teammitglied dazu Symbol"
-                        className="float-left mr-2 w-1/3 h-auto"
-                    />
-                    Bei Plus muss der adressierte Spieler eine zusätzliche Teamkarte verwenden. Diese Karte muss von
-                    seiner Hand kommen und wird von ihm selbst ausgewählt.
-                </ManualCard>
-
-                <ManualCard
-                    title="Teammitglied weg"
-                    description="Ein Teammitglied entfernen"
-                    className="bg-white"
-                >
-                    <img
-                        src="/lovable-uploads/b72ac29e-2735-436c-8840-a6354f4a0f87.png"
-                        alt="Teammitglied entfernen Symbol"
-                        className="float-left mr-2 w-1/3 h-auto"
-                    />
-                    Bei Minus muss eine Teamkarte nach Wahl des Spielers, auf den die Karte gespielt wird, entfernt
-                    werden. Diese Teamkarte ist verloren und darf erst wieder im nächsten Sprint auf die Hand genommen
-                    werden.
-                </ManualCard>
+                    </section>
+                </div>
             </div>
         </>
     );
