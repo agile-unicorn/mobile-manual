@@ -4,7 +4,15 @@ export const StartEn = () => {
   return (
       <>
         <h1 className="text-4xl font-bold text-primary mb-8">Agile Unicorn Rulebook</h1>
-
+        <div className="ml-2 text-sm text-gray-500 cursor-pointer group relative"> --&gt; What is a Unicorn?
+          <div
+              className="absolute left-0 top-full mt-1 w-1/3 p-2 bg-pink-400 text-white text-xs rounded shadow-lg opacity-0 group-hover:opacity-100 transition-opacity">
+            A unicorn is a private startup company
+            that has reached a valuation of over one billion US dollars.<br /> The term was coined
+            to emphasize the rarity of such successes, as it is very difficult for startups to achieve
+            such a valuation (unless in a bubble).
+          </div>
+        </div>
         <div className="w-full mt-6">
           <div className="bg-white rounded-lg p-8 shadow-md">
             <h2 className="text-2xl font-semibold mb-4">Game Objective</h2>

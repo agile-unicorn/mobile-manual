@@ -3,7 +3,16 @@ import {ManualCard} from "@/components/ManualCard";
 export const StartDe = () => {
     return (
         <>
-            <h1 className="text-4xl font-bold text-primary mb-8">Agile Unicorn Regelwerk</h1>
+            <h1 className="text-4xl font-bold text-primary mb-4">Agile Unicorn Regelwerk</h1>
+            <div className="ml-2 text-sm text-gray-500 cursor-pointer group relative"> --&gt; Was ist ein Unicorn?
+                <div
+                    className="absolute left-0 top-full mt-1 w-1/3 p-2 bg-pink-400 text-white text-xs rounded shadow-lg opacity-0 group-hover:opacity-100 transition-opacity">
+                    Ein Unicorn ist ein privates Start-up-Unternehmen,
+                    das eine Bewertung von über einer Milliarde US-Dollar erreicht hat.<br /> Der Begriff wurde geprägt,
+                    um die Seltenheit solcher Erfolge zu betonen, da es für Start-ups sehr schwierig ist, eine
+                    solche Bewertung zu erreichen (außer man befindet sich in einer Blase).
+                </div>
+            </div>
 
             <div className="w-full mt-6">
                 <div className="bg-white rounded-lg p-8 shadow-md">
@@ -36,17 +45,21 @@ export const StartDe = () => {
                         <div className="flex-1">
                             <h2 className="text-2xl font-semibold mb-4">Spielablauf</h2>
                             <p className="text-gray-600 mb-6">
-                                Das Spiel läuft über mehrere Durchgänge (Sprints): Ein Sprint besteht aus bis zu 5 Duell-Runden (Pitch).
-                                Während eines Sprints versuchen die Spieler durch Ausspielen ihrer Team- und Event-Karten die Mitspieler
-                                in mehreren Duellen zu übertreffen, um möglichst wertvolle neue Karten für das eigene Startup zu gewinnen.
+                                Das Spiel läuft über mehrere Durchgänge (Sprints): Ein Sprint besteht aus bis zu 5
+                                Duell-Runden (Pitch).
+                                Während eines Sprints versuchen die Spieler durch Ausspielen ihrer Team- und
+                                Event-Karten die Mitspieler
+                                in mehreren Duellen zu übertreffen, um möglichst wertvolle neue Karten für das eigene
+                                Startup zu gewinnen.
                             </p></div>
                     </div>
-                <p className="text-gray-600 bg-gray-200 p-4 rounded">
-                    <strong>TLDR:</strong> Auf die Karten, die die Siegpunkte bringen, werden verdeckt Teammitglieder
-                    angesetzt. Die Teammitglieder haben unterschiedliche Stärke (Würfel). Vor und nach dem
-                    Würfeln können noch Effekte ausgespielt werden, um sich selbst einen Vorteil zu
-                    verschaffen. Das Team mit dem höchsten Würfelergebnis bekommt die Story-Siegpunktkarte.
-                </p>
+                    <p className="text-gray-600 bg-gray-200 p-4 rounded">
+                        <strong>TLDR:</strong> Auf die Karten, die die Siegpunkte bringen, werden verdeckt
+                        Teammitglieder
+                        angesetzt. Die Teammitglieder haben unterschiedliche Stärke (Würfel). Vor und nach dem
+                        Würfeln können noch Effekte ausgespielt werden, um sich selbst einen Vorteil zu
+                        verschaffen. Das Team mit dem höchsten Würfelergebnis bekommt die Story-Siegpunktkarte.
+                    </p>
                 </div>
             </div>
 
@@ -68,7 +81,8 @@ export const StartDe = () => {
                             className="float-right ml-6 mb-2 w-1/3 h-auto"
                         />
                         Ob eine Story erfolgreich umgesetzt werden kann, wird durch Würfeln gegen den Wert bestimmt. Bei
-                        Erfolg erhält der Spieler mit dem höchsten Würfelergebnis die Story-Karte und legt diese am Sprintende offen
+                        Erfolg erhält der Spieler mit dem höchsten Würfelergebnis die Story-Karte und legt diese am
+                        Sprintende offen
                         neben den anderen gewonnenen Story-Karten vor sich aus.
                     </div>
                 </ManualCard>

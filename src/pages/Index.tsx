@@ -29,7 +29,7 @@ const Index = () => {
 
                     <Tabs value={activeTab} onValueChange={handleTabChange} className="w-full">
                         <TabsList className="w-full justify-start mb-6">
-                            <TabsTrigger value="overview">{language === 'en' ? 'Intro' : 'Start'}</TabsTrigger>
+                            <TabsTrigger value="overview">🦄 {language === 'en' ? 'Intro' : 'Start'}</TabsTrigger>
                             <TabsTrigger
                                 value="getting-started">{language === 'en' ? 'Setup' : 'Spielaufbau'}</TabsTrigger>
                             <TabsTrigger value="sprint">{language === 'en' ? 'Sprints' : 'Der Sprint'}</TabsTrigger>
@@ -74,7 +74,7 @@ const Index = () => {
                                 onClick={() => handleTabChange("overview")}
                                 className="text-white hover:text-accent transition-colors"
                             >
-                                Start
+                                🦄 Start
                             </button>
                             <button
                                 onClick={() => handleTabChange("getting-started")}

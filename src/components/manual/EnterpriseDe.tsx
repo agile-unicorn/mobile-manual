@@ -16,12 +16,12 @@ export const EnterpriseDe = () => {
                                 className="float-left mr-8 mb-4 w-32 h-auto"
                             />
                             <p className="text-gray-600 mb-2">
-                                Enterprise Ekstase ist eine separate erhältliche Erweiterung des Basisspiel und ermöglicht es, Agile Unicorn mit <strong>bis zu 6
-                                Spielern</strong> zu spielen und führt <strong>neue taktische Elemente ein</strong>.
+                                Enterprise Ekstase ist eine separat erhältliche Erweiterung des Basisspiels und ermöglicht es, Agile Unicorn mit <strong>bis zu 6
+                                Spielern</strong> zu spielen und führt <strong>neue taktische Elemente ein</strong>. Es ist kein eigenständiges Spiel.
                             </p>
 
                             <p className="text-gray-600 mb-2">
-                                Bei 6 Spielern erhöht die Spielzeit, deswegen sind stärkere Incentives und wertvollere
+                                Bei 6 Spielern erhöht sich die Spielzeit, deswegen sind stärkere Incentives und wertvollere
                                 Storys im Deck.
                                 Die Karten des Erweiterungs-Decks und ergänzen die Karten des
                                 Basisspiels, d.h. sie werden mit den anderen vermischt. Sie haben eine Markierung, um
@@ -131,7 +131,7 @@ export const EnterpriseDe = () => {
                             <li>einen Noob (1 Würfel)</li>
                             <li>eine grüne Reroll-Incentive-Karte</li>
                             <li>eine grüne Incentive-Karte mit dem Wert 2</li>
-                            <li>zwei Ereigniskarten</li>
+                            <li>zwei rote Event-Karten</li>
                         </ul>
 
                     </section>
