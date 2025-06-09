@@ -1,5 +1,7 @@
 import {DiceRoller} from "@/components/DiceRoller.tsx";
 import React from "react";
+import {Dices} from "lucide-react";
+import {Button} from "@/components/ui/button.tsx";
 
 interface ManualHeaderProps {
     language?: string
@@ -32,11 +34,13 @@ export const ManualHeader = ({language, setLanguage}: ManualHeaderProps) => {
                         </a>
                     </div>
                     <div className="flex items-center gap-2">
-                        <span className="text-white">Würfelsimulator &rarr;</span>
                         <DiceRoller />
                         <div>
-                            {language === 'en' ? <button onClick={() => setLanguage('')}>Deutsch</button> :
-                                <button onClick={() => setLanguage('en')}>English</button>}
+                            <Button variant="outline" className="text-black" title="Language / Sprache">
+                                {language === 'en' ? <span onClick={() => setLanguage('')}>🇩🇪</span> :
+                                    <span onClick={() => setLanguage('en')}>🇬🇧</span>}
+                            </Button>
+
                         </div>
                     </div>
                 </div>

@@ -10,6 +10,7 @@ import {PitchDe} from "@/components/manual/PitchDe.tsx";
 import {PitchEn} from "@/components/manual/PitchEn.tsx";
 import {EnterpriseDe} from "@/components/manual/EnterpriseDe.tsx";
 import {EnterpriseEn} from "@/components/manual/EnterpriseEn.tsx";
+import {Credits} from "@/components/manual/Credits.tsx";
 import {useState} from "react";
 
 const Index = () => {
@@ -28,15 +29,17 @@ const Index = () => {
                     <ManualHeader language={language} setLanguage={setLanguage}/>
 
                     <Tabs value={activeTab} onValueChange={handleTabChange} className="w-full">
-                        <TabsList className="w-full justify-start mb-6">
+                        <TabsList className="w-full flex flex-wrap justify-start mb-6">
                             <TabsTrigger value="overview">🦄 {language === 'en' ? 'Intro' : 'Start'}</TabsTrigger>
                             <TabsTrigger
                                 value="getting-started">{language === 'en' ? 'Setup' : 'Spielaufbau'}</TabsTrigger>
-                            <TabsTrigger value="sprint">{language === 'en' ? 'Sprints' : 'Der Sprint'}</TabsTrigger>
+                            <TabsTrigger value="sprint">{language === 'en' ? 'Sprints' : 'Sprints'}</TabsTrigger>
                             <TabsTrigger
-                                value="troubleshooting">{language === 'en' ? 'Pitching' : 'Die Pitches'}</TabsTrigger>
+                                value="troubleshooting">{language === 'en' ? 'Pitching' : 'Pitches'}</TabsTrigger>
                             <TabsTrigger
                                 value="ee">{language === 'en' ? 'Enterprise Extasy' : 'Enterprise Ekstase'}</TabsTrigger>
+                            <TabsTrigger
+                                value="credits">{language === 'en' ? 'Credits' : 'Credits'}</TabsTrigger>
                         </TabsList>
 
                         <div className="p-4">
@@ -58,6 +61,10 @@ const Index = () => {
 
                             <TabsContent value="ee">
                                 {language === 'en' ? <EnterpriseEn/> : <EnterpriseDe/>}
+                            </TabsContent>
+
+                            <TabsContent value="credits">
+                                <Credits/>
                             </TabsContent>
                         </div>
                     </Tabs>
@@ -92,7 +99,7 @@ const Index = () => {
                                 onClick={() => handleTabChange("troubleshooting")}
                                 className="text-white hover:text-accent transition-colors"
                             >
-                                {language === 'en' ? 'Pitching' : 'Die Pitches'}
+                                {language === 'en' ? 'Pitching' : 'Pitches'}
                             </button>
                             <button
                                 onClick={() => handleTabChange("ee")}

@@ -66,7 +66,7 @@ export const DiceRoller = () => {
   return (
     <Dialog>
       <DialogTrigger asChild>
-        <Button variant="outline" className="text-black">
+        <Button variant="outline" className="text-black" title="Dice Roller / Würfelsimulator">
           <Dices className="w-4 h-4" />
         </Button>
       </DialogTrigger>
