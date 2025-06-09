@@ -11,11 +11,17 @@ import {PitchEn} from "@/components/manual/PitchEn.tsx";
 import {EnterpriseDe} from "@/components/manual/EnterpriseDe.tsx";
 import {EnterpriseEn} from "@/components/manual/EnterpriseEn.tsx";
 import {Credits} from "@/components/manual/Credits.tsx";
-import {useState} from "react";
+import {useEffect, useState} from "react";
 
 const Index = () => {
     const [activeTab, setActiveTab] = useState("overview");
     const [language, setLanguage] = useState("");
+
+    useEffect(() => {
+        if (window.location.href.includes("manual.agile-unicorn.com")) {
+            setLanguage("en");
+        }
+    }, []);
 
     const handleTabChange = (value: string) => {
         setActiveTab(value);
