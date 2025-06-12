@@ -81,8 +81,8 @@ const Index = () => {
                     backgroundSize: "cover",
                     backgroundPosition: "center"
                 }}>
-                    <div className="max-w-6xl mx-auto">
-                        <nav className="flex justify-center space-x-8">
+                    <div className="max-w-6xl mx-auto ">
+                        <nav className="flex justify-center space-x-8 w-full flex flex-wrap justify-start mb-6">
                             <button
                                 onClick={() => handleTabChange("overview")}
                                 className="text-white hover:text-accent transition-colors"
@@ -112,6 +112,12 @@ const Index = () => {
                                 className="text-white hover:text-accent transition-colors"
                             >
                                 {language === 'en' ? 'Extension' : 'Erweiterung'}
+                            </button>
+                            <button
+                                onClick={() => handleTabChange("credits")}
+                                className="text-white hover:text-accent transition-colors"
+                            >
+                                {language === 'en' ? 'Credits' : 'Credits'}
                             </button>
                         </nav>
 

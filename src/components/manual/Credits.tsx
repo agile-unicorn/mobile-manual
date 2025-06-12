@@ -23,14 +23,46 @@ export const Credits = () => {
 
                 <section>
                     <h3 className="text-xl font-semibold mb-3">Helping Hands and Special Support</h3>
-                    <p className="text-gray-600 mb-2">Harry, <a href="https://www.parameter-b.de/de/">Parameter
-                        B</a>, <a href="https://jcon.one/">JCON Team</a></p>
+                    <p className="text-gray-600 mb-2">
+                        <a href="https://www.kickstarter.com/projects/codepalm/cybersiege-computer-science-learning-card-game?lang=de" className="underline pl-1">Dennis</a>,
+                        Harry K., <a href="https://jcon.one/" className="underline pl-1">JCON Team</a>,
+                        <a href="https://www.parameter-b.de/de/" className="underline pl-1">Parameter B</a>
+                    </p>
 
                 </section>
 
                 <section>
                     <h3 className="text-xl font-semibold mb-3">GameFound Special Backers</h3>
-                    <p className="text-gray-600 mb-2">tbd</p>
+                    <p className="text-gray-600 mb-2">
+                        Adrian Chaluppka,
+                        Andreas Saller + Hope@Enzo,
+                        Bernardo "MyMutti" Oliveira (Dietikon),
+                        Corinna Tölle,
+                        Daniel Ginster,
+                        Daniel Leinberger,
+                        Die Jotts,
+                        Felix Hasenbeck,
+                        Florian Gruber (Neumarkt am Wallersee),
+                        Ingmar Marquardt (Wiesbaden),
+                        Julian Schmiederer,
+                        knightess,
+                        Lars Luz,
+                         <a href="https://www.zeit-zum-spielen.de" className="underline pl-1">Laura "Xamra" Estelmann</a>,
+                        Linus A. (Münster),
+                        Matthias Schrammek, 
+                        Maximilian Gernandt,
+                         <a href="https://www.linkedin.com/in/michael-c-hanson-" className="underline pl-1">Michael Hanson</a>,
+                        Mikedaquick,
+                        Philipp Hochwald (Bonn),
+                        Ralf Teusner,
+                        Robert Förster (Homberg, Efze),
+                        Sally Mackrodt,
+                        Stefan Gatner,
+                        Stephan (Mönchengladbach),
+                        <a href="https://www.linkedin.com/in/stephanie-becker-a5a65a248" className="underline pl-1">Stephanie (Frankfurt)</a>
+                         <a href="https://www.linkedin.com/in/thorsten-thamm" className="underline pl-1">Thorsten Thamm (Köln)</a>,
+                        Torben Lettschmidt
+                    </p>
 
                 </section>
 
