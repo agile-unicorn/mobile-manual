@@ -38,6 +38,7 @@ export const Credits = () => {
                         Adrian Chaluppka,
                         Andreas Saller + Hope@Enzo,
                         Bernardo "MyMutti" Oliveira (Dietikon),
+                        Christian "Vampi" Bommer,
                         Corinna Tölle,
                         Daniel Ginster,
                         Daniel Leinberger,
@@ -50,6 +51,7 @@ export const Credits = () => {
                         Lars Luz,
                         <a href="https://www.zeit-zum-spielen.de" className="underline pl-1">Laura "Xamra" Estelmann</a>,
                         Linus A. (Münster),
+                        Marc "Wild_unicorn" Reinken,
                         Matthias Schrammek,
                         Maximilian Gernandt,
                         <a href="https://www.linkedin.com/in/michael-c-hanson-" className="underline pl-1">Michael
@@ -62,9 +64,11 @@ export const Credits = () => {
                         Stefan Gatner,
                         Stephan (Mönchengladbach),
                         <a href="https://www.linkedin.com/in/stephanie-becker-a5a65a248" className="underline pl-1">Stephanie
-                            (Frankfurt)</a>
+                            (Frankfurt)</a>,
+                        Thorge Naumann,
                         <a href="https://www.linkedin.com/in/thorsten-thamm" className="underline pl-1">Thorsten Thamm
                             (Köln)</a>,
+                        Tony Franzky (Freiburg),
                         Torben Lettschmidt
                     </p>
 

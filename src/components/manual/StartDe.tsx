@@ -8,7 +8,7 @@ export const StartDe = () => {
                 <div
                     className="absolute left-0 top-full mt-1 w-1/3 p-2 bg-pink-400 text-white text-xs rounded shadow-lg opacity-0 group-hover:opacity-100 transition-opacity">
                     Ein Unicorn ist ein privates Start-up-Unternehmen,
-                    das eine Bewertung von über einer Milliarde US-Dollar erreicht hat.<br /> Der Begriff wurde geprägt,
+                    das eine Bewertung von über einer Milliarde US-Dollar erreicht hat.<br/> Der Begriff wurde geprägt,
                     um die Seltenheit solcher Erfolge zu betonen, da es für Start-ups sehr schwierig ist, eine
                     solche Bewertung zu erreichen (außer man befindet sich in einer Blase).
                 </div>
@@ -165,7 +165,10 @@ export const StartDe = () => {
                         className="float-left mr-2 w-1/3 h-auto"
                     />
                     Der Spieler muss alle gelegten Teamkarten sofort wieder auf die Hand nehmen. Die Teamkarten können
-                    im nächsten Pitch weiter verwendet werden. Gespielte Event-Karten sind aber verloren.
+                    im nächsten Pitch weiter verwendet werden. Bereits gespielte Event-Karten sind verloren, aber es
+                    können
+                    noch Event-Karten gespielt werden, die auf der Hand sind (z.B. Zauberstab). Die Teammitglied -
+                    nachziehen Karte kann verwendet werden, um einzelne Teammitglieder doch noch einzusetzen.
                 </ManualCard>
 
                 <ManualCard

@@ -30,7 +30,8 @@ export const StartEn = () => {
                             <p className="text-gray-600">
                                 To beat your opponents, you must effectively use the potential of your development team
                                 in duels for new stories and the best minds. Unfortunately, things rarely go as planned,
-                                as the other players will also be using their possible means to secure the best stories for themselves.
+                                as the other players will also be using their possible means to secure the best stories
+                                for themselves.
                             </p>
                             <p className="text-gray-600 mt-4 font-bold">
                                 The winner is the player who is the first to reach the agreed number of victory points.
@@ -49,7 +50,8 @@ export const StartEn = () => {
                     </div>
                     <p className="text-gray-600 bg-gray-200 p-4 rounded">
                         <strong>TLDR:</strong> Team members are secretly assigned cards that grant victory points.
-                        The team members have different strengths (dice). Effects cards can be played before and after rolling
+                        The team members have different strengths (dice). Effects cards can be played before and after
+                        rolling
                         to gain an advantage. The team with the highest dice result wins the story victory point card.
                     </p>
                 </div>
@@ -155,7 +157,9 @@ export const StartEn = () => {
                         className="float-left mr-2 w-1/3 h-auto"
                     />
                     The player must immediately return all played team cards to their hand. The team cards can be used
-                    in the next pitch, but the played event cards are lost.
+                    in the next pitch, but the played event cards are lost. Other event cards can still be played (e.g.
+                    the wand). The "Add member" card can be played to re-add a new team member in order to remain in the
+                    pitch.
                 </ManualCard>
 
                 <ManualCard
