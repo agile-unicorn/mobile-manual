@@ -13,7 +13,8 @@ export const Credits = () => {
                     would not have been possible!
                 </section>
                 <section>
-                    Wir möchten allen von Herzen danken, die an der Entstehung von <strong>Agile Unicorn</strong> mitgewirkt und uns auf
+                    Wir möchten allen von Herzen danken, die an der Entstehung von <strong>Agile
+                    Unicorn</strong> mitgewirkt und uns auf
                     unserem Weg unterstützt haben. Ein besonderer Dank gilt dabei unseren Familien: Ihr habt uns in
                     jeder Phase den Rücken gestärkt, uns mit eurem Verständnis getragen und uns immer wieder ermutigt,
                     an unsere Vision zu glauben! Ohne eure Unterstützung wäre dieses Spiel niemals Wirklichkeit
@@ -35,48 +36,57 @@ export const Credits = () => {
                 <section>
                     <h3 className="text-xl font-semibold mb-3">GameFound Special Backers</h3>
                     <p className="text-gray-600 mb-2">
-                        Adrian Chaluppka,
-                        Andreas Saller + Hope@Enzo,
-                        Bernardo "MyMutti" Oliveira (Dietikon),
-                        Christian "Vampi" Bommer,
-                        Christian Detjen,
-                        Corinna Tölle,
-                        Daniel Ginster,
-                        Daniel Leinberger,
-                        Dennis "DasDeX" Beyer (Braunschweig),
-                        Die Jotts,
-                        Felix Hasenbeck,
-                        Florian Gruber (Neumarkt am Wallersee),
-                        Helena Dehne,
-                        Ingmar Marquardt (Wiesbaden),
-                        Jan Ludwig, 
-                        Jana "Die Gräfin" Fendler (Gifhorn),
-                        Johannes Churt,
-                        Julian Schmiederer,
-                        knightess,
-                        Lars Luz,
-                        <a href="https://www.zeit-zum-spielen.de" className="underline pl-1">Laura "Xamra" Estelmann</a>,
-                        Linus A. (Münster),
-                        Marc "Wild_unicorn" Reinken,
-                        Matthias Schrammek,
-                        Maximilian Gernandt,
-                        <a href="https://www.linkedin.com/in/michael-c-hanson-" className="underline pl-1">Michael
-                            Hanson</a>,
-                        Mikedaquick,
-                        Philipp Hochwald (Bonn),
-                        pmm319,
-                        Ralf Teusner,
-                        Robert Förster (Homberg, Efze),
-                        Sally Mackrodt,
-                        Stefan Gatner,
-                        Stephan (Mönchengladbach),
-                        <a href="https://www.linkedin.com/in/stephanie-becker-a5a65a248" className="underline pl-1">Stephanie
-                            (Frankfurt)</a>,
-                        Thorge Naumann,
-                        <a href="https://www.linkedin.com/in/thorsten-thamm" className="underline pl-1">Thorsten Thamm
-                            (Köln)</a>,
-                        Tony Franzky (Freiburg),
-                        Torben Lettschmidt
+                        Adrian Chaluppka,&nbsp;
+                        Andreas Saller + Hope@Enzo,&nbsp;
+                        Bernardo "MyMutti" Oliveira (Dietikon),&nbsp;
+                        Christian "Vampi" Bommer,&nbsp;
+                        Christian Detjen,&nbsp;
+                        Corinna Tölle,&nbsp;
+                        Daniela Duensing,&nbsp;
+                        Daniel Ginster,&nbsp;
+                        Daniel Leinberger,&nbsp;
+                        Daniel Mahnke,&nbsp;
+                        Dennis "DasDeX" Beyer (Braunschweig),&nbsp;
+                        Die Jotts,&nbsp;
+                        Felix Hasenbeck,&nbsp;
+                        Florian Gruber (Neumarkt am Wallersee),&nbsp;
+                        Helena Dehne,&nbsp;
+                        Ingmar Marquardt (Wiesbaden),&nbsp;
+                        Jan Ludwig,&nbsp;
+                        Jana "Die Gräfin" Fendler (Gifhorn),&nbsp;
+                        Jens G.,&nbsp;
+                        Johannes Churt,&nbsp;
+                        Julian Schmiederer,&nbsp;
+                        knightess,&nbsp;
+                        Lars Luz,&nbsp;
+                        <a href="https://www.zeit-zum-spielen.de" className="underline pl-1">Laura "Xamra"
+                            Estelmann</a>,&nbsp;
+                        Linus A. (Münster),&nbsp;
+                        Marc "Wild_unicorn" Reinken,&nbsp;
+                        Matthias Schrammek,&nbsp;
+                        Max | Matschfloss,&nbsp;
+                        Maximilian Gernandt,&nbsp;
+                        <a href="https://www.linkedin.com/in/michael-c-hanson-" className="underline pl-1">Michael&nbsp;
+                            Hanson</a>,&nbsp;
+                        Mikedaquick,&nbsp;
+                        nintendoluk,&nbsp;
+                        Philipp Hochwald (Bonn),&nbsp;
+                        pmm319,&nbsp;
+                        Ralf Teusner,&nbsp;
+                        Robert Förster (Homberg, Efze),&nbsp;
+                        Sally Mackrodt,&nbsp;
+                        Stefan Gatner,&nbsp;
+                        Stephan (Mönchengladbach),&nbsp;
+                        <a href="https://www.linkedin.com/in/stephanie-becker-a5a65a248"
+                           className="underline pl-1">Stephanie&nbsp;
+                            (Frankfurt)</a>,&nbsp;
+                        Thorge Naumann,&nbsp;
+                        <a href="https://www.linkedin.com/in/thorsten-thamm" className="underline pl-1">Thorsten
+                            Thamm&nbsp;
+                            (Köln)</a>,&nbsp;
+                        Tony Franzky (Freiburg),&nbsp;
+                        Torben Lettschmidt,&nbsp;
+                        wertzui&nbsp;
                     </p>
 
                 </section>
