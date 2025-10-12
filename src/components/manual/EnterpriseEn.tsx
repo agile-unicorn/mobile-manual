@@ -23,10 +23,6 @@ export const EnterpriseEn = () => {
                                 With 6 players, the game duration increases, so stronger incentives and more valuable stories are included in the deck.
                                 The cards from the expansion deck complement the cards from the base game, meaning they are shuffled together. They are marked to distinguish them from the other cards and can be sorted out if needed.
                             </p>
-
-                            <p className="text-gray-600">
-                                <strong>These rules are not final yet.</strong>
-                            </p>
                         </div>
                     </div>
 

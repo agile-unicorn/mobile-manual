@@ -23,15 +23,12 @@ export const EnterpriseDe = () => {
                             <p className="text-gray-600 mb-2">
                                 Bei 6 Spielern erhöht sich die Spielzeit, deswegen sind stärkere Incentives und wertvollere
                                 Storys im Deck.
-                                Die Karten des Erweiterungs-Decks und ergänzen die Karten des
+                                Die Karten des Erweiterungs-Decks ergänzen die Karten des
                                 Basisspiels, d.h. sie werden mit den anderen vermischt. Sie haben eine Markierung, um
                                 sie von den anderen Karten zu unterscheiden
                                 und bei Bedarf aussortieren zu können.
                             </p>
 
-                            <p className="text-gray-600">
-                                <strong>Diese Regeln sind noch nicht final.</strong>
-                            </p>
                         </div>
                     </div>
 
