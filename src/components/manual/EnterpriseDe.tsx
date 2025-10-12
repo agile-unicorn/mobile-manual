@@ -40,7 +40,7 @@ export const EnterpriseDe = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 mt-8">
                 <ManualCard
                     title="Reroll "
-                    description="Incentive um neu zu würfeln"
+                    description="Incentive, um neu zu würfeln"
                     className="bg-white"
                 >
                     <img
@@ -55,7 +55,7 @@ export const EnterpriseDe = () => {
 
                 <ManualCard
                     title="Die Bombe"
-                    description="Event um den Pitch abzubrechen"
+                    description="Event, um den Pitch abzubrechen"
                     className="bg-white"
                 >
                     <img
@@ -69,7 +69,7 @@ export const EnterpriseDe = () => {
 
                 <ManualCard
                     title="All In"
-                    description="Event um alle Teammitglieder einzusetzen"
+                    description="Event, um alle Teammitglieder einzusetzen"
                     className="bg-white"
                 >
                     <img

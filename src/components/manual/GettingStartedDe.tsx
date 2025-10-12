@@ -9,7 +9,7 @@ export const GettingStartedDe = () => {
           <p className="text-gray-600 mb-2">Je nach gewünschter Spieldauer können die erforderlichen Siegpunkte variiert werden:</p>
           <ul className="list-disc list-inside space-y-2 text-gray-600 ml-4">
             <li>22 Siegpunkte "MVP" (ca. 20 Minuten)</li>
-            <li>32 Siegpunkte "Schnell-Scrum" (ca. 40 Minuten)</li>
+            <li>32 Siegpunkte "Quick Scrum" (ca. 40 Minuten)</li>
             <li>42 Siegpunkte "Full Fledged" (ca. 60 Minuten)</li>
           </ul>
         </section>

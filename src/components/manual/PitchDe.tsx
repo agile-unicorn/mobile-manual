@@ -54,12 +54,12 @@ export const PitchDe = () => {
             <div className="border-b pb-4">
               <h4 className="font-semibold mb-2">Event-Karten spielen</h4>
               <p className="text-gray-600">
-                Nun können die Spieler im Pitch (ausgehend vom Startspieler), vor dem Würfeln zusätzliche Event-Karten ausspielen. Die Effekte werden sofort ausgeführt. Es dürfen beliebig viele Event-Karten gleichzeitig gelegt werden, auch auf unterschiedliche Spieler. 
+                Nun können die Spieler im Pitch (ausgehend vom Startspieler) vor dem Würfeln zusätzliche Event-Karten ausspielen. Die Effekte werden sofort ausgeführt. Es dürfen beliebig viele Event-Karten gleichzeitig gelegt werden, auch auf unterschiedliche Spieler.
                 Event-Karten können nicht gegen die Pitch-Karte in der Tischmitte gespielt werden, um diese zu verändern. Immer wenn ein Spieler eine Event-Karte gespielt hat, können die anderen Spieler im Pitch reagieren und ihrerseits weitere Karten ausspielen, bis alle gepasst haben.  
               </p>
               <p className="text-gray-600 mt-4 bg-gray-100 p-4 rounded">
                <strong>Beispiel:</strong> Um seine Chancen zu verbessern (immerhin hat Spieler C 4 Würfel), entschließt sich Spieler A dazu, eine Event-Karte von seiner Hand auszuspielen. Er legt "Schnellscrum", wodurch er ein weiteres Teammitglied von seinen Handkarten dem Pitch hinzufügen darf.
-                Er wählt seinen Stärke 2 Entwickler , so dass er im Kräfteverhältnis vorne liegt. Doch auch Spieler C legt eine Event-Karte, welche ihm die Verwendung eines zusätzlichen Würfels ermöglicht.
+                Er wählt seinen Stärke 2 Entwickler, so dass er im Kräfteverhältnis vorne liegt. Doch auch Spieler C legt eine Event-Karte, welche ihm die Verwendung eines zusätzlichen Würfels ermöglicht.
                 Spieler A will dies unbedingt verhindern und spielt eine weitere Event-Karte mit dem Zauberstab-Symbol aus. Dadurch hebt er den Effekt der letzten Event-Karte von Spieler C auf. Dieser darf also weiterhin nur mit 4 Würfeln pitchen.
                 Spieler C könnte nun seinerseits wieder eine Event-Karte spielen, hat jedoch keine geeignete und passt daher. Spieler A könnte noch weitere Event-Karten legen, passt aber ebenfalls.
               </p>

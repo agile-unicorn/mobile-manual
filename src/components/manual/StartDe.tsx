@@ -167,8 +167,8 @@ export const StartDe = () => {
                     Der Spieler muss alle gelegten Teamkarten sofort wieder auf die Hand nehmen. Die Teamkarten können
                     im nächsten Pitch weiter verwendet werden. Bereits gespielte Event-Karten sind verloren, aber es
                     können
-                    noch Event-Karten gespielt werden, die auf der Hand sind (z.B. Zauberstab). Die Teammitglied -
-                    nachziehen Karte kann verwendet werden, um einzelne Teammitglieder doch noch einzusetzen.
+                    noch Event-Karten gespielt werden, die auf der Hand sind (z.B. Zauberstab). Die "Teammitglied
+                    nachziehen" Karte kann verwendet werden, um einzelne Teammitglieder doch noch einzusetzen.
                 </ManualCard>
 
                 <ManualCard
