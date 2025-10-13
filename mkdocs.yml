@@ -28,8 +28,7 @@ theme:
     - content.tabs.link
     - content.code.annotation
     - content.code.copy
-  icon:
-    logo: material/unicorn
+  logo: lovable-uploads/logo.png
   favicon: public/favicon.ico
 
 extra_css:
@@ -91,6 +90,6 @@ nav:
 extra:
   social:
     - icon: fontawesome/brands/instagram
-      link: https://instagram.com/agileunicorn
+      link: https://instagram.com/agile_unicorn_card_game
 
 copyright: Copyright &copy; 2025 Agile Unicorn Team
