@@ -8,7 +8,7 @@ Willkommen zum offiziellen Regelwerk von **Agile Unicorn** - dem Kartenspiel üb
 
 ## Über dieses Handbuch
 
-![Agile Unicorn](./lovable-uploads/74cf2d65-fe10-4f21-af77-58e52824a08c.png){ align=right width=200 }
+![Agile Unicorn](images/74cf2d65-fe10-4f21-af77-58e52824a08c.png){ align=right width=200 }
 
 Dieses Handbuch enthält alle Regeln und Informationen, die Sie zum Spielen von Agile Unicorn benötigen. Nutzen Sie die Navigation oben:
 

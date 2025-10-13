@@ -24,7 +24,7 @@ All remaining CTOs and noobs are removed and put back into the box.
 
 All event cards are placed face down in a pile. All other cards (stories, incentives and team cards) are shuffled and placed face down in a separate draw pile.
 
-![Game Setup](./lovable-uploads/spielaufbau.png)
+![Game Setup](images/spielaufbau.png)
 
 ## Adjustments
 

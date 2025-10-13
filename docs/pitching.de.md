@@ -1,6 +1,6 @@
 # Die Pitches
 
-![Pitch Runde Übersicht](./lovable-uploads/pitch.png)
+![Pitch Runde Übersicht](images/pitch.png)
 
 Innerhalb eines Sprints können mehrere Pitch-Runden gespielt werden. Hierbei kann die neu aufgedeckte Pitch-Karte in der Tischmitte gewonnen werden (Story, Incentive oder Teamkarte).
 

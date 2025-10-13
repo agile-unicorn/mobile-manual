@@ -24,7 +24,7 @@ Alle übrigen CTOs und Noobs werden aussortiert und in die Box zurückgelegt.
 
 Alle Event-Karten werden verdeckt in einem Stapel bereitgelegt. Alle übrigen Karten (Storys, Incentives und Teamkarten) werden gemischt und verdeckt im separaten Nachziehstapel bereitgelegt.
 
-![Spielaufbau](./lovable-uploads/spielaufbau.png)
+![Spielaufbau](images/spielaufbau.png)
 
 ## Anpassungen
 

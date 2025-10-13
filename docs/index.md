@@ -1,6 +1,6 @@
 # Agile Unicorn Manual
 
-![Agile Unicorn](./lovable-uploads/74cf2d65-fe10-4f21-af77-58e52824a08c.png){ align=right width=200 }
+![Agile Unicorn](images/74cf2d65-fe10-4f21-af77-58e52824a08c.png){ align=right width=200 }
 Welcome to the official manual for **Agile Unicorn** - the card game about surviving IT chaos in a startup!
 
 This manual contains all the rules and information you need to play Agile Unicorn. Use the navigation above to explore:

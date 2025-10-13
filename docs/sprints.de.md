@@ -1,6 +1,6 @@
 # Der Sprint
 
-![Sprint Übersicht](./lovable-uploads/sprint.png)
+![Sprint Übersicht](images/sprint.png)
 
 Das Spiel läuft über mehrere Sprints: Ein Sprint besteht aus bis zu 5 Duell-Runden (Pitch). Während eines Sprints versuchen die Spieler durch Ausspielen ihrer Team- und Event-Karten die Mitspieler in mehreren Duellen zu übertreffen, um möglichst wertvolle neue Karten für das eigene Startup zu gewinnen.
 

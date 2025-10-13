@@ -22,7 +22,7 @@ There are four different types of cards. They are differentiated by their card c
 
 ### Stories (Victory Points)
 
-![Story Card](lovable-uploads/storycard.png){ align=right width=150 }
+![Story Card](images/storycard.png){ align=right width=150 }
 
 Stories provide 3 to 20 victory points corresponding to the number in the top left of the card.
 
@@ -30,7 +30,7 @@ Whether a story can be successfully executed is determined by rolling against it
 
 ### Team Members
 
-![Team Card](lovable-uploads/devcard.png){ align=right width=150 }
+![Team Card](images/devcard.png){ align=right width=150 }
 
 You can only win cards with team members. Their strength is indicated by dice and possibly a bonus or penalty in the top left.
 
@@ -40,7 +40,7 @@ The team members remain in hand until used (once per sprint).
 
 ### Incentives
 
-![Incentive Card](lovable-uploads/wand.png){ align=right width=150 }
+![Incentive Card](images/wand.png){ align=right width=150 }
 
 Incentives can be used after rolling to improve the result. The value in the top left is added to the dice result.
 
@@ -48,7 +48,7 @@ Incentives are kept hidden in hand and are consumed after use for the sprint.
 
 ### Event Cards
 
-![Event Card](lovable-uploads/event.png){ align=right width=150 }
+![Event Card](images/event.png){ align=right width=150 }
 
 Event cards have various effects and can be played before rolling. Some are targeted at specific players, others at all players in the pitch.
 

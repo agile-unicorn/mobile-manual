@@ -2,7 +2,7 @@
 
 /* Header background with bgtop.png */
 .md-header {
-  background-image: url('../lovable-uploads/bgtop.png') !important;
+  background-image: url('../images/bgtop.png') !important;
   background-size: cover !important;
   background-position: center !important;
   background-color: transparent !important;
