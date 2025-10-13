@@ -52,6 +52,8 @@
       
     
     
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
     <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -76,6 +78,11 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
+      
+        
+        <a href="#game-setup" class="md-skip">
+          Skip to content
+        </a>
       
     </div>
     <div data-md-component="announce">
@@ -453,6 +460,21 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Setup
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
         
@@ -465,6 +487,70 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#set-victory-points" class="md-nav__link">
+    <span class="md-ellipsis">
+      Set Victory Points
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#distribute-team-cards" class="md-nav__link">
+    <span class="md-ellipsis">
+      Distribute Team Cards
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prepare-piles" class="md-nav__link">
+    <span class="md-ellipsis">
+      Prepare Piles
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#adjustments" class="md-nav__link">
+    <span class="md-ellipsis">
+      Adjustments
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#teams-cooperative-mode" class="md-nav__link">
+    <span class="md-ellipsis">
+      Teams (Cooperative Mode)
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -575,6 +661,61 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#set-victory-points" class="md-nav__link">
+    <span class="md-ellipsis">
+      Set Victory Points
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#distribute-team-cards" class="md-nav__link">
+    <span class="md-ellipsis">
+      Distribute Team Cards
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prepare-piles" class="md-nav__link">
+    <span class="md-ellipsis">
+      Prepare Piles
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#adjustments" class="md-nav__link">
+    <span class="md-ellipsis">
+      Adjustments
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#teams-cooperative-mode" class="md-nav__link">
+    <span class="md-ellipsis">
+      Teams (Cooperative Mode)
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -590,9 +731,43 @@
 
 
 
-  <h1>Setup</h1>
-
-
+<h1 id="game-setup">Game Setup</h1>
+<h2 id="set-victory-points">Set Victory Points</h2>
+<p>Depending on how long you want the game to last, the required victory points can be varied:</p>
+<ul>
+<li><strong>22 Victory Points</strong> "MVP" (approx. 20 minutes)</li>
+<li><strong>32 Victory Points</strong> "Quick Scrum" (approx. 40 minutes)</li>
+<li><strong>42 Victory Points</strong> "Full Fledged" (approx. 60 minutes)</li>
+</ul>
+<h2 id="distribute-team-cards">Distribute Team Cards</h2>
+<p>Each player receives their starting deck:</p>
+<ul>
+<li>one Chief Technical Officer (CTO, 3 dice)</li>
+<li>one team member with 2 dice</li>
+<li>one noob (1 die)</li>
+<li>one green incentive card with a value of 2</li>
+<li>two event cards</li>
+</ul>
+<p>All remaining CTOs and noobs are removed and put back into the box.</p>
+<h2 id="prepare-piles">Prepare Piles</h2>
+<p>All event cards are placed face down in a pile. All other cards (stories, incentives and team cards) are shuffled and placed face down in a separate draw pile.</p>
+<p><img alt="Game Setup" src="../lovable-uploads/spielaufbau.png" /></p>
+<h2 id="adjustments">Adjustments</h2>
+<div class="admonition tip">
+<p class="admonition-title">Easy Start</p>
+</div>
+<p>Inexperienced players can play one sprint without event cards to learn the basic mechanics. Experienced players can start directly with event cards.</p>
+<div class="admonition info">
+<p class="admonition-title">With 2 Players</p>
+</div>
+<p>If only 2 players are participating, each receives 2 additional team cards: one with strength 2 and one with strength 1.</p>
+<div class="admonition info">
+<p class="admonition-title">With 5 Players</p>
+</div>
+<p>If 5 players are participating, the <strong>backlog must be expanded to 6 cards</strong> so that the starting player changes continuously.</p>
+<h2 id="teams-cooperative-mode">Teams (Cooperative Mode)</h2>
+<p>For an even number of players (4), teams can be formed: team members can coordinate and pitch on cards together, meaning that the dice results are added up. All effects of event and incentive cards then apply to the entire team (e.g. skip, magic wands). The victory points of the team members are also summed.</p>
+<p>If a team member does not participate in the pitch, they are not allowed to use their event and incentive cards.</p>
 
 
 
@@ -643,17 +818,6 @@
       
         
 <div class="md-social">
-  
-    
-    
-    
-    
-      
-      
-    
-    <a href="https://twitter.com/agileunicorn" target="_blank" rel="noopener" title="twitter.com" class="md-social__link">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M459.4 151.7c.3 4.5.3 9.1.3 13.6 0 138.7-105.6 298.6-298.6 298.6-59.5 0-114.7-17.2-161.1-47.1 8.4 1 16.6 1.3 25.3 1.3 49.1 0 94.2-16.6 130.3-44.8-46.1-1-84.8-31.2-98.1-72.8 6.5 1 13 1.6 19.8 1.6 9.4 0 18.8-1.3 27.6-3.6-48.1-9.7-84.1-52-84.1-103v-1.3c14 7.8 30.2 12.7 47.4 13.3-28.3-18.8-46.8-51-46.8-87.4 0-19.5 5.2-37.4 14.3-53C87.4 130.8 165 172.4 252.1 176.9c-1.6-7.8-2.6-15.9-2.6-24C249.5 95.1 296.3 48 354.4 48c30.2 0 57.5 12.7 76.7 33.1 23.7-4.5 46.5-13.3 66.6-25.3-7.8 24.4-24.4 44.8-46.1 57.8 21.1-2.3 41.6-8.1 60.4-16.2-14.3 20.8-32.2 39.3-52.6 54.3"/></svg>
-    </a>
   
     
     

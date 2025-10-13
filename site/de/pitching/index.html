@@ -52,6 +52,8 @@
       
     
     
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
     <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -886,60 +888,6 @@
 <p>Nach jeder Pitch-Runde wechselt der Startspieler im Uhrzeigersinn, die nächste Pitch-Karte wird in die Tischmitte verschoben und die nächste, bislang verdeckte Karte im Sprint-Backlog wird aufgedeckt. Es folgt der nächste Pitch nach obigem Ablauf mit den übrigen Handkarten.</p>
 <h2 id="ende-des-spiels">Ende des Spiels</h2>
 <p>Das Spiel endet, sobald ein Spieler am Sprint-Ende blaue Story-Siegpunktkarten im Gesamtwert der vereinbarten Siegpunkte (oder mehr) besitzt und damit gewonnen hat.</p>
-<h1 id="the-pitches">The Pitches</h1>
-<p><img alt="Pitch Round Overview" src="../../lovable-uploads/pitch.png" /></p>
-<p>Within a sprint, several pitch rounds can be played. In these rounds the newly revealed pitch card in the center can be won (story, incentive or team card).</p>
-<h2 id="conduct-pitch-rounds">Conduct Pitch Rounds</h2>
-<h3 id="1-start-pitch">1. Start Pitch</h3>
-<p>The first card of the sprint backlog is placed in the center of the table. This is the card that is pitched for. To win it, players must reach or exceed its value.</p>
-<ul>
-<li>For a <strong>story card</strong>, the depicted victory points are used.</li>
-<li>For a <strong>team card</strong>, its value is determined by rolling according to its strength (number of dice including modifiers) when it is placed in the center.</li>
-<li>For an <strong>incentive card</strong>, the bonus of the card is simultaneously the target value.</li>
-</ul>
-<h3 id="2-pitch-or-pass">2. Pitch or Pass</h3>
-<p>The player with the funniest t-shirt receives the starting player card (First Mover) and begins. In turn, each player can either pass, in which case no cards are played, or pitch using their team cards by placing one or more team cards from their hand face down.</p>
-<div class="admonition example">
-<p class="admonition-title">Example</p>
-<p>The next card in the sprint backlog is a blue story card with a value of 13, meaning that 13 dice points must be reached. Players then decide in turn whether to bid (pitch) on this card or pass.</p>
-<p>Player A places his CTO (strength 3 dice) face down in the center. Player B, wanting to save his team for later rounds, passes. Player C does not want to let Player A win the story card without a fight and also pitches by placing two team cards face down (with strengths of 3 and 1 die).</p>
-</div>
-<h3 id="3-reveal-team-cards">3. Reveal Team Cards</h3>
-<p>Once each player has decided whether to pass or pitch, all played team cards are revealed.</p>
-<div class="admonition example">
-<p class="admonition-title">Example</p>
-<p>Player A has 3 dice available because he used his CTO. Player C now has 4 dice available as he played two cards with the corresponding strengths.</p>
-</div>
-<h3 id="4-play-event-cards">4. Play Event Cards</h3>
-<p>Now, starting with the starting player, players in the pitch may play additional event cards before rolling their dice. The effects take place immediately. Any number of event cards may be played at the same time, even targeting different players.</p>
-<p>Event cards cannot be used to modify the pitch card in the center. Whenever a player plays an event card, the other players in the pitch may react and play additional cards until everyone has passed.</p>
-<div class="admonition example">
-<p class="admonition-title">Example</p>
-<p>To improve his chances (since Player C has 4 dice), Player A decides to play an event card from his hand. He plays "Quick Scrum", which allows him to add another team member from his hand to the pitch.</p>
-<p>He selects his strength 2 developer to gain an advantage. However, Player C also plays an event card that grants him an extra die. Player A then uses another event card with a magic wand symbol to cancel the effect of Player C's card. As a result, Player C continues pitching with only 4 dice.</p>
-<p>Player C might play an event card in response but has none suitable and passes. Eventually, Player A also passes.</p>
-</div>
-<h3 id="5-roll-dice">5. Roll Dice</h3>
-<p>Each player rolls a number of dice corresponding to the total strength of his team cards (e.g., CTO 3 dice + Noob 1 die = 4 dice).</p>
-<h3 id="6-use-incentives-and-determine-winner">6. Use Incentives and Determine Winner</h3>
-<p>Each player, starting with the starting player, may use their unused incentive cards to improve their dice result. Any number of incentive cards may be used. Whenever a player plays an incentive card, the other players may respond by playing additional cards until everyone has passed. These cards, however, are then considered used for the remainder of the sprint.</p>
-<p>Bonuses from incentive and event card effects are applied to the dice result. <strong>The player with the highest total wins the card</strong> provided the target value is reached. In case of a tie, dice are rolled again (while event and incentive effects remain). If the target value is not reached, the pitch card is moved to the discard pile.</p>
-<div class="admonition example">
-<p class="admonition-title">Example</p>
-<p>Dice are rolled. Player A scores a total of 15 with his 5 dice. Player C rolls a 17. Player A must decide first whether to use his unused incentive "Free Massages," which provides an additional 3 points for this pitch.</p>
-<p>Since Player C has no incentive cards left, Player A uses his incentive card and wins the pitch with 18 points.</p>
-</div>
-<h3 id="7-set-aside-cards">7. Set Aside Cards</h3>
-<p>All played event cards are set aside in a separate pile.</p>
-<p>Additionally, each player places the team cards they used face down in front of themselves. The winner also adds the newly won card to their pile. All set aside or won cards remain face down until the end of the sprint and cannot be used again until the next sprint, and not in the immediately following pitch rounds.</p>
-<div class="admonition example">
-<p class="admonition-title">Example</p>
-<p>Player A receives the story card, which he places face down along with his played team cards until the sprint ends. These cards are considered used for the current sprint. This also applies to Player C's team cards even though he did not win the pitch card. All played event cards go to the discard pile.</p>
-</div>
-<h3 id="8-change-starting-player">8. Change Starting Player</h3>
-<p>After each pitch round, the starting player rotates clockwise, the next pitch card is moved to the center, and the next, previously face-down card in the sprint backlog is revealed. The next pitch round then follows according to the above procedure using the remaining hand cards.</p>
-<h2 id="end-of-the-game">End of the Game</h2>
-<p>The game ends as soon as a player possesses blue story victory point cards totaling the agreed victory points (or more) at the end of a sprint, thereby winning the game.</p>
 
 
 
@@ -990,17 +938,6 @@
       
         
 <div class="md-social">
-  
-    
-    
-    
-    
-      
-      
-    
-    <a href="https://twitter.com/agileunicorn" target="_blank" rel="noopener" title="twitter.com" class="md-social__link">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M459.4 151.7c.3 4.5.3 9.1.3 13.6 0 138.7-105.6 298.6-298.6 298.6-59.5 0-114.7-17.2-161.1-47.1 8.4 1 16.6 1.3 25.3 1.3 49.1 0 94.2-16.6 130.3-44.8-46.1-1-84.8-31.2-98.1-72.8 6.5 1 13 1.6 19.8 1.6 9.4 0 18.8-1.3 27.6-3.6-48.1-9.7-84.1-52-84.1-103v-1.3c14 7.8 30.2 12.7 47.4 13.3-28.3-18.8-46.8-51-46.8-87.4 0-19.5 5.2-37.4 14.3-53C87.4 130.8 165 172.4 252.1 176.9c-1.6-7.8-2.6-15.9-2.6-24C249.5 95.1 296.3 48 354.4 48c30.2 0 57.5 12.7 76.7 33.1 23.7-4.5 46.5-13.3 66.6-25.3-7.8 24.4-24.4 44.8-46.1 57.8 21.1-2.3 41.6-8.1 60.4-16.2-14.3 20.8-32.2 39.3-52.6 54.3"/></svg>
-    </a>
   
     
     

@@ -1,0 +1,29 @@
+/* Custom styles for Agile Unicorn Manual */
+
+/* Header background with bgtop.png */
+.md-header {
+  background-image: url('../lovable-uploads/bgtop.png') !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-color: transparent !important;
+}
+
+/* Ensure header text is visible on the background */
+.md-header__title,
+.md-header__button,
+.md-header-nav__button {
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+/* Language selector styling */
+.md-select__link {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 4px;
+  padding: 4px 8px;
+}
+
+/* Optional: Add some padding for better visibility */
+.md-header {
+  min-height: 80px;
+}
+

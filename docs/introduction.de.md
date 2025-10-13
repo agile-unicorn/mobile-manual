@@ -22,7 +22,7 @@ Es gibt vier verschiedene Arten von Karten. Sie unterscheiden sich durch ihre Ka
 
 ### Storys (Siegpunkte)
 
-![Story-Karte](./lovable-uploads/940f3730-58d6-4602-bc18-31c9c7114d59.png){ align=right width=150 }
+![Story-Karte](lovable-uploads/storycard.png){ align=right width=150 }
 
 Storys liefern 3 bis 20 Siegpunkte, die der Zahl oben links auf der Karte entsprechen.
 
@@ -30,7 +30,7 @@ Ob eine Story erfolgreich umgesetzt werden kann, wird durch Würfeln gegen den W
 
 ### Teammitglieder
 
-![Teamkarte](./lovable-uploads/2a69e587-9129-40c7-b233-245d01f1ac7d.png){ align=right width=150 }
+![Teamkarte](lovable-uploads/devcard.png){ align=right width=150 }
 
 Nur mit Teammitgliedern kannst du Karten gewinnen. Ihre Stärke wird oben links durch Würfel und eventuell einen Bonus oder Malus angezeigt.
 
@@ -40,7 +40,7 @@ Die Teammitglieder verbleiben auf der Hand, bis sie eingesetzt werden (einmal pr
 
 ### Incentives
 
-![Incentive-Karte](./lovable-uploads/b464c24b-351d-4585-9dc8-e7fb0de7ef89.png){ align=right width=150 }
+![Incentive-Karte](./lovable-uploads/incentivecard.png){ align=right width=150 }
 
 Incentives können nach dem Würfeln eingesetzt werden, um das Ergebnis zu verbessern. Der Wert oben links wird zum Würfelergebnis addiert.
 
@@ -48,11 +48,11 @@ Incentives werden verdeckt auf der Hand gehalten und sind nach dem Einsatz für 
 
 ### Event-Karten
 
-![Event-Karte](./lovable-uploads/6099a104-34b4-4501-bee6-c3dad95a8784.png){ align=right width=150 }
+![Event-Karte](lovable-uploads/event.png){ align=right width=150 }
 
 Event-Karten haben verschiedene Effekte und können vor dem Würfeln gespielt werden. Manche richten sich gegen bestimmte Spieler, andere gegen alle Spieler im Pitch.
 
-Der Kartentext beschreibt den Effekt. Einige Karten haben ein **Zauberstab-Symbol** (⚡) - diese können den Effekt der zuletzt gespielten Event-Karte aufheben.
+Der Kartentext beschreibt den Effekt. Einige Karten haben ein **Zauberstab-Symbol** ![Incentive-Karte](./lovable-uploads/wand.png){ width=30 } - diese können den Effekt der zuletzt gespielten Event-Karte aufheben.
 
 Event-Karten werden nach dem Einsatz abgelegt und können erst im nächsten Sprint wieder verwendet werden.
 

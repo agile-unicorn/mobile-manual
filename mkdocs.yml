@@ -32,6 +32,9 @@ theme:
     logo: material/unicorn
   favicon: public/favicon.ico
 
+extra_css:
+  - stylesheets/extra.css
+
 plugins:
   - search
   - i18n:
@@ -87,10 +90,7 @@ nav:
 
 extra:
   social:
-    - icon: fontawesome/brands/twitter
-      link: https://twitter.com/agileunicorn
     - icon: fontawesome/brands/instagram
       link: https://instagram.com/agileunicorn
 
 copyright: Copyright &copy; 2025 Agile Unicorn Team
-
