@@ -1,0 +1,96 @@
+site_name: Agile Unicorn Manual
+site_url: https://manual.agile-unicorn.com
+site_description: Official manual for the Agile Unicorn card game
+site_author: Agile Unicorn Team
+
+theme:
+  name: material
+  language: en
+  palette:
+    - scheme: default
+      primary: deep purple
+      accent: pink
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: deep purple
+      accent: pink
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+  icon:
+    logo: material/unicorn
+  favicon: public/favicon.ico
+
+plugins:
+  - search
+  - i18n:
+      docs_structure: suffix
+      fallback_to_default: true
+      reconfigure_material: true
+      reconfigure_search: true
+      languages:
+        - locale: en
+          default: true
+          name: English
+          build: true
+          site_name: "Agile Unicorn Manual"
+        - locale: de
+          name: Deutsch
+          build: true
+          site_name: "Agile Unicorn Regelwerk"
+          nav_translations:
+            Home: Start
+            Introduction: Einführung
+            Setup: Spielaufbau
+            Sprints: Sprints
+            Pitching: Pitches
+            Enterprise Ecstasy: Enterprise Ekstase
+            Credits: Credits
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.mark
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+nav:
+  - Home: index.md
+  - Introduction: introduction.md
+  - Setup: setup.md
+  - Sprints: sprints.md
+  - Pitching: pitching.md
+  - Enterprise Ecstasy: enterprise.md
+  - Credits: credits.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/agileunicorn
+    - icon: fontawesome/brands/instagram
+      link: https://instagram.com/agileunicorn
+
+copyright: Copyright &copy; 2025 Agile Unicorn Team
+
