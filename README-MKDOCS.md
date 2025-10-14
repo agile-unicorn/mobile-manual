@@ -1,6 +1,3 @@
-# Agile Unicorn - MkDocs Setup
-
-Diese README erklärt, wie Sie die statische MkDocs-Version der Website erstellen und ausführen.
 
 ## Installation
 

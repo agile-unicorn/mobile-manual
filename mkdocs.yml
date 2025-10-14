@@ -1,5 +1,5 @@
 site_name: Agile Unicorn Manual
-site_url: https://manual.agile-unicorn.com
+site_url: https://manual.agile-unicorn.com/test
 site_description: Official manual for the Agile Unicorn card game
 site_author: Agile Unicorn Team
 
@@ -28,7 +28,7 @@ theme:
     - content.tabs.link
     - content.code.annotation
     - content.code.copy
-  logo: lovable-uploads/logo.png
+  logo: images/logo.png
   favicon: public/favicon.ico
 
 extra_css:
@@ -36,6 +36,17 @@ extra_css:
 
 plugins:
   - search
+  - glightbox:
+      touchNavigation: true
+      loop: false
+      effect: zoom
+      slide_effect: slide
+      width: 100%
+      height: auto
+      zoomable: true
+      draggable: true
+      skip_classes:
+        - skip-lightbox
   - i18n:
       docs_structure: suffix
       fallback_to_default: true
