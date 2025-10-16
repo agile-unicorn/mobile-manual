@@ -25,8 +25,8 @@ export const StartDe = () => {
                                 className="float-right ml-4 mb-4 w-64 h-auto hidden"
                             />
                             <p className="text-gray-600">
-                                <strong>Überlebe mit deinem Startup das IT-Chaos und gewinne als Erster die meisten
-                                    Siegpunkte.</strong>
+                                <strong>Überlebe mit deinem Startup das IT-Chaos und gewinne, indem du als Erster die
+                                    meisten Siegpunkte erreichst.</strong>
                             </p>
 
                             <p className="text-gray-600">
@@ -36,9 +36,6 @@ export const StartDe = () => {
                                 greifen, um die besten Storys für sich zu gewinnen.
                             </p>
 
-                            <p className="text-gray-600 mt-4 font-bold">
-                                Sieger ist, wer zuerst die vereinbarte Anzahl an Siegpunkten erreicht hat.
-                            </p>
                         </div>
                     </div>
                     <div className="flex flex-col md:flex-row items-start gap-6 mt-4">
@@ -66,13 +63,13 @@ export const StartDe = () => {
             <h2 className="text-4xl font-bold text-primary mt-16 mb-6 pl-4">Die Karten</h2>
             <p className="text-gray-600 mb-8 pl-4">
                 Es gibt vier verschiedene Arten von Karten. Sie unterscheiden sich durch ihre Kartenfarbe. Für die
-                Regeln sind die Kartentexte nicht relevant, wichtig sind die Zahlen und Symbole oben links.
+                Regeln sind die Zahlen und Symbole oben links relevant, die Kartentexte dienen alleine dem Amüsement.
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <ManualCard
                     title="Storys (Siegpunkte)"
-                    description="Storys liefern 3 bis 20 Siegpunkte, die der Zahl oben links auf der Karte entsprechen."
+                    description="Storys haben einen Wert zwischen 3 und 20 Siegpunkten. Er entspricht der Zahl oben links auf der Karte."
                     className="relative">
                     <div className="relative">
                         <img
@@ -88,7 +85,7 @@ export const StartDe = () => {
                 </ManualCard>
                 <ManualCard
                     title="Teammitglieder"
-                    description="Nur mit Teammitgliedern kannst du Karten gewinnen. Ihre Stärke wird oben links durch Würfel und eventuell einen Bonus oder Malus angezeigt."
+                    description="Ihre Stärke wird oben links durch Würfel angezeigt. Dies gibt die Anzahl von Würfeln an, die du beim Pitch um eine Story würfeln darfst. Bei manchen Karten wird darunter noch ein Bonus oder Malus angezeigt."
                     className="relative"
                 >
                     <img
@@ -99,7 +96,8 @@ export const StartDe = () => {
 
                     <p>Dein Team darf maximal aus 5 Mitgliedern bestehen. Wenn ein 6. Mitglied gewonnen wird, muss der
                         Spieler ein anderes Mitglied seiner Wahl entlassen und unter den Nachziehkartenstapel legen.</p>
-                    <p>Die Teammitglieder bleiben auf der Hand bis sie eingesetzt werden (1x pro Sprint).</p>
+                    <p>Die Teammitglieder bleiben auf der Hand bis sie eingesetzt werden. Dies ist je Teammitglied
+                        einmal pro Sprint möglich.</p>
                 </ManualCard>
 
                 <ManualCard
@@ -143,7 +141,7 @@ export const StartDe = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
                 <ManualCard
                     title="Punktwert"
-                    description=""
+                    description="verändert das Würfelergebnis"
                     className="bg-white"
                 >
                     <img
@@ -156,7 +154,7 @@ export const StartDe = () => {
 
                 <ManualCard
                     title="Aussetzen"
-                    description=""
+                    description="alle Teamkarten wieder auf die Hand nehmen"
                     className="bg-white"
                 >
                     <img
@@ -165,15 +163,14 @@ export const StartDe = () => {
                         className="float-left mr-2 w-1/3 h-auto"
                     />
                     Der Spieler muss alle gelegten Teamkarten sofort wieder auf die Hand nehmen. Die Teamkarten können
-                    im nächsten Pitch weiter verwendet werden. Bereits gespielte Event-Karten sind verloren, aber es
-                    können
-                    noch Event-Karten gespielt werden, die auf der Hand sind (z.B. Zauberstab). Die "Teammitglied
-                    nachziehen" Karte kann verwendet werden, um einzelne Teammitglieder doch noch einzusetzen.
+                    im nächsten Pitch weiter verwendet werden, aber gespielte Event-Karten sind verloren.<br /><br />
+                    Es können Event-Karten gespielt werden, die auf der Hand sind (z.B. Zauberstab oder "Teammitglied
+                    nachziehen", um einzelne Teammitglieder doch noch einzusetzen).
                 </ManualCard>
 
                 <ManualCard
                     title="Zauberstab"
-                    description=""
+                    description="wendet eine Event-Karte ab"
                     className="bg-white"
                 >
                     <img
@@ -199,7 +196,7 @@ export const StartDe = () => {
 
                 <ManualCard
                     title="Teammitglied dazu"
-                    description="Ein Teammitglied nachziehen"
+                    description="Ein zusätzliches Teammitglied ausspielen"
                     className="bg-white"
                 >
                     <img
@@ -207,13 +204,13 @@ export const StartDe = () => {
                         alt="Teammitglied dazu Symbol"
                         className="float-left mr-2 w-1/3 h-auto"
                     />
-                    Bei Plus muss der adressierte Spieler eine zusätzliche Teamkarte verwenden. Diese Karte muss von
+                    Der adressierte Spieler muss eine zusätzliche Teamkarte im Pitch verwenden. Diese Karte muss von
                     seiner Hand kommen und wird von ihm selbst ausgewählt.
                 </ManualCard>
 
                 <ManualCard
                     title="Teammitglied weg"
-                    description="Ein Teammitglied entfernen"
+                    description="Ein ausgespieltes Teammitglied entfernen"
                     className="bg-white"
                 >
                     <img
@@ -221,9 +218,8 @@ export const StartDe = () => {
                         alt="Teammitglied entfernen Symbol"
                         className="float-left mr-2 w-1/3 h-auto"
                     />
-                    Bei Minus muss eine Teamkarte nach Wahl des Spielers, auf den die Karte gespielt wird, entfernt
-                    werden. Diese Teamkarte ist verloren und darf erst wieder im nächsten Sprint auf die Hand genommen
-                    werden.
+                    Der adressierte Spieler muss eine bereits gespielte Teamkarte seiner Wahl aus dem Pitch entfernen.
+                    Diese Teamkarte darf erst wieder im nächsten Sprint auf die Hand genommen werden.
                 </ManualCard>
             </div>
         </>
