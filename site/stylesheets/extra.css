@@ -27,3 +27,39 @@
   min-height: 80px;
 }
 
+/* Prevent hamburger menu on mobile - always show navigation */
+@media screen and (max-width: 76.1875em) {
+  .md-nav__toggle ~ .md-nav__list {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    max-height: none !important;
+    overflow: visible !important;
+  }
+
+  .md-nav__item {
+    display: inline-block !important;
+  }
+
+  /* Hide the hamburger button */
+  .md-nav__toggle:checked ~ .md-nav__list,
+  .md-nav__toggle ~ .md-nav__list {
+    display: flex !important;
+  }
+
+  /* Make tabs always visible */
+  .md-tabs {
+    display: flex !important;
+    flex-wrap: wrap !important;
+  }
+
+  .md-tabs__list {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+  }
+
+  .md-tabs__item {
+    flex: 0 1 auto !important;
+    min-width: fit-content !important;
+  }
+}

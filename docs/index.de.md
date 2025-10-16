@@ -1,6 +1,6 @@
 # Agile Unicorn Regelwerk
 
-Willkommen zum offiziellen Regelwerk von **Agile Unicorn** - Überlebe mit deinem Startup das IT-Chaos und gewinne als Erster die meisten Siegpunkte!
+![Agile Unicorn](images/rules.png){ align=left width=40% } Willkommen zum offiziellen Regelwerk von **Agile Unicorn** - Überlebe mit deinem Startup das IT-Chaos und gewinne als Erster die meisten Siegpunkte!
 
 Um deine Mitspieler auszustechen, muss es gelingen, das Potenzial deines Entwicklerteams im Duell um neue Storys und die
 besten Köpfe optimal einzusetzen. Doch leider läuft selten alles so wie geplant, denn auch die anderen Spieler werden zu
@@ -13,7 +13,6 @@ allen Mitteln greifen, um die besten Storys für sich zu gewinnen.
 
 ## Über dieses Handbuch
 
-![Agile Unicorn](images/74cf2d65-fe10-4f21-af77-58e52824a08c.png){ align=right width=200 }
 
 Dieses Handbuch enthält alle Regeln und Informationen, die Sie zum Spielen von Agile Unicorn benötigen. Nutzen Sie die Navigation oben:
 

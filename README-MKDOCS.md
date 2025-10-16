@@ -122,3 +122,4 @@ mkdocs>=1.5.3
 mkdocs-material>=9.5.3
 mkdocs-static-i18n>=1.2.0
 
+cd /home/daniel/IdeaProjects/mobile-manual && . venv/bin/activate && mkdocs serve
