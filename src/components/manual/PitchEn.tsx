@@ -115,6 +115,9 @@ export const PitchEn = () => {
             <p className="text-gray-600">
               The game ends as soon as a player possesses blue story victory point cards totaling the agreed victory points (or more) at the end of a sprint, thereby winning the game.
             </p>
+            <p className="text-gray-600">
+              In case of a tie, additional pitches are played (from the draw pile) until one player has more victory points than the others. If no player has any team cards left on their hand, players must agree whether to accept a draw or play another sprint with all players.
+            </p>
           </section>
         </div>
       </div>
