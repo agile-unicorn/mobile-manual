@@ -22,6 +22,6 @@ Der Sprint ist beendet, sobald die letzte Pitch-Runde ausgespielt wurde. Er kann
 
 ## Retro und neuer Sprint
 
-Jeder Spieler kontrolliert, dass das Team aus maximal 5 Mitgliedern besteht. Überzählige Teamkarten werden unter den Nachziehstapel geschoben.
+Jeder Spieler kontrolliert, dass das Team aus maximal 5 Mitgliedern besteht. Überzählige Teammitglieder müssen entlassen werden, also die Karten unter den Nachziehstapel geschoben werden.
 
 Sämtliche Teamkarten sowie neue und eingesetzte Incentive-Karten werden wieder aufgenommen. Jeder Spieler zieht zwei neue Event-Karten, ungenutzte bleiben auf der Hand. Das Sprint-Backlog wird wieder vom Nachziehstapel aufgefüllt (5 Karten, bei 5 Spielern 6 Karten) und der nächste Startspieler beginnt den neuen Sprint.
