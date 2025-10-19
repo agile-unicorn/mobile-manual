@@ -16,12 +16,15 @@ export const EnterpriseDe = () => {
                                 className="float-left mr-8 mb-4 w-32 h-auto"
                             />
                             <p className="text-gray-600 mb-2">
-                                Enterprise Ekstase ist eine separat erhältliche Erweiterung des Basisspiels und ermöglicht es, Agile Unicorn mit <strong>bis zu 6
-                                Spielern</strong> zu spielen und führt <strong>neue taktische Elemente ein</strong>. Es ist kein eigenständiges Spiel.
+                                Enterprise Ekstase ist eine separat erhältliche Erweiterung des Basisspiels und
+                                ermöglicht es, Agile Unicorn mit <strong>bis zu 6
+                                Spielern</strong> zu spielen und führt <strong>neue taktische Elemente ein</strong>. Es
+                                ist kein eigenständiges Spiel.
                             </p>
 
                             <p className="text-gray-600 mb-2">
-                                Bei 6 Spielern erhöht sich die Spielzeit, deswegen sind stärkere Incentives und wertvollere
+                                Bei 6 Spielern erhöht sich die Spielzeit, deswegen sind stärkere Incentives und
+                                wertvollere
                                 Storys im Deck.
                                 Die Karten des Erweiterungs-Decks ergänzen die Karten des
                                 Basisspiels, d.h. sie werden mit den anderen vermischt. Sie haben eine Markierung, um
@@ -49,8 +52,9 @@ export const EnterpriseDe = () => {
                         className="float-left mr-2 w-1/3 h-auto"
                     />
                     Rerolls kann man für sich oder gegen einen Mitspieler einsetzen, um einen kompletten <strong>Wurf
-                    aller Würfel</strong> zu wiederholen.
-                    Nach dem Einsatz ist die Karte für den Sprint verbraucht.
+                    aller Würfel</strong> zu wiederholen. Tipp: Daran denken, sich nach dem Sprint seine Reroll-Karte
+                    wieder zurückzuholen.
+
                 </ManualCard>
 
                 <ManualCard
@@ -105,10 +109,12 @@ export const EnterpriseDe = () => {
 
                     <section className="mb-4">
                         <h3 className="text-xl font-semibold mb-3">Karten sortieren</h3>
-                        <p className="text-gray-600 mb-2">Die Karten des Erweiterungs-Decks werden bis auf folgende Ausnahmen unter die Karten des
+                        <p className="text-gray-600 mb-2">Die Karten des Erweiterungs-Decks werden bis auf folgende
+                            Ausnahmen unter die Karten des
                             Basisspiels gemischt:</p>
                         <ul className="list-disc list-inside space-y-2 text-gray-600 ml-4">
-                            <li>Für jeden Spieler wird eine Reroll-Karte für das Startdeck aussortiert. Weitere Reroll-Karten
+                            <li>Für jeden Spieler wird eine Reroll-Karte für das Startdeck aussortiert. Weitere
+                                Reroll-Karten
                                 werden in den Nachziehstapel gemischt.
                             </li>
                             <li>Alle CTOs und Noobs, die nicht von den Spielern benötigt werden, werden aus dem Spiel

@@ -3,7 +3,7 @@ import {ManualCard} from "@/components/ManualCard";
 export const StartEn = () => {
     return (
         <>
-            <h1 className="text-4xl font-bold text-primary mb-8">Instructions for Playing Agile Unicorn</h1>
+            <h1 className="text-4xl font-bold text-primary mb-4">Instructions for Playing Agile Unicorn</h1>
             <div className="ml-2 text-sm text-gray-500 cursor-pointer group relative"> --&gt; What is a Unicorn?
                 <div
                     className="absolute left-0 top-full mt-1 w-1/3 p-2 bg-pink-400 text-white text-xs rounded shadow-lg opacity-0 group-hover:opacity-100 transition-opacity">
@@ -13,6 +13,7 @@ export const StartEn = () => {
                     such a valuation (unless in a bubble).
                 </div>
             </div>
+
             <div className="w-full mt-6">
                 <div className="bg-white rounded-lg p-8 shadow-md">
                     <h2 className="text-2xl font-semibold mb-4">Objective of the Game</h2>
@@ -27,15 +28,14 @@ export const StartEn = () => {
                                 <strong>Survive the IT chaos with your startup and be the first to win the most victory
                                     points.</strong>
                             </p>
+
                             <p className="text-gray-600">
                                 To beat your opponents, you must effectively use the potential of your development team
                                 in duels for new stories and the best minds. Unfortunately, things rarely go as planned,
                                 as the other players will also be using their possible means to secure the best stories
                                 for themselves.
                             </p>
-                            <p className="text-gray-600 mt-4 font-bold">
-                                The winner is the player who is the first to reach the agreed number of victory points.
-                            </p>
+
                         </div>
                     </div>
                     <div className="flex flex-col md:flex-row items-start gap-6 mt-4">
@@ -45,8 +45,7 @@ export const StartEn = () => {
                                 The game consists of several rounds (sprints): A sprint consists of up to 5 duel rounds
                                 (pitches). During a sprint, players try to outperform each other by playing their team
                                 and event cards to win the most valuable new cards for their startup.
-                            </p>
-                        </div>
+                            </p></div>
                     </div>
                     <p className="text-gray-600 bg-gray-200 p-4 rounded">
                         <strong>TLDR:</strong> Team members are secretly assigned cards that grant victory points.
@@ -60,15 +59,14 @@ export const StartEn = () => {
             <h2 className="text-4xl font-bold text-primary mt-16 mb-6 pl-4">The Cards</h2>
             <p className="text-gray-600 mb-8 pl-4">
                 There are four different types of cards. They are differentiated by their card color. For the rules, the
-                card texts are not important; only the numbers and symbols in the top left matter.
+                numbers and symbols in the top left are relevant, the card texts serve solely for amusement.
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <ManualCard
                     title="Stories (Victory Points)"
-                    description="Stories provide 3 to 20 victory points corresponding to the number in the top left of the card."
-                    className="relative"
-                >
+                    description="Stories have a value between 3 and 20 victory points. It corresponds to the number in the top left of the card."
+                    className="relative">
                     <div className="relative">
                         <img
                             src="/lovable-uploads/940f3730-58d6-4602-bc18-31c9c7114d59.png"
@@ -82,7 +80,7 @@ export const StartEn = () => {
                 </ManualCard>
                 <ManualCard
                     title="Team Members"
-                    description="You can only win cards with team members. Their strength is indicated by dice and possibly a bonus or penalty in the top left."
+                    description="Their strength is indicated by dice in the top left. This indicates the number of dice you may roll when pitching for a story. Some cards also show a bonus or penalty below."
                     className="relative"
                 >
                     <img
@@ -90,9 +88,10 @@ export const StartEn = () => {
                         alt="The Hammer card"
                         className="float-right ml-2 mb-2 w-1/3 h-auto"
                     />
+
                     <p>Your team can consist of a maximum of 5 members. If a 6th member is won, the player must dismiss
-                        one of their choice and place it in the draw pile.</p>
-                    <p>The team members remain in hand until used (once per sprint).</p>
+                        another member of their choice and place it under the draw pile.</p>
+                    <p>The team members remain in hand until they are used. This is possible once per sprint for each team member.</p>
                 </ManualCard>
 
                 <ManualCard
@@ -105,7 +104,7 @@ export const StartEn = () => {
                         className="float-right ml-2 mb-2 w-1/3 h-auto"
                     />
                     <p>
-                        The attractiveness of your startup is enhanced by perks that motivate your team members to
+                        The attractiveness of your startup is enhanced by perks that are meant to motivate team members to
                         perform at their best.<br/>
                         Each card can be used once per sprint after rolling to improve the dice result, starting with
                         the starting player.
@@ -122,20 +121,18 @@ export const StartEn = () => {
                         alt="Server outage event card"
                         className="float-right ml-2 mb-2 w-1/3 h-auto"
                     />
-                    Event cards have no hand limit and can be collected over several rounds.
-                    Once played, they are consumed and placed in the event card pile.
-                    A player who passes cannot use event cards. Each card can be played against any player in the pitch
-                    (who has not passed), including against oneself.
-                    They cannot be used to modify the pitch card in the center.
+                    There is no hand limit for event cards and they can be collected over several rounds. After being played, they are consumed and placed under the event card pile.
+
+                    Players who pass cannot use event cards. Each card can be played against any player in the pitch (who has not passed), including oneself. They cannot be played against the pitch card in the center to modify it.
                 </ManualCard>
             </div>
 
-            <h2 className="text-4xl font-bold text-primary mt-16 mb-6 pl-4">Symbols</h2>
+            <h2 className="text-4xl font-bold text-primary mt-16 mb-6 pl-4 ">Symbols</h2>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
                 <ManualCard
                     title="Point Value"
-                    description=""
+                    description="modifies the dice result"
                     className="bg-white"
                 >
                     <img
@@ -148,7 +145,7 @@ export const StartEn = () => {
 
                 <ManualCard
                     title="Skip"
-                    description=""
+                    description="take all team cards back to hand"
                     className="bg-white"
                 >
                     <img
@@ -157,22 +154,20 @@ export const StartEn = () => {
                         className="float-left mr-2 w-1/3 h-auto"
                     />
                     The player must immediately return all played team cards to their hand. The team cards can be used
-                    in the next pitch, but the played event cards are lost. Other event cards can still be played (e.g.
-                    the wand). The "Add member" card can be played to re-add a new team member in order to remain in the
-                    pitch.
+                    in the next pitch, but played event cards are lost.<br /><br />
+                    Event cards that are on hand can be played (e.g. Magic Wand or "Draw team member" to still use individual team members).
                 </ManualCard>
 
                 <ManualCard
                     title="Magic Wand"
-                    description=""
+                    description="negates an event card"
                     className="bg-white"
                 >
                     <img
                         src="/lovable-uploads/b464c24b-351d-4585-9dc8-e7fb0de7ef89.png"
                         alt="Magic wand symbol"
                         className="float-left mr-2 w-1/3 h-auto"
-                    />
-                    Negates the effect of another event card once. This card can be played at any time, even against
+                    />Negates the effect of another event card once. This card can be played at any time, even against
                     other magic wand cards.
                 </ManualCard>
 
@@ -186,12 +181,12 @@ export const StartEn = () => {
                         alt="Dice symbol"
                         className="float-left mr-2 w-1/3 h-auto"
                     />
-                    Temporarily adds or subtracts the shown dice during the pitch.
+                    Temporarily the shown dice additionally or less in the pitch.
                 </ManualCard>
 
                 <ManualCard
                     title="Add Team Member"
-                    description="Draw one team member"
+                    description="Play an additional team member"
                     className="bg-white"
                 >
                     <img
@@ -199,12 +194,12 @@ export const StartEn = () => {
                         alt="Add team member symbol"
                         className="float-left mr-2 w-1/3 h-auto"
                     />
-                    With a plus, the targeted player must play an additional team card from their hand.
+                    The targeted player must use an additional team card in the pitch. This card must come from their hand and is selected by them.
                 </ManualCard>
 
                 <ManualCard
                     title="Remove Team Member"
-                    description="Remove one team member"
+                    description="Remove a played team member"
                     className="bg-white"
                 >
                     <img
@@ -212,11 +207,10 @@ export const StartEn = () => {
                         alt="Remove team member symbol"
                         className="float-left mr-2 w-1/3 h-auto"
                     />
-                    With a minus, one team card of the targeted player must be removed. This team card is lost and
-                    cannot be used again until the next sprint.
+                    The targeted player must remove an already played team card of their choice from the pitch. This team card can only be taken back to hand in the next sprint.
                 </ManualCard>
             </div>
-
         </>
     );
 };
+

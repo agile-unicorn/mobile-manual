@@ -45,7 +45,7 @@ export const GettingStartedDe = () => {
         <section>
           <h3 className="text-xl font-semibold mb-3">Anpassungen </h3>
           <p className="text-gray-600 mt-4 bg-gray-100 p-4 rounded">
-            <strong>Leichter Einstieg:</strong> Ungeübte Spieler können 1 Sprint ohne Ereigniskarten spielen, um die Grundmechanik zu verinnerlichen. Erfahrene Spieler können direkt mit Event-Karten starten.
+            <strong>Leichter Einstieg:</strong> Ungeübte Spieler können 1 Sprint ohne Event-Karten spielen, um die Grundmechanik zu verinnerlichen. Erfahrene Spieler können direkt mit Event-Karten starten.
           </p>
           <p className="text-gray-600 mt-4 bg-gray-100 p-4 rounded">
             <strong>Bei 2 Spielern:</strong> Falls nur 2 Spieler mitspielen, erhält jeder 2 weitere Teamkarten: eine mit Stärke 2 und eine mit Stärke 1.

@@ -16,13 +16,19 @@ export const EnterpriseEn = () => {
                                 className="float-left mr-8 mb-4 w-32 h-auto"
                             />
                             <p className="text-gray-600 mb-2">
-                                Enterprise Ecstasy is a separately available expansion for the base game and allows you to play Agile Unicorn with <strong>up to 6 players</strong>, introducing <strong>new tactical elements</strong>.
+                                Enterprise Ecstasy is a separately available expansion for the base game and allows you
+                                to play Agile Unicorn with <strong>up to 6 players</strong>, introducing <strong>new
+                                tactical elements</strong>. It is not a standalone game.
                             </p>
 
                             <p className="text-gray-600 mb-2">
-                                With 6 players, the game duration increases, so stronger incentives and more valuable stories are included in the deck.
-                                The cards from the expansion deck complement the cards from the base game, meaning they are shuffled together. They are marked to distinguish them from the other cards and can be sorted out if needed.
+                                With 6 players, the game duration increases, so stronger incentives and more valuable
+                                stories are included in the deck.
+                                The cards from the expansion deck complement the cards from the base game, meaning they
+                                are shuffled together. They are marked to distinguish them from the other cards and can
+                                be sorted out if needed.
                             </p>
+
                         </div>
                     </div>
 
@@ -33,7 +39,7 @@ export const EnterpriseEn = () => {
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 mt-8">
                 <ManualCard
-                    title="Reroll"
+                    title="Reroll "
                     description="Incentive to reroll"
                     className="bg-white"
                 >
@@ -42,8 +48,9 @@ export const EnterpriseEn = () => {
                         alt="reroll symbol"
                         className="float-left mr-2 w-1/3 h-auto"
                     />
-                    Rerolls can be used for yourself or against another player to <strong>reroll all dice</strong>.
-                    After use, the card is consumed for the sprint.
+                    Rerolls can be used for yourself or against another player to <strong>reroll all dice</strong>. Tip:
+                    Remember to retrieve your reroll card after the sprint.
+
                 </ManualCard>
 
                 <ManualCard
@@ -56,7 +63,8 @@ export const EnterpriseEn = () => {
                         alt="Bomb symbol"
                         className="float-left mr-2 w-1/3 h-auto"
                     />
-                    The entire pitch is canceled, and all used cards are consumed. This card affects all players who participated in the pitch.
+                    The entire pitch is canceled, and all used cards are consumed. This card affects all players who
+                    participated in the pitch.
                 </ManualCard>
 
                 <ManualCard
@@ -82,7 +90,9 @@ export const EnterpriseEn = () => {
                         alt="Sabotage symbol"
                         className="float-left mr-2 w-1/3 h-auto"
                     />
-                    An incentive can be permanently stolen from another player's hand. The player keeps their incentives hidden, and the player who played the sabotage card draws one of them. Used incentives cannot be stolen.
+                    An incentive can be permanently stolen from another player's hand. The player keeps their incentives
+                    hidden, and the player who played the sabotage card draws one of them. Used incentives cannot be
+                    stolen.
                 </ManualCard>
 
             </div>
@@ -94,9 +104,12 @@ export const EnterpriseEn = () => {
 
                     <section className="mb-4">
                         <h3 className="text-xl font-semibold mb-3">Sort Cards</h3>
-                        <p className="text-gray-600 mb-2">The cards from the expansion deck are shuffled into the base game cards, except for the following:</p>
+                        <p className="text-gray-600 mb-2">The cards from the expansion deck are shuffled into the base
+                            game cards, except for the following:</p>
                         <ul className="list-disc list-inside space-y-2 text-gray-600 ml-4">
-                            <li>One reroll card is set aside for each player for the starting deck. Additional reroll cards are shuffled into the draw pile.</li>
+                            <li>One reroll card is set aside for each player for the starting deck. Additional reroll
+                                cards are shuffled into the draw pile.
+                            </li>
                             <li>All CTOs and noobs not needed by the players are removed from the game.</li>
                             <li>The rest of the setup proceeds as in the base game.</li>
                         </ul>
@@ -112,7 +125,7 @@ export const EnterpriseEn = () => {
                             <li>one noob (1 die)</li>
                             <li>one green reroll incentive card</li>
                             <li>one green incentive card with a value of 2</li>
-                            <li>two event cards</li>
+                            <li>two red event cards</li>
                         </ul>
 
                     </section>
@@ -121,3 +134,4 @@ export const EnterpriseEn = () => {
         </>
     );
 };
+
