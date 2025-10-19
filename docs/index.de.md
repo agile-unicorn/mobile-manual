@@ -1,6 +1,7 @@
 # Agile Unicorn Regelwerk
 
-![Agile Unicorn](images/rules.png){ align=left width=40% } Willkommen zum offiziellen Regelwerk von **Agile Unicorn (1)** - Überlebe mit deinem Startup das IT-Chaos und gewinne als Erster die meisten Siegpunkte!
+![Agile Unicorn](images/rules.png){ align=left width=40% } Willkommen zum offiziellen Regelwerk von **Agile Unicorn (1)** - Überlebe mit deinem Startup das IT-Chaos und gewinne, indem du als Erster die
+meisten Siegpunkte erreichst.
 { .annotate }
 
 1.  Was ist ein Unicorn? Ein Unicorn ist ein privates Start-up-Unternehmen, das eine Bewertung von über einer Milliarde US-Dollar erreicht hat. Der Begriff wurde geprägt, um die Seltenheit solcher Erfolge zu betonen, da es für Start-ups sehr schwierig ist, eine solche Bewertung zu erreichen (außer man befindet sich in einer Blase).

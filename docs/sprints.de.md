@@ -12,6 +12,10 @@ Alle Spieler verfügen über ihr komplettes Team sowie den Incentive-Karten auf 
 
 Der Inhalt des Sprints wird festgelegt, indem ein Sprint-Backlog aus 5 zufälligen Karten vom Nachziehstapel ausgelegt wird (Storys, Incentives, Teamkarten). Die erste Karte wird offen in die Tischmitte gelegt, die Nächste als Vorschau offen neben die verbleibenden Karten (die noch verdeckt sind). Es folgen dann mehrere Pitch-Runden um die Karten des Sprint-Backlogs.
 
+## Sprint-Pitches
+
+Nun finden die Duell-Runden statt, in denen die Spieler um die Karten des Sprint-Backlogs pitchen können. Die genaue Beschreibung des Ablauf befindet sich auf der nächsten Seite.
+
 ## Sprint-Ende
 
 Der Sprint ist beendet, sobald die letzte Pitch-Runde ausgespielt wurde. Er kann auch vorzeitig enden, falls bereits alle Spieler ihre Teamkarten eingesetzt oder alle Spieler gepasst haben. Besitzt nur noch ein Spieler ungenutzte Teamkarten auf der Hand, kann er die restlichen Pitches auch alleine durchführen. Sollte er jedoch passen, ist der Sprint beendet.
