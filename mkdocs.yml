@@ -5,6 +5,7 @@ site_author: Agile Unicorn Team
 
 theme:
   name: material
+  custom_dir: overrides
   language: en
   palette:
     - scheme: default
@@ -72,8 +73,8 @@ plugins:
             Enterprise Ecstasy: Enterprise Ekstase
             Credits: Credits
   - print-site:
-      add_to_navigation: true
-      print_page_title: 'Print Manual'
+      add_to_navigation: false
+      print_page_title: '🖨'
       add_print_site_banner: false
       add_full_urls: false
       enumerate_headings: false
