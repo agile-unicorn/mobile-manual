@@ -71,6 +71,21 @@ plugins:
             Pitching: Pitches
             Enterprise Ecstasy: Enterprise Ekstase
             Credits: Credits
+  - print-site:
+      add_to_navigation: true
+      print_page_title: 'Print Manual'
+      add_print_site_banner: false
+      add_full_urls: false
+      enumerate_headings: false
+      enumerate_figures: false
+      add_cover_page: false
+      add_table_of_contents: false
+      toc_title: ""
+      toc_depth: 3
+      cover_page_template: ""
+      path_to_pdf: ""
+      include_css: true
+      enabled: true
 
 markdown_extensions:
   - pymdownx.highlight:
