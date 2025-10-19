@@ -6,10 +6,6 @@ Das Spiel läuft über mehrere Durchgänge (Sprints): Ein Sprint besteht aus bis
 Sprints versuchen die Spieler durch Ausspielen ihrer Team- und Event-Karten die Mitspieler in mehreren Duellen zu
 übertreffen, um möglichst wertvolle neue Karten für das eigene Startup zu gewinnen.
 
-!!! info "TLDR"
-    Auf die Karten, die die Siegpunkte bringen, werden verdeckt Teammitglieder angesetzt. Die Teammitglieder haben
-    unterschiedliche Stärke (Würfel). Vor und nach dem Würfeln können noch Effekte ausgespielt werden, um sich selbst einen
-    Vorteil zu verschaffen. Das Team mit dem höchsten Würfelergebnis bekommt die Story-Siegpunktkarte.
 
 !!! success "Sieger ist, wer zuerst die vereinbarte Anzahl an Siegpunkten erreicht hat."
 
