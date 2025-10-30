@@ -7,14 +7,14 @@
 To beat your opponents, you must effectively use the potential of your development team in duels for new stories and the best minds. Unfortunately, things rarely go as planned, as the other players will also be using their possible means to secure the best stories for themselves.
 
 !!! success "Winner"
-The winner is the player who is the first to reach the agreed number of victory points.
+    The winner is the player who is the first to reach the agreed number of victory points.
 
 ## Game Process
 
 The game consists of several rounds (sprints): A sprint consists of up to 5 duel rounds (pitches). During a sprint, players try to outperform each other by playing their team and event cards to win the most valuable new cards for their startup.
 
 !!! info "TLDR"
-Team members are secretly assigned cards that grant victory points. The team members have different strengths (dice). Effects cards can be played before and after rolling to gain an advantage. The team with the highest dice result wins the story victory point card.
+    Team members are secretly assigned cards that grant victory points. The team members have different strengths (dice). Effects cards can be played before and after rolling to gain an advantage. The team with the highest dice result wins the story victory point card.
 
 ## The Cards
 
@@ -57,4 +57,4 @@ The card text describes the effect. Some cards have a **magic wand symbol** (⚡
 Event cards are discarded after use and cannot be reused until the next sprint.
 
 !!! warning "Important"
-Event cards cannot be used to modify the pitch card in the center of the table.
+    Event cards cannot be used to modify the pitch card in the center of the table.
