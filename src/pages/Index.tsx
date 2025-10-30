@@ -126,7 +126,7 @@ const Index = () => {
                             <div className="mt-2">
                                 <a href="https://agile-unicorn.com/imprint/" className="text-primary hover:underline"
                                    target="_blank" rel="noopener noreferrer">
-                                    Impressum
+                                    Impressum / Imprint
                                 </a>
                             </div>
                         </div>
