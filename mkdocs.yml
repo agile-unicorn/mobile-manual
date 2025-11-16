@@ -38,6 +38,7 @@ extra_css:
 
 plugins:
   - search
+  - macros
   - glightbox:
       touchNavigation: true
       loop: false
@@ -116,6 +117,7 @@ nav:
   - Credits: credits.md
 
 extra:
+  version: "1.0.0"
   social:
     - icon: fontawesome/brands/instagram
       link: https://instagram.com/agile_unicorn_card_game

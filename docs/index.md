@@ -1,4 +1,6 @@
-# Agile Unicorn Manual
+# Agile Unicorn Manual { #manual }
+
+<div markdown="span" class="version-badge">Version {{ config.extra.version }}</div>
 
 ![Agile Unicorn](images/rules.png){ align=left width=40% } Welcome to the official manual for **Agile Unicorn (1)** - Survive the IT chaos with your startup and win by being the first to reach the most victory points.
 { .annotate }

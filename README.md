@@ -1,69 +1,116 @@
-# Welcome to your Lovable project
+# Agile Unicorn Manual
 
-## Project info
+Dieses Handbuch enthält alle Regeln und Informationen, die Sie zum Spielen von **Agile Unicorn (1)** benötigen.
 
-**URL**: https://lovable.dev/projects/b3bd63be-71b4-440a-a5c8-8ca4868ecc35
+## Installation
 
-## How can I edit this code?
+### Python-Abhängigkeiten installieren
 
-There are several ways of editing your application.
-
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/b3bd63be-71b4-440a-a5c8-8ca4868ecc35) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+```bash
+pip install -r requirements.txt
 ```
 
-**Edit a file directly in GitHub**
+Oder mit einem Virtual Environment:
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```bash
+python -m venv venv
+source venv/bin/activate  # Unter Linux/Mac
+# oder: venv\Scripts\activate unter Windows
+pip install -r requirements.txt
+```
 
-**Use GitHub Codespaces**
+## Lokale Entwicklung
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Starten Sie den Entwicklungsserver:
 
-## What technologies are used for this project?
+```bash
+mkdocs serve
+```
 
-This project is built with .
+Die Website ist dann unter `http://127.0.0.1:8000` erreichbar und aktualisiert sich automatisch bei Änderungen.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## Build erstellen
 
-## How can I deploy this project?
+Erstellen Sie die statische Website:
 
-Simply open [Lovable](https://lovable.dev/projects/b3bd63be-71b4-440a-a5c8-8ca4868ecc35) and click on Share -> Publish.
+```bash
+mkdocs build
+```
 
-## I want to use a custom domain - is that possible?
+Die fertigen Dateien finden Sie im `site/`-Verzeichnis.
 
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+## Mehrsprachigkeit
+
+Die Website unterstützt Deutsch und Englisch:
+
+- Englische Seiten: `docs/*.md`
+- Deutsche Seiten: `docs/*.de.md`
+
+Der Sprachselektor erscheint automatisch in der Navigation.
+
+## PDF erstellen
+
+
+
+## Deployment
+
+### GitHub Pages
+
+```bash
+mkdocs gh-deploy
+```
+
+### Andere Hosting-Plattformen
+
+Laden Sie einfach den Inhalt des `site/`-Verzeichnisses hoch.
+
+## Verzeichnisstruktur
+
+```
+├── mkdocs.yml           # Hauptkonfiguration
+├── requirements.txt     # Python-Abhängigkeiten
+├── docs/
+│   ├── index.md         # Homepage (EN)
+│   ├── index.de.md      # Homepage (DE)
+│   ├── introduction.md  # Einführung (EN)
+│   ├── introduction.de.md
+│   ├── setup.md
+│   ├── setup.de.md
+│   ├── sprints.md
+│   ├── sprints.de.md
+│   ├── pitching.md
+│   ├── pitching.de.md
+│   ├── enterprise.md
+│   ├── enterprise.de.md
+│   ├── credits.md
+│   └── lovable-uploads/ # Bilder
+└── site/                # Generierte Website (nach Build)
+```
+
+## Anpassungen
+
+### Theme und Farben
+
+Bearbeiten Sie `mkdocs.yml` um das Theme anzupassen:
+
+```yaml
+theme:
+  palette:
+    primary: deep purple
+    accent: pink
+```
+
+### Navigation
+
+Ändern Sie die Navigation in `mkdocs.yml`:
+
+```yaml
+nav:
+  - Home: index.md
+  - Introduction: introduction.md
+  # ...
+```
+
+### Inhalte bearbeiten
+
+Bearbeiten Sie die Markdown-Dateien im `docs/`-Verzeichnis.

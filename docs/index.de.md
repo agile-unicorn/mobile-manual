@@ -1,4 +1,6 @@
-# Agile Unicorn Regelwerk
+# Agile Unicorn Regelwerk { #manual }
+
+<div markdown="span" class="version-badge">Version {{ config.extra.version }}</div>
 
 ![Agile Unicorn](images/rules.png){ align=left width=40% } Willkommen zum offiziellen Regelwerk von **Agile Unicorn (1)** - Überlebe mit deinem Startup das IT-Chaos und gewinne, indem du als Erster die
 meisten Siegpunkte erreichst.
