@@ -19,16 +19,16 @@ Die erste Karte des Sprint-Backlogs wird in die Tischmitte gelegt. Sie ist die K
 Der Spieler mit dem lustigsten T-Shirt erhält die Startspieler-Karte (First Mover) und beginnt. Reihum kann jeder Spieler entweder passen, dann werden keine Karten ausgelegt, oder mit seinen Teamkarten pitchen. Dazu werden eine oder mehrere Teamkarten von der Hand verdeckt ausgelegt.
 
 !!! example "Beispiel"
-    Die nächste Karte im Sprint-Backlog ist eine blaue Story-Karte mit dem Wert 13, was bedeutet, dass man 13 Würfelpunkte erreichen muss. Die Spieler überlegen nun reihum, ob sie auf diese Karte bieten (pitchen) oder passen.
+    Die nächste Karte im Sprint-Backlog ist eine blaue Story-Karte mit dem Wert 13. Um sie zu gewinnen, müssen die Spieler mindestens eine 13 mit ihrem Würfelwurf erreichen. Die Spieler überlegen nun reihum, ob sie auf diese Karte bieten (pitchen) oder passen.
     
     Spieler A legt seinen CTO (Stärke 3 Würfel) verdeckt in die Tischmitte. Spieler B will sein Team für spätere Pitch-Runden zusammenhalten und passt daher. Spieler C will Spieler A die Story-Karte nicht kampflos überlassen und steigt daher ebenfalls ein, indem er verdeckt zwei Teamkarten legt (mit Stärke 3 und 1 Würfel).
 
 ### 3. Teamkarten aufdecken
 
-Sobald jeder Spieler entschieden hat, ob er passt oder pitcht, werden die ausgelegten Teamkarten aller Spieler aufgedeckt.
+Sobald jeder Spieler an der Reihe war, werden die ausgelegten Teamkarten aller pitchenden Spieler aufgedeckt.
 
 !!! example "Beispiel"
-    Spieler A stehen 3 Würfel zur Verfügung, da er seinen CTO eingesetzt hat. Spieler C stehen nun 4 Würfel zur Verfügung, da er zwei Karten entsprechender Stärke eingesetzt hat.
+    Spieler A stehen 3 Würfel zur Verfügung, da er seinen CTO eingesetzt hat. Spieler C stehen 4 Würfel zur Verfügung, da er eine Teamkarte mit Stärke 3 und eine mit Stärke 1 eingesetzt hat.
 
 ### 4. Event-Karten spielen
 
@@ -76,3 +76,6 @@ Nach jeder Pitch-Runde wechselt der Startspieler im Uhrzeigersinn, die nächste 
 ## Ende des Spiels
 
 Das Spiel endet, sobald ein Spieler am Sprint-Ende blaue Story-Siegpunktkarten im Gesamtwert der vereinbarten Siegpunkte (oder mehr) besitzt und damit gewonnen hat.
+
+Bei Gleichstand wird solange ein weiterer Pitch (vom Nachziehstapel) gespielt, bis ein Spieler mehr Siegpunkte als die anderen hat. Sollten kein Spieler mehr Teamkarten auf der Hand haben, muss man sich einigen, ob ein Unentschieden akzeptiert wird oder ein weiterer Sprint mit allen Mitspielern gespielt wird.
+

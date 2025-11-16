@@ -10,9 +10,9 @@ Alle Spieler verfügen über ihr komplettes Team sowie den Incentive-Karten auf 
 
 ## Sprint-Backlog
 
-Der Inhalt des Sprints wird festgelegt, indem ein Sprint-Backlog aus 5 zufälligen Karten vom Nachziehstapel ausgelegt wird (Storys, Incentives, Teamkarten). Die erste Karte wird offen in die Tischmitte gelegt, die Nächste als Vorschau offen neben die verbleibenden Karten (die noch verdeckt sind). Es folgen dann mehrere Pitch-Runden um die Karten des Sprint-Backlogs.
+Der Inhalt des Sprints wird festgelegt, indem ein Sprint-Backlog aus 5 zufälligen Karten (bei 5 Spielern 6 Karten) vom Nachziehstapel ausgelegt wird (Storys, Incentives, Teamkarten). Die erste Karte wird offen in die Tischmitte gelegt, die Nächste als Vorschau offen neben die verbleibenden Karten (die noch verdeckt sind). Es folgen dann mehrere Pitch-Runden um die Karten des Sprint-Backlogs.
 
-## Sprint-Pitches
+## Pitches
 
 Nun finden die Duell-Runden statt, in denen die Spieler um die Karten des Sprint-Backlogs pitchen können. Die genaue Beschreibung des Ablauf befindet sich auf der nächsten Seite.
 
@@ -22,6 +22,8 @@ Der Sprint ist beendet, sobald die letzte Pitch-Runde ausgespielt wurde. Er kann
 
 ## Retro und neuer Sprint
 
+Sämtliche Teamkarten sowie neue und eingesetzte Incentive-Karten werden wieder aufgenommen.
+
 Jeder Spieler kontrolliert, dass das Team aus maximal 5 Mitgliedern besteht. Überzählige Teammitglieder müssen entlassen werden, also die Karten unter den Nachziehstapel geschoben werden.
 
-Sämtliche Teamkarten sowie neue und eingesetzte Incentive-Karten werden wieder aufgenommen. Jeder Spieler zieht zwei neue Event-Karten, ungenutzte bleiben auf der Hand. Das Sprint-Backlog wird wieder vom Nachziehstapel aufgefüllt (5 Karten, bei 5 Spielern 6 Karten) und der nächste Startspieler beginnt den neuen Sprint.
+Jeder Spieler zieht zwei neue Event-Karten, ungenutzte bleiben auf der Hand. Das Sprint-Backlog wird wieder vom Nachziehstapel auf die Anfangskartenzahl aufgefüllt und der nächste Startspieler beginnt den neuen Sprint.

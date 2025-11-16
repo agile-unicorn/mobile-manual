@@ -16,7 +16,7 @@ Bei 6 Spielern erhöht sich die Spielzeit, deswegen sind stärkere Incentives un
 
 **Incentive, um neu zu würfeln**
 
-Rerolls kann man für sich oder gegen einen Mitspieler einsetzen, um einen kompletten **Wurf aller Würfel** zu wiederholen. Nach dem Einsatz ist die Karte für den Sprint verbraucht.
+Rerolls kann man für sich oder gegen einen Mitspieler einsetzen, um einen kompletten **Wurf aller Würfel** zu wiederholen. Tipp: Daran denken, sich nach dem Sprint seine Reroll-Karte wieder zurückzuholen.
 
 ### Die Bombe
 
@@ -46,11 +46,11 @@ Ein Incentive kann von der Hand eines Mitspielers dauerhaft geklaut werden. Der 
 
 ### Karten sortieren
 
-Die Karten des Erweiterungs-Decks werden mit den Karten des Basisspiels vermischt, mit folgenden Ausnahmen:
+Die Karten des Erweiterungs-Decks werden bis auf folgende Ausnahmen unter die Karten des Basisspiels gemischt:
 
-- Für jeden Spieler wird eine Reroll-Karte für das Startdeck beiseitegelegt. Weitere Reroll-Karten werden in den Nachziehstapel gemischt.
-- Alle nicht von den Spielern benötigten CTOs und Noobs werden aus dem Spiel entfernt.
-- Der restliche Aufbau erfolgt wie im Basisspiel.
+- Für jeden Spieler wird eine Reroll-Karte für das Startdeck aussortiert. Weitere Reroll-Karten werden in den Nachziehstapel gemischt.
+- Alle CTOs und Noobs, die nicht von den Spielern benötigt werden, werden aus dem Spiel entfernt.
+- Die weitere Vorbereitung läuft wie im Basisspiel ab.
 
 ### Startdeck ausgeben
 
@@ -61,5 +61,5 @@ Jeder Spieler erhält folgende Karten:
 - einen Noob (1 Würfel)
 - eine grüne Reroll-Incentive-Karte
 - eine grüne Incentive-Karte mit dem Wert 2
-- zwei Ereigniskarten
+- zwei rote Event-Karten
 
