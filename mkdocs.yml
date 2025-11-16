@@ -73,6 +73,7 @@ plugins:
             Pitching: Pitches
             Enterprise Ecstasy: Enterprise Ekstase
             Credits: Credits
+            Changelog: Changelog
   - print-site:
       add_to_navigation: false
       print_page_title: '🖨'
@@ -115,9 +116,10 @@ nav:
   - Pitching: pitching.md
   - Enterprise Ecstasy: enterprise.md
   - Credits: credits.md
+  - Changelog: changelog.md
 
 extra:
-  version: "1.0.0"
+  version: "1.0.1"
   social:
     - icon: fontawesome/brands/instagram
       link: https://instagram.com/agile_unicorn_card_game
