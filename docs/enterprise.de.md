@@ -16,7 +16,10 @@ Bei 6 Spielern erhöht sich die Spielzeit, deswegen sind stärkere Incentives un
 
 **Incentive, um neu zu würfeln**
 
-Rerolls kann man für sich oder gegen einen Mitspieler einsetzen, um einen kompletten **Wurf aller Würfel** zu wiederholen. Tipp: Daran denken, sich nach dem Sprint seine Reroll-Karte wieder zurückzuholen.
+Rerolls kann man für sich oder gegen einen Mitspieler einsetzen, um einen kompletten **Wurf aller Würfel** zu wiederholen. Der Wert, um die Karte für sich im Pitch zu gewinnen, beträgt 0. 
+
+!!! tip "Reroll zurückholen"
+    Denke daran, nach dem Pitch deine ausgespielten Reroll-Karten zurückzuholen und auf den persönlichen Ablagetapel zu legen.
 
 ### Die Bombe
 
@@ -32,7 +35,7 @@ Der komplette Pitch wird abgebrochen und alle eingesetzten Karten sind verbrauch
 
 **Event, um alle Teammitglieder einzusetzen**
 
-Alle verbliebenden Teammitglieder müssen im Pitch eingesetzt werden.
+Alle verbliebenen Teammitglieder müssen im Pitch eingesetzt werden.
 
 ### Sabotage
 
@@ -40,7 +43,7 @@ Alle verbliebenden Teammitglieder müssen im Pitch eingesetzt werden.
 
 **Incentive klauen**
 
-Ein Incentive kann von der Hand eines Mitspielers dauerhaft geklaut werden. Der Mitspieler hält die Incentives verdeckt und der Spieler, der die Sabotage-Karte gespielt hat, zieht eine der Karten. Benutzte Incentives können nicht geklaut werden.
+Ein Incentive kann von der Hand eines Mitspielers dauerhaft geklaut werden. Der Mitspieler hält die Incentives verdeckt und der Spieler, der die Sabotage-Karte gespielt hat, zieht eine der Karten. Die gezogene Incentive-Karte kommt auf die Hand und kann direkt im Sprint verwendet werden. Benutzte Incentives können nicht geklaut werden.
 
 ## Spielaufbau
 

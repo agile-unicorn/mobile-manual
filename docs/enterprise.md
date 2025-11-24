@@ -18,6 +18,9 @@ With 6 players, the game time increases, which is why there are stronger incenti
 
 Rerolls can be used for yourself or against an opponent to repeat a complete **roll of all dice**. Tip: Remember to take your reroll card back after the sprint.
 
+!!! tip "Take back the reroll"
+    Remember to take back your player reroll cards after the pitch and to put them on your personal stack.
+
 ### The Bomb
 
 ![Bomb](images/bomb.png){ align=left width=100 }

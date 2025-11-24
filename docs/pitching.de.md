@@ -21,7 +21,7 @@ Der Spieler mit dem lustigsten T-Shirt erhält die Startspieler-Karte (First Mov
 !!! example "Beispiel"
     Die nächste Karte im Sprint-Backlog ist eine blaue Story-Karte mit dem Wert 13. Um sie zu gewinnen, müssen die Spieler mindestens eine 13 mit ihrem Würfelwurf erreichen. Die Spieler überlegen nun reihum, ob sie auf diese Karte bieten (pitchen) oder passen.
     
-    Spieler A legt seinen CTO (Stärke 3 Würfel) verdeckt in die Tischmitte. Spieler B will sein Team für spätere Pitch-Runden zusammenhalten und passt daher. Spieler C will Spieler A die Story-Karte nicht kampflos überlassen und steigt daher ebenfalls ein, indem er verdeckt zwei Teamkarten legt (mit Stärke 3 und 1 Würfel).
+    Spieler A legt seinen CTO (Stärke 3 Würfel) verdeckt in die Tischmitte. Spieler B will sein Team für spätere Pitch-Runden zusammenhalten und passt daher. Spieler C will Spieler A die Story-Karte nicht kampflos überlassen und steigt daher ebenfalls ein, indem er verdeckt zwei Teamkarten legt (CTO mit Stärke 3 und den Noob mit 1 Würfel).
 
 ### 3. Teamkarten aufdecken
 
@@ -32,14 +32,14 @@ Sobald jeder Spieler an der Reihe war, werden die ausgelegten Teamkarten aller p
 
 ### 4. Event-Karten spielen
 
-Nun können die Spieler im Pitch (ausgehend vom Startspieler) vor dem Würfeln zusätzliche Event-Karten ausspielen. Die Effekte werden sofort ausgeführt. Es dürfen beliebig viele Event-Karten gleichzeitig gelegt werden, auch auf unterschiedliche Spieler.
+Nun können die am Pitch teilnehmenden Spieler (die mindestens eine Teamkarte eingesetzt haben) vor dem Würfeln zusätzliche Event-Karten ausspielen, um sich einen Vorteil zu verschaffen. **Dabei gibt es keine Reihenfolge.** Die Effekte werden sofort ausgeführt. Es dürfen beliebig viele Event-Karten gleichzeitig gelegt werden, auch auf unterschiedliche Spieler.
 
-Event-Karten können nicht gegen die Pitch-Karte in der Tischmitte gespielt werden, um diese zu verändern. Immer wenn ein Spieler eine Event-Karte gespielt hat, können die anderen Spieler im Pitch reagieren und ihrerseits weitere Karten ausspielen, bis alle gepasst haben.
+Immer wenn ein Spieler eine Event-Karte gespielt hat, können die anderen Spieler im Pitch reagieren und ihrerseits weitere Karten ausspielen, bis alle gepasst haben.
 
 !!! example "Beispiel"
     Um seine Chancen zu verbessern (immerhin hat Spieler C 4 Würfel), entschließt sich Spieler A dazu, eine Event-Karte von seiner Hand auszuspielen. Er legt "Schnellscrum", wodurch er ein weiteres Teammitglied von seinen Handkarten dem Pitch hinzufügen darf.
     
-    Er wählt seinen Stärke 2 Entwickler, so dass er im Kräfteverhältnis vorne liegt. Doch auch Spieler C legt eine Event-Karte, welche ihm die Verwendung eines zusätzlichen Würfels ermöglicht.
+    Er wählt seinen Stärke 2 Entwickler, sodass er im Kräfteverhältnis vorne liegt. Doch auch Spieler C legt eine Event-Karte, welche ihm die Verwendung eines zusätzlichen Würfels ermöglicht.
     
     Spieler A will dies unbedingt verhindern und spielt eine weitere Event-Karte mit dem Zauberstab-Symbol aus. Dadurch hebt er den Effekt der letzten Event-Karte von Spieler C auf. Dieser darf also weiterhin nur mit 4 Würfeln pitchen.
     
@@ -51,31 +51,30 @@ Jeder Spieler würfelt mit einer Anzahl an Würfeln entsprechend der aufsummiert
 
 ### 6. Incentives einsetzen und Gewinner ermitteln
 
-Jeder Spieler (ausgehend vom Startspieler) kann seine unverbrauchten Incentive-Karten einsetzen, um sein Würfelergebnis zu verbessern. Es dürfen beliebig viele Incentive-Karten genutzt werden. Immer wenn ein Spieler eine Incentive-Karte gespielt hat, können die anderen Spieler im Pitch reagieren und ihrerseits weitere Karten ausspielen, bis alle gepasst haben. Diese sind jedoch danach bis zum Ende des Sprints verbraucht.
+Jeder Spieler (ausgehend vom Startspieler) kann seine unverbrauchten Incentive-Karten einsetzen, um sein Würfelergebnis zu verbessern. Es dürfen ohne Reihenfolge der Spieler beliebig viele Incentive-Karten genutzt werden. Immer wenn ein Spieler eine Incentive-Karte gespielt hat, können die anderen Spieler im Pitch reagieren und ihrerseits weitere Karten ausspielen, bis alle gepasst haben. Diese sind jedoch danach bis zum Ende des Sprints verbraucht und kommen auf den persönlichen Ablagestapel.
 
-Auf das jeweilige Würfelergebnis werden Bonuspunkte aus Incentive- und Event-Karten-Effekte angewendet. **Der Spieler mit der höchsten Gesamtaugenzahl gewinnt die Karte**, sofern deren Mindestwert erreicht wurde. Bei Gleichstand wird neu gewürfelt (Ereignis- und Incentive-Effekte bleiben erhalten). Wurde der Mindestwert nicht erreicht, kommt die Pitch-Karte auf den Ablagestapel.
+Auf das jeweilige Würfelergebnis werden Bonuspunkte aus Incentive- und Event-Karten-Effekte angewendet. **Der Spieler mit der höchsten Gesamtaugenzahl gewinnt die Karte**, sofern deren Mindestwert erreicht wurde. Bei Gleichstand wird neu gewürfelt (Ereignis- und Incentive-Effekte bleiben erhalten). Wurde der Mindestwert nicht erreicht, kommt die Pitch-Karte unter den Nachziehstapel.
 
 !!! example "Beispiel"
-    Nun wird gewürfelt. Spieler A erzielt mit seinen 5 Würfeln ein Ergebnis von 15. Spieler C erwürfelt eine 17. Spieler A muss als erster entscheiden, ob er sein ungenutztes Incentive "freie Massagen" einsetzt, welches ihm für diesen Pitch +3 Punkte einbringt.
+    Nun wird gewürfelt. Spieler A erzielt mit seinen 5 Würfeln ein Ergebnis von 15. Spieler C erwürfelt eine 17. Spieler A setzt sein ungenutztes Incentive "freie Massagen" einsetzt, welches ihm für diesen Pitch +3 Punkte einbringt.
     
     Da Spieler C leider keine Incentive-Karte mehr hat, nutzt Spieler A seine Incentive-Karte und hat mit 18 Punkten diesen Pitch gewonnen.
 
 ### 7. Karten zur Seite legen
 
-Alle eingesetzten Event-Karten werden beiseite auf einen Stapel gelegt.
+Alle eingesetzten Event-Karten sind verbraucht und kommen unter den Event-Kartenstapel.
 
-Außerdem legt jeder Spieler seine eingesetzten Teamkarten verdeckt vor sich ab. Der Gewinner legt die neu gewonnene Karte ebenfalls dazu. Alle abgelegten oder gewonnenen Karten bleiben bis zum Sprint-Ende verdeckt liegen und können erst im nächsten Sprint, nicht aber in den direkt folgenden Pitch-Runden verwendet werden.
+Außerdem legt jeder Spieler seine eingesetzten Teamkarten verdeckt vor sich auf den persönlichen Ablagestapel ab. Der Gewinner legt die neu gewonnene Karte ebenfalls dazu. Alle abgelegten oder gewonnenen Karten bleiben bis zum Sprint-Ende verdeckt liegen und können erst im nächsten Sprint, nicht aber in den direkt folgenden Pitch-Runden verwendet werden.
 
 !!! example "Beispiel"
-    Spieler A erhält die Story-Karte, welche er zusammen mit seinen eingesetzten Teamkarten bis zum Sprint-Ende verdeckt vor sich ablegt. Diese Karten sind für weitere Pitch-Runden verbraucht und können vorerst nicht mehr eingesetzt werden. Dies gilt auch für die Teamkarten von Spieler C, obwohl er die Pitch-Karte nicht gewonnen hat. Alle gespielten Event-Karten kommen auf den Ablagestapel.
+    Spieler A erhält die Story-Karte, welche er zusammen mit seinen eingesetzten Teamkarten bis zum Sprint-Ende verdeckt vor sich ablegt. Diese Karten sind für weitere Pitch-Runden verbraucht und können vorerst nicht mehr eingesetzt werden. Dies gilt auch für die Teamkarten von Spieler C, obwohl er die Pitch-Karte nicht gewonnen hat.
 
 ### 8. Startspieler wechseln
 
-Nach jeder Pitch-Runde wechselt der Startspieler im Uhrzeigersinn, die nächste Pitch-Karte wird in die Tischmitte verschoben und die nächste, bislang verdeckte Karte im Sprint-Backlog wird aufgedeckt. Es folgt der nächste Pitch nach obigem Ablauf mit den übrigen Handkarten.
+Nach jeder Pitch-Runde wechselt der Startspieler im Uhrzeigersinn, die nächste Pitch-Karte wird in die Tischmitte verschoben und die nächste, bislang verdeckte Karte im Sprint-Backlog wird als Vorschau aufgedeckt. Es folgt der nächste Pitch nach obigem Ablauf mit den übrigen Handkarten.
 
 ## Ende des Spiels
 
 Das Spiel endet, sobald ein Spieler am Sprint-Ende blaue Story-Siegpunktkarten im Gesamtwert der vereinbarten Siegpunkte (oder mehr) besitzt und damit gewonnen hat.
 
-Bei Gleichstand wird solange ein weiterer Pitch (vom Nachziehstapel) gespielt, bis ein Spieler mehr Siegpunkte als die anderen hat. Sollten kein Spieler mehr Teamkarten auf der Hand haben, muss man sich einigen, ob ein Unentschieden akzeptiert wird oder ein weiterer Sprint mit allen Mitspielern gespielt wird.
-
+Wirkt etwas umständlich. Wie wäre es alternativ mit: Bei Gleichstand gewinnt der Spieler mit mehr Punkten aus Incentive-Karten. Sollte weiterhin Gleichstand bestehen, gewinnt der Spieler mit mehr Stärke-Würfeln seiner Teammitglieder.

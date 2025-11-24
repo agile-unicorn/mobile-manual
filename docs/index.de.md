@@ -20,12 +20,12 @@ allen Mitteln greifen, um die besten Storys für sich zu gewinnen.
     Vorteil zu verschaffen. Das Team mit dem höchsten Würfelergebnis bekommt die Story-Siegpunktkarte.
 
 
-Dieses Handbuch enthält alle Regeln und Informationen, die Sie zum Spielen von Agile Unicorn benötigen. Nutzen Sie die Navigation oben:
+Dieses Handbuch enthält alle Regeln und Informationen, die du zum Spielen von Agile Unicorn benötigst. Nutze  die Navigation oben:
 
-- **Einführung** - Lernen Sie das Spielziel und die Kartentypen kennen
+- **Einführung** - Lerne das Spielziel und die Kartentypen kennen
 - **Spielaufbau** - Wie wird das Spiel vorbereitet
-- **Sprints** - Die Sprint-Struktur verstehen
-- **Pitches** - Wie funktionieren die Pitch-Runden
+- **Sprints** - Den Rundenablauf verstehen
+- **Pitches** - Wie funktionieren die Duell-Runden
 - **Enterprise Ekstase** - Das Erweiterungspack (optional)
 - **Credits** - Danke an alle Unterstützer
 
