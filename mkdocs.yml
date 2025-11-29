@@ -1,0 +1,127 @@
+site_name: Agile Unicorn Manual
+site_url: https://manual.agile-unicorn.com/
+site_description: Official manual for the Agile Unicorn card game
+site_author: Agile Unicorn Team
+
+theme:
+  name: material
+  custom_dir: overrides
+  language: en
+  palette:
+    - scheme: default
+      primary: deep purple
+      accent: pink
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: deep purple
+      accent: pink
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+  logo: images/logo.png
+  favicon: public/favicon.ico
+
+extra_css:
+  - stylesheets/extra.css
+
+plugins:
+  - search
+  - macros
+  - glightbox:
+      touchNavigation: true
+      loop: false
+      effect: zoom
+      slide_effect: slide
+      width: 100%
+      height: auto
+      zoomable: true
+      draggable: true
+      skip_classes:
+        - skip-lightbox
+  - i18n:
+      docs_structure: suffix
+      fallback_to_default: true
+      reconfigure_material: true
+      reconfigure_search: true
+      languages:
+        - locale: en
+          default: true
+          name: English
+          build: true
+          site_name: "Agile Unicorn Manual"
+        - locale: de
+          name: Deutsch
+          build: true
+          site_name: "Agile Unicorn Regelwerk"
+          nav_translations:
+            Home: Start
+            Introduction: Einführung
+            Setup: Spielaufbau
+            Sprints: Sprints
+            Pitching: Pitches
+            Enterprise Ecstasy: Enterprise Ekstase
+            Credits: Credits
+            Changelog: Changelog
+  - print-site:
+      add_to_navigation: false
+      print_page_title: '🖨'
+      add_print_site_banner: false
+      add_full_urls: false
+      enumerate_headings: false
+      enumerate_figures: false
+      add_cover_page: false
+      add_table_of_contents: false
+      toc_title: ""
+      toc_depth: 3
+      cover_page_template: ""
+      path_to_pdf: ""
+      include_css: true
+      enabled: true
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.mark
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+nav:
+  - Home: index.md
+  - Introduction: introduction.md
+  - Setup: setup.md
+  - Sprints: sprints.md
+  - Pitching: pitching.md
+  - Enterprise Ecstasy: enterprise.md
+  - Credits: credits.md
+  - Changelog: changelog.md
+
+extra:
+  version: "1.0.1"
+  social:
+    - icon: fontawesome/brands/instagram
+      link: https://instagram.com/agile_unicorn_card_game
+
+copyright: Copyright &copy; 2025 Agile Unicorn Team

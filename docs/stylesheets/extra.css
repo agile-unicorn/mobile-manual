@@ -1,0 +1,119 @@
+/* Custom styles for Agile Unicorn Manual */
+
+#manual {
+    margin-bottom: 0.5em;
+}
+
+/* Version badge pill */
+.version-badge {
+  display: inline-block;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white !important;
+  padding: 0.3em 1em;
+  border-radius: 50px;
+  font-size: 0.85em;
+  font-weight: 600;
+  margin: 0.5em 0 1em 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.version-badge:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  transform: translateY(-1px);
+  text-decoration: none;
+  color: white !important;
+}
+
+/* Header background with bgtop.png */
+.md-header {
+    background-image: url('../images/bgtop.png') !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-color: transparent !important;
+}
+
+/* Ensure header text is visible on the background */
+.md-header__title,
+.md-header__button,
+.md-header-nav__button {
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+/* Language selector styling */
+.md-select__link {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 4px;
+    padding: 4px 8px;
+}
+
+/* Optional: Add some padding for better visibility */
+.md-header {
+    min-height: 80px;
+}
+
+/* Prevent hamburger menu on mobile - always show navigation */
+@media screen and (max-width: 76.1875em) {
+    .md-nav__toggle ~ .md-nav__list {
+        display: flex !important;
+        flex-wrap: wrap !important;
+        max-height: none !important;
+        overflow: visible !important;
+    }
+
+    .md-nav__item {
+        display: inline-block !important;
+    }
+
+    /* Hide the hamburger button */
+    .md-nav__toggle:checked ~ .md-nav__list,
+    .md-nav__toggle ~ .md-nav__list {
+        display: flex !important;
+    }
+
+    /* Make tabs always visible */
+    .md-tabs {
+        display: flex !important;
+        flex-wrap: wrap !important;
+    }
+
+    .md-tabs__list {
+        display: flex !important;
+        flex-wrap: wrap !important;
+        justify-content: center !important;
+    }
+
+    .md-tabs__item {
+        flex: 0 1 auto !important;
+        min-width: fit-content !important;
+    }
+}
+
+
+/* Remove "Page" word from page numbers in print view */
+@media print {
+    /* Hide the "Page" text before page numbers in print-site plugin */
+    .print-site-plugin-content::before {
+        content: none !important;
+    }
+
+    /* Override default page counter formatting to show only numbers */
+    @page {
+        @bottom-right {
+            content: counter(page);
+        }
+    }
+
+    /* Target print-site plugin page numbers specifically */
+    .print-page-number::before {
+        content: '' !important;
+    }
+
+    /* Remove "Page X" text and show only the number */
+    [class*="page-number"]::before,
+    [class*="Page"]::before {
+        content: none !important;
+    }
+}
