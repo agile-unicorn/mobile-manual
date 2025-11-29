@@ -32,9 +32,9 @@ Sobald jeder Spieler an der Reihe war, werden die ausgelegten Teamkarten aller p
 
 ### 4. Event-Karten spielen
 
-Nun können die am Pitch teilnehmenden Spieler (die mindestens eine Teamkarte eingesetzt haben) vor dem Würfeln zusätzliche Event-Karten ausspielen, um sich einen Vorteil zu verschaffen. **Dabei gibt es keine Reihenfolge.** Die Effekte werden sofort ausgeführt. Es dürfen beliebig viele Event-Karten gleichzeitig gelegt werden, auch auf unterschiedliche Spieler.
+Nun können **zu jeder Zeit**  die am Pitch teilnehmenden Spieler (die mindestens eine Teamkarte eingesetzt haben) vor dem Würfeln zusätzliche Event-Karten ausspielen, um sich einen Vorteil zu verschaffen. **Dabei gibt es keine Reihenfolge.** Die Effekte werden sofort ausgeführt. Es dürfen beliebig viele Event-Karten gleichzeitig gelegt werden, auch auf unterschiedliche Spieler.
 
-Immer wenn ein Spieler eine Event-Karte gespielt hat, können die anderen Spieler im Pitch reagieren und ihrerseits weitere Karten ausspielen, bis alle gepasst haben.
+Immer wenn ein Spieler eine Event-Karte gespielt hat, können die anderen Spieler im Pitch reagieren und ihrerseits weitere Karten ausspielen, bis alle fertig sind.
 
 !!! example "Beispiel"
     Um seine Chancen zu verbessern (immerhin hat Spieler C 4 Würfel), entschließt sich Spieler A dazu, eine Event-Karte von seiner Hand auszuspielen. Er legt "Schnellscrum", wodurch er ein weiteres Teammitglied von seinen Handkarten dem Pitch hinzufügen darf.

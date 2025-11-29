@@ -29,7 +29,7 @@ Alle Event-Karten werden verdeckt in einem Stapel bereitgelegt. Alle übrigen Ka
 ## Anpassungen
 
 !!! tip "Leichter Einstieg"
-    Ungeübte Spieler können 1 Sprint ohne Eventkarten spielen, um die Grundmechanik zu verinnerlichen. Erfahrene Spieler können direkt mit Event-Karten starten.
+    Ungeübte Spieler können 1 Sprint ohne Events spielen, um die Grundmechanik zu verinnerlichen. Erfahrene Spieler können direkt mit Events starten.
 
 !!! info "Bei 2 Spielern"
     Falls nur 2 Spieler mitspielen, erhält jeder 2 weitere Teamkarten: eine mit Stärke 2 und eine mit Stärke 1+3.
