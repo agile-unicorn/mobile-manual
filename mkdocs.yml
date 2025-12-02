@@ -123,5 +123,7 @@ extra:
   social:
     - icon: fontawesome/brands/instagram
       link: https://instagram.com/agile_unicorn_card_game
+    - icon:  fontawesome/solid/home
+      link: https://agile-unicorn.com
 
 copyright: Copyright &copy; 2025 Agile Unicorn Team
