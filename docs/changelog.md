@@ -1,5 +1,10 @@
 # Change Log
 
+## Version 1.0.2
+
+- Link to homepage added
+- Fix typos and clarify rules
+
 ## Version 1.0.1
 
 - Minor text fixes in the documentation: clearified some sections according to user feedback and corrected typos.

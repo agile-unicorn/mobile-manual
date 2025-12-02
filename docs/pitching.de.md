@@ -77,4 +77,4 @@ Nach jeder Pitch-Runde wechselt der Startspieler im Uhrzeigersinn, die nächste 
 
 Das Spiel endet, sobald ein Spieler am Sprint-Ende blaue Story-Siegpunktkarten im Gesamtwert der vereinbarten Siegpunkte (oder mehr) besitzt und damit gewonnen hat.
 
-Wirkt etwas umständlich. Wie wäre es alternativ mit: Bei Gleichstand gewinnt der Spieler mit mehr Punkten aus Incentive-Karten. Sollte weiterhin Gleichstand bestehen, gewinnt der Spieler mit mehr Stärke-Würfeln seiner Teammitglieder.
+Bei Gleichstand gewinnt der Spieler mit mehr Punkten aus Incentive-Karten. Sollte weiterhin Gleichstand bestehen, gewinnt der Spieler mit mehr Stärke-Würfeln seiner Teammitglieder.

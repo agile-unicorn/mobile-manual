@@ -119,7 +119,7 @@ nav:
   - Changelog: changelog.md
 
 extra:
-  version: "1.0.1"
+  version: "1.0.2"
   social:
     - icon: fontawesome/brands/instagram
       link: https://instagram.com/agile_unicorn_card_game

@@ -34,9 +34,6 @@ Inexperienced players can play one sprint without event cards to learn the basic
 !!! info "With 2 Players"
 If only 2 players are participating, each receives 2 additional team cards: one with strength 2 and one with strength 1.
 
-!!! info "With 5 Players"
-If 5 players are participating, the **backlog must be expanded to 6 cards** so that the starting player changes continuously.
-
 ## Teams (Cooperative Mode)
 
 For an even number of players (4), teams can be formed: team members can coordinate and pitch on cards together, meaning that the dice results are added up. All effects of event and incentive cards then apply to the entire team (e.g. skip, magic wands). The victory points of the team members are also summed.

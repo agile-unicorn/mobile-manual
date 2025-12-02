@@ -1,5 +1,12 @@
 # Änderungsprotokoll
 
+
+## Version 1.0.2
+
+- Link zur Homepage 
+- Fehler in den Regeln behoben und Klarstellungen eingefügt
+
+
 ## Version 1.0.1
 
 - Kleinere Textverbesserungen in der Dokumentation: Einige Abschnitte wurden aufgrund von Nutzerfeedback präzisiert und Tippfehler korrigiert.

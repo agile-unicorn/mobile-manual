@@ -32,10 +32,8 @@ Alle Event-Karten werden verdeckt in einem Stapel bereitgelegt. Alle übrigen Ka
     Ungeübte Spieler können 1 Sprint ohne Events spielen, um die Grundmechanik zu verinnerlichen. Erfahrene Spieler können direkt mit Events starten.
 
 !!! info "Bei 2 Spielern"
-    Falls nur 2 Spieler mitspielen, erhält jeder 2 weitere Teamkarten: eine mit Stärke 2 und eine mit Stärke 1+3.
+    Falls nur 2 Spieler mitspielen, erhält jeder 2 weitere Teamkarten: eine mit Stärke 2 und eine mit Stärke 1+3. 
 
-!!! info "Bei 5 Spielern"
-    Falls 5 Spieler mitspielen, muss der **Backlog auf 6 Karten erweitert werden**, damit der Startspieler durchgehend wechselt.
 
 ## Teams (Coop-Modus)
 
