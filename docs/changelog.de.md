@@ -3,8 +3,8 @@
 
 ## Version 1.0.2
 
-- Link zur Homepage 
 - Fehler in den Regeln behoben und Klarstellungen eingefügt
+- Link zur Homepage 
 
 
 ## Version 1.0.1

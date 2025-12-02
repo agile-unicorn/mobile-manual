@@ -2,8 +2,8 @@
 
 ## Version 1.0.2
 
-- Link to homepage added
 - Fix typos and clarify rules
+- Link to homepage added
 
 ## Version 1.0.1
 

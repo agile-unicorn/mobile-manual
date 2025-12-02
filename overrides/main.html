@@ -29,3 +29,23 @@
   </style>
 {% endblock %}
 
+{% block scripts %}
+{{ super() }}
+<script>
+    (function() {
+        const hostname = window.location.hostname;
+        const currentPath = window.location.pathname;
+
+        // on german subdomain but not on /de/ path
+        if (hostname.startsWith('anleitung.') && !currentPath.startsWith('/de/')) {
+            const newPath = '/de' + currentPath;
+            window.location.replace(newPath);
+        }
+
+        else if (!hostname.startsWith('anleitung.') && currentPath.startsWith('/de/')) {
+            const newPath = currentPath.replace(/^\/de/, '');
+            window.location.replace(newPath || '/');
+        }
+    })();
+</script>
+{% endblock %}
