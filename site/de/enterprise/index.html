@@ -1105,20 +1105,38 @@
     
 <script>
     (function() {
+        // Prüfe, ob der Benutzer bereits eine Sprache gewählt hat
+        const languageSelected = sessionStorage.getItem('languageSelected');
+
+        if (languageSelected) {
+            return; // Keine automatische Weiterleitung, wenn Sprache bereits gewählt wurde
+        }
+
         const hostname = window.location.hostname;
         const currentPath = window.location.pathname;
 
-        // on german subdomain but not on /de/ path
+        // Wenn Subdomain "anleitung" ist und wir nicht auf /de/ sind
         if (hostname.startsWith('anleitung.') && !currentPath.startsWith('/de/')) {
+            sessionStorage.setItem('languageSelected', 'true');
             const newPath = '/de' + currentPath;
             window.location.replace(newPath);
         }
-
+        // Wenn Subdomain NICHT "anleitung" ist und wir auf /de/ sind
         else if (!hostname.startsWith('anleitung.') && currentPath.startsWith('/de/')) {
+            sessionStorage.setItem('languageSelected', 'true');
             const newPath = currentPath.replace(/^\/de/, '');
             window.location.replace(newPath || '/');
         }
     })();
+
+    // Markiere, dass der Benutzer eine Sprache gewählt hat, wenn er auf einen Sprach-Link klickt
+    document.addEventListener('DOMContentLoaded', function() {
+        document.querySelectorAll('.md-select__link').forEach(function(link) {
+            link.addEventListener('click', function() {
+                sessionStorage.setItem('languageSelected', 'true');
+            });
+        });
+    });
 </script>
 
   
