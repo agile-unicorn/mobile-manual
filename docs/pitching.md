@@ -1,6 +1,6 @@
 # The Pitches
 
-![Pitch Round Overview](images/pitch.png)
+![Pitch Round Overview](images/pitch_en.png)
 
 Within a sprint, several pitch rounds can be played. In these rounds the newly revealed pitch card in the center can be won (story, incentive or team card).
 

@@ -1,6 +1,6 @@
 # The Sprint
 
-![Sprint Overview](images/sprint.png)
+![Sprint Overview](images/sprint_en.png)
 
 The game runs over multiple sprints: A sprint consists of up to 5 duel rounds (pitches). During a sprint, players try to outperform their opponents in several duels by playing their team and event cards to win the most valuable new cards for their startup.
 
